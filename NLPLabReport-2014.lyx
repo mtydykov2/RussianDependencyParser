@@ -154,6 +154,159 @@ Cyrillic alphabet
 Past Work on the Syntax of Russian
 \end_layout
 
+\begin_layout Standard
+A wide range of phenomena concerning the syntax of Russian has been studied
+ in recent years.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Franks05slaviclanguages"
+
+\end_inset
+
+ presents an overview of several issues which have recently been a focused
+ on in the course of these studies.
+ These issues include that of the second dative and nearest conjunct agreement
+ phenomena in Russian.
+ Another subject which has recieved a great deal of attention is that of
+ numerals in Slavic languages.
+ One issue in the domain of Russian syntax that has been studied extensively
+ and that is particularly relevant to the problem of parsing is word order.
+ As mentioned above, Russian allows free word order.
+ However, some orders are prefered over others in neutral situations.
+ Specifically, the neutral ordering of a sentence is generally SVO.
+ Adjectives and demonstratives usually come before the noun they modify,
+ though the order can be changed for various reasons 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Bivon-1971"
+
+\end_inset
+
+.
+ Adpositions in Russian come before the noun phrase they modify (prepositions)
+\begin_inset CommandInset citation
+LatexCommand citep
+key "wals"
+
+\end_inset
+
+.
+ There is a large body of work concerning Russian's free word order, which
+ is referred to as scrambling in literature on syntax.
+ An overview of the most influential works on this subject over the last
+ several decades can be found in 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Franks05slaviclanguages"
+
+\end_inset
+
+.
+ Some more recent work on this topic includes 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "WordOrderandScrambling"
+
+\end_inset
+
+, which questions the existence of scrambling as a way of accounting for
+ free word order and instead proposes that a certain syntactic processes
+ can be used to explain it.
+\end_layout
+
+\begin_layout Standard
+Russian word order has had a significant impact on the prefered methods
+ of parsing.
+ The fact that Russian has free word order, as well as Russian's rich morphology
+, make it difficult to parse using a constituency framework because of the
+ increase in the number of rules that would result from such an attempt.
+ Thus, instead of constituency parsing, dependency parsing has been the
+ standard method used for parsing Russian 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "skatov-EtAl:2013:BSNLP"
+
+\end_inset
+
+.
+ In 2012, the NLP Evaluation forum RU-EVAL held a Russian syntactic parsing
+ evaluation task in which seven dependency parsing systems were evaluated.
+ The purpose of the conference was to get an overview of the current state
+ of the art in parsing for Russian.
+ The top two systems at the conference (ranked by F1-score) were Compreno
+ and ETAP-3, both of which use primarily rule-based approaches 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "gareyshina-EtAl:2012:POSTERS"
+
+\end_inset
+
+.
+ The third-place parser in the competition, SyntAutom, also a rule-based
+ parser, is an automata-based system 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "SynAutomn,gareyshina-EtAl:2012:POSTERS"
+
+\end_inset
+
+.
+ According to 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "skatov-EtAl:2013:BSNLP"
+
+\end_inset
+
+, none of the rule-based parsers evaluated as part of the task are openly
+ available to the public.
+ Another parsing method, implemented in the DictaScope Syntax system, which
+ is itself incoporated into a commerical product, was recently described
+ in 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "skatov-EtAl:2013:BSNLP"
+
+\end_inset
+
+.
+ This method combines constituency and dependency parsing, attempting to
+ eliminate disadvantages of each.
+\end_layout
+
+\begin_layout Standard
+Few dependency parsers for Russian have been made openly available to the
+ public.
+ One such system is the Russian Link Grammar parser, based on the Link Grammar
+ formalism introduced in 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Sleator:1993"
+
+\end_inset
+
+.
+ This formalism is similar to the dependency structure formalism in that
+ it focuses on creating links between words rather than on grouping words
+ into constituencies.
+ However, the Link Grammar formalism differs in that the links are undirected
+ (i.e., there is no head or child word), links can form cycles, and there
+ is no root word.
+ Another system is Russian Malt, a machine learning system that does not
+ incorporate any rules.
+ This system achieved a score in the RU-EVAL task which would have put it
+ into third place, but did not formally participate in the competition 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "MaltParser,gareyshina-EtAl:2012:POSTERS"
+
+\end_inset
+
+.
+ 
+\end_layout
+
 \begin_layout Section
 Available Resources
 \end_layout
