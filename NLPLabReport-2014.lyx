@@ -9,6 +9,7 @@
 \DeclareMathOperator*{\argmin}{argmin}
 \usepackage{sectsty}\usepackage{color}\usepackage{multicol}\definecolor{orange}{rgb}{1,0.5,0}
 \usepackage{multirow}\usepackage{sidecap}\usepackage{caption}\renewcommand{\captionfont}{\small}
+ \usepackage{textcomp}
 \setlength{\oddsidemargin}{-0.04cm}
 \setlength{\textwidth}{16.59cm}
 \setlength{\topmargin}{-0.04cm}
@@ -58,7 +59,7 @@
 \graphics default
 \default_output_format default
 \output_sync 0
-\bibtex_command default
+\bibtex_command bibtex
 \index_command default
 \paperfontsize 11
 \spacing single
@@ -172,47 +173,25 @@ key "Franks05slaviclanguages"
  numerals in Slavic languages.
  One issue in the domain of Russian syntax that has been studied extensively
  and that is particularly relevant to the problem of parsing is word order.
- As mentioned above, Russian allows free word order.
- However, some orders are prefered over others in neutral situations.
- Specifically, the neutral ordering of a sentence is generally SVO.
- Adjectives and demonstratives usually come before the noun they modify,
- though the order can be changed for various reasons 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Bivon-1971"
-
-\end_inset
-
-.
- Adpositions in Russian come before the noun phrase they modify (prepositions)
-\begin_inset CommandInset citation
-LatexCommand citep
-key "wals"
-
-\end_inset
-
-.
  There is a large body of work concerning Russian's free word order, which
  is referred to as scrambling in literature on syntax.
- An overview of the most influential works on this subject over the last
- several decades can be found in 
+ An overview of the most influential works on the subject of free word order
+ in Russian (as well as other Slavic languages) over the last several decades
+ can be found in 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Franks05slaviclanguages"
 
 \end_inset
 
-.
- Some more recent work on this topic includes 
+, and some recent work on this topic includes 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "WordOrderandScrambling"
 
 \end_inset
 
-, which questions the existence of scrambling as a way of accounting for
- free word order and instead proposes that a certain syntactic processes
- can be used to explain it.
+.
 \end_layout
 
 \begin_layout Standard
@@ -311,8 +290,286 @@ key "MaltParser,gareyshina-EtAl:2012:POSTERS"
 Available Resources
 \end_layout
 
+\begin_layout Standard
+While some well-developed resources such as annotated corpora exist for
+ Russian, to the best of the author's knowledge, few of them are openly
+ available.
+ One unannotated corpus that is freely available to use is the MultiUN corpus,
+ consisting of cleaned data in XML format, extracted from the United Nations
+ Website 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "eltiT"
+
+\end_inset
+
+.
+ This corpus could be handy because it has already been preprocessed.
+ One problem with using this corpus, however, is that it is limited to a
+ specific domain.
+ In lieu of using a corpus that has already been prepared for use in NLP
+ tasks, one can use Wikipedia to develop an annotated corpus, since many
+ articles are available in Russian.
+ Specifically, there are currently 1,085,000 articles in Russian on Wikipedia
+ 
+\begin_inset CommandInset citation
+LatexCommand Citep*
+key "Wikipedia"
+
+\end_inset
+
+.
+ Using Wikipedia would solve the aforementioned problem of having a limited
+ domain.
+ 
+\end_layout
+
+\begin_layout Standard
+A lexicon is another important resource in building a parser.
+ The Russian version of WordNet is a one such lexicon that may be useful
+\begin_inset CommandInset citation
+LatexCommand citep
+key "nlp:gwc2004proc31"
+
+\end_inset
+
+, although it seems that project development has not progressed over the
+ last several years and that it may not have been completed, as no recent
+ information seems to be available about its current status.
+ Another potential resource that can be used as a kind of lexicon is Wiktionary.
+ Wiktionary is a free online, collaborative dictionary available in multiple
+ languages, including Russian 
+\begin_inset CommandInset citation
+LatexCommand Citep*
+key "wiktionary"
+
+\end_inset
+
+.
+ The Java-based Wiktionary Library (JWKTL), described in 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "TUD-CS-2008-4"
+
+\end_inset
+
+, is a freely available Java API that provides access to Wiktionary in multiple
+ languages and will help in processing the large amount of information available
+ on Wiktionary.
+\end_layout
+
 \begin_layout Section
 Survey of Phenomena in Russian
+\end_layout
+
+\begin_layout Standard
+The 
+\begin_inset Quotes eld
+\end_inset
+
+second dative
+\begin_inset Quotes erd
+\end_inset
+
+ phenomenon in Russian concerns constructions with two special semipredicatives
+ , where a semipredicative is 
+\begin_inset Quotes eld
+\end_inset
+
+an adjective that makes an adjunct predication of some item in the sentence,
+ auxiliary to the main subject-predicate relation
+\begin_inset CommandInset citation
+LatexCommand citep
+before "80 "
+key "explanationOfSemipredicatives"
+
+\end_inset
+
+.
+ These two special semipredicatives are 
+\begin_inset Quotes eld
+\end_inset
+
+odin
+\begin_inset Quotes erd
+\end_inset
+
+, which means 
+\begin_inset Quotes eld
+\end_inset
+
+alone
+\begin_inset Quotes erd
+\end_inset
+
+, and 
+\begin_inset Quotes eld
+\end_inset
+
+sam
+\begin_inset Quotes erd
+\end_inset
+
+, which means 
+\begin_inset Quotes eld
+\end_inset
+
+oneself
+\begin_inset Quotes erd
+\end_inset
+
+.
+ They differ from other semipredicatives in their declension and case marking
+ and in that their case always agrees with an antecedent in the same clause
+ that they appear in if the clause is simple.
+ The antecedent with which they agree can be a subject or an object, whereas
+ with normal semipredicatives, the antecedent they agree with must be a
+ subject.
+ Furthermore, when the semipredicatives do not agree with their antecedent,
+ their case in these situations is dative, rather than instrumental, which
+ is the non-agreeing case for other semipredicatives.
+ The second dative appears in infinitive phrases where the subject of the
+ infinitive is not in nominative case or it is in nominative case, but there
+ is an overt complementizer between the infinitive phrase and the matrix
+ clause 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "explanationOfSemipredicatives"
+
+\end_inset
+
+.
+ Several differing explanations have been proposed for the phenomena of
+ the second dative; according to 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Franks05slaviclanguages"
+
+\end_inset
+
+, one adequate explanation is provided by checking theory.
+ 
+\end_layout
+
+\begin_layout Standard
+Another phenomenon is that of nearest conjunct agreement, in which the verb
+ can agree with the conjunct nearest to it.
+ This phenomenon is usually seen in sentences that start with a prepositional
+ phrase and where the verb is not in accusative case and comes before the
+ subject, which is conjoined.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Franks05slaviclanguages"
+
+\end_inset
+
+ mentions one possible explanation for this phenomenon could be 
+\begin_inset Quotes eld
+\end_inset
+
+LF feature lowering
+\begin_inset Quotes erd
+\end_inset
+
+.
+ The phenomenon of numerals in Russian involves the fact that the nominals
+ quantified by numerals greater than 
+\begin_inset Quotes eld
+\end_inset
+
+five
+\begin_inset Quotes erd
+\end_inset
+
+ are in genitive case.
+ However, when in an oblique phrase, the numeral and nominals are in oblique
+ case.
+ 
+\end_layout
+
+\begin_layout Standard
+A phenomenon which is particularly relevant to the choice of using a depedency
+ framework to parse Russian is Russian's free word order.
+ Although Russian is free word order, as mentioned above, some orders are
+ prefered over others in neutral situations.
+ Specifically, the neutral ordering of a sentence is generally SVO.
+ Adjectives and demonstratives usually come before the noun they modify,
+ though the order can be changed for various reasons 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Bivon-1971"
+
+\end_inset
+
+.
+ Adpositions in Russian come before the noun phrase they modify (prepositions)
+\begin_inset CommandInset citation
+LatexCommand citep
+key "wals"
+
+\end_inset
+
+.
+ In generative literature, the free word order phenomenon is frequently
+ referred to as 
+\begin_inset Quotes eld
+\end_inset
+
+scrambling
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Franks05slaviclanguages"
+
+\end_inset
+
+.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "WordOrderandScrambling"
+
+\end_inset
+
+ questions the existence of scrambling as a way of accounting for free word
+ order and instead proposes that a certain syntactic processes can be used
+ to explain it.
+ He argues that Russian is 
+\begin_inset Quotes eld
+\end_inset
+
+underlyingly SVO
+\begin_inset Quotes erd
+\end_inset
+
+, and that most alternative orders come about from a syntactic 
+\begin_inset Quotes eld
+\end_inset
+
+Generalized Inversion
+\begin_inset Quotes erd
+\end_inset
+
+ process and from Dislocation, rather than from a generalized scrambling
+ process.
+\end_layout
+
+\begin_layout Standard
+The phenomena in Russian of the second dative, nearest conjunct agreement,
+ numerals and case, and free word order are only a handful of a many more
+ various phenomena which characterize the Russian language.
+ Several more of these are discussed in 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Franks05slaviclanguages"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Section
