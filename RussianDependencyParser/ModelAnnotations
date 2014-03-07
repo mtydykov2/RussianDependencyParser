@@ -1,3 +1,7 @@
+SENTENCE WITH ONLY INFINITIVE VERB:
+training32:Пусть для функции известны значения в некоторых точках . 
+-have "Пусть" be the head, with "известны" the child and everything else the child of that.
+
 
 PUNCTUATION:
 -punctuation such as ".", ",", "(", ")" simply attached to the root
@@ -110,6 +114,11 @@ dev19:
 В 1919 году Леонид Мясин включил танец в балет на музыку Россини « Волшебная лавка » , а через 20 лет — и « Парижское веселье » на музыку Оффенбаха . 
 -"a" child of "включил", then "веселье" head of the phrase since there's no verb, and everything else in the phrase is a child of that
 
+SENTENCES WITHOUT MAIN VERB BUT WITH ADJECTIVAL PREDICATE:
+-use adjectival predicate as the head
+train33:Многие случаи язв желудка и двенадцатиперстной кишки , гастритов , дуоденитов , рака желудка и , возможно , некоторые случаи лимфом желудка этиологически связаны с инфекцией Helicobacter 
+-"связаны" is the head of the whole thing
+
 
 FRAGMENTS STARTING WITH PREPOSITION:
 test_24:и OUTER APPLY , транзитивное замыкание ( TCLOSE ) и др .
@@ -125,3 +134,51 @@ GENERAL GUIDELINE:
 if everything else was stripped away
 test_24:В процессе развития реляционной теории и практики было предложено несколько новых реляционных операций , например полусоединение ( SEMI-JOIN ) и полуразность , или анти-полусоединение ( ANTI-SEMI-JOIN
 -"несколько" is the head of "несколько новых реляционных операций"
+
+test33:"что никакой микроорганизм не в состоянии выжить сколько-нибудь длительное время в кислом содержимом желудка ."
+-head:"выжить", child "микроорганизм" and "в", child of "в" includes "не"
+
+того, как: "того" is the head
+
+COMPARISON: bol'she chem
+
+как с...так и с:
+-train33:
+Отмечены случаи непродуктивности антибиотикотерапии геликобактерной инфекции , связанные как с антибиотикорезистентностью , так и с наличием зон в желудочно-кишечном тракте , в которых бактерии защищены от действия антибиотиков . 
+-make "и" head with "как" child and "с" child of that, and then "так" other child of "и" with "с" child of that
+
+в том числе и:
+-train33:в том числе и кларитромицин-резистентных штаммов
+-"в" is the head; "числе" is child and "том" is child of "числе";  "штаммов" is child of  "числе" and  "и" is child of "штаммов"
+
+
+In the case of more than one and combining multiple dependent clauses, combine all to the first one
+-train33:pylori сосуществовали с человеком , не причиняя ему никакого вреда и только после начала их тотального уничтожения антибактериальными препаратами часть из них в результате мутаций приобрела резистентность к антибиотикам , а часть — « островки патогенности » содержащие гены цитотоксичности ( CagA , VacA , IceA и другие ) , и стала угрожать здоровью человека . 
+-attach "приобрела" and "стала" to the second "и", and that "и" to the first "и"
+
+
+train34:Они выводили её из форм родового быта и указали её постепенное преобразование в единодержавную государственную власть : один под влиянием особых условий политической жизни на севере , где политическая жизнь самым своим существованием обязана была князьям ; другой — под влиянием закона распадения родового быта , причём посредствующую стадию сыграл быт вотчинный .
+
+-here, "один под..." and "другой — под..." are not really independent clauses - attach "один" separately to "указали" and "под" separately to "указали", same with "другой — под". Attach to "указали" because whenever I have these attachment ambiguities, unless it's obvious, attach to the closest thing in the conjunction
+
+
+
+clause starting with "у которого": attach "которого" as child of "у"
+
+
+Train34: "получившем силу закона 25 января 1721 г." make the month the head, the date its child, and then "г." the child of the month, and the actual number of the year is the child of "г."
+
+
+Train34:"Но в относительной оценке указанных причин до сих пор господствует полное разногласие ; на первом плане у историков фигурирует то монгольское иго , то сила земли , в специальном смысле низших слоев населения , то , наоборот , боярская инициатива и т.д. Так , о монгольских влияниях ещё Карамзин сказал , что « Москва обязана своим величием ханам » . "
+
+"и" is child of "фигурирует"; all the "то" are children of it with the corresponding nouns children of the "то". attach "наоборот" to its corresponding "то"
+
+
+Train34:Вместе с тем , однако , Костомаров признавал , что в XIV веке , с уничтожением уделов на Руси , должна была , казалось бы , развиться монархия , в которой власть монарха была бы разделена с боярами . 
+-"должна" is the main verb, "была" is its child, eveyrthing else attaches to "должна", and the "бы" each attach to the verb they describe (as the child) - but that verb is the main verb for whatever follows
+
+
+Train34:Заметив , что мысль о монгольских влияниях хотя и давно высказывается , но нигде строго и документально не доказывается , Леонтович , на основании сближений Чингизовой Яссы и Ойратских уставов ( Цааджин-Бичик ) , указывает целый ряд заимствований в политической , общественной и административной жизни московской Руси из монгольского права . 
+-"хотя и давно": make "хотя" the child of "высказывается", "давно" child of "хотя", and "и" child of  "давно"
+
+Train34:"а потому именно и оказались" "а" is the head of the whole thing; "потому" is the child of "оказались" and "именно" is the child of "потому" because it modifies it

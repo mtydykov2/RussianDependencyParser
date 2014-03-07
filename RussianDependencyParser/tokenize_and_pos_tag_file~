@@ -10,10 +10,10 @@ do
     then
         echo $f
         filepath=$f
-        tokenizepath="/home/mtydykov/workspace/RussianDependencyParser/Lingua-RU-OpenCorpora-Tokenizer-0.03/"
-        HOMEDIR="/home/mtydykov/workspace/RussianDependencyParser"
+        tokenizepath="/home/mtydykov/NLPLab/repository/RussianDependencyParser/Lingua-RU-OpenCorpora-Tokenizer-0.03/"
+        HOMEDIR="/home/mtydykov/NLPLab/repository/RussianDependencyParser"
         filepath_tokenized=$filepath"_tokenized"
-        cd $2
+        #cd $2
         perl "$tokenizepath"tokenize "$filepath"
         #echo $filepath_tokenized
         #echo $2
@@ -21,7 +21,7 @@ do
         filepath_tokenized_postprocessed=$filepath_tokenized"_post_processed"
         filepath_postagged=$filepath"_postagged"
 
-        /home/mtydykov/workspace/RussianDependencyParser/tree-tagger/bin/tree-tagger /home/mtydykov/workspace/RussianDependencyParser/tree-tagger/russian.par "$filepath_tokenized_postprocessed" "$filepath_postagged" "-token"
+        /home/mtydykov/NLPLab/repository/RussianDependencyParser/tree-tagger/bin/tree-tagger /home/mtydykov/NLPLab/repository/RussianDependencyParser/tree-tagger/russian.par "$filepath_tokenized_postprocessed" "$filepath_postagged" "-token"
         python "$HOMEDIR/convert_to_conll.py" "$filepath_postagged"
     fi
 done
