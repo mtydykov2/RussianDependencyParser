@@ -40,8 +40,8 @@ for sent in sentences:
         token_tag = line.split('\t')
         token_all_elements = sent[i].split('\t')
     #token id, form, lemma, coarse POS tag, POS tag, features, head, dependency relation, projective head, dependency relation to projective head
-        new_conll_line = str(token_all_elements[0]) + '\t' + token_all_elements[1] + '\t' + '_' + '\t'  + token_tag[1].strip() + '\t' + token_all_elements[4] + '\t' +  '_' + '\t' + token_all_elements[6] + '\t' + '_' + '\t' + '_' + '\t' + '_' + '\n'
-	#new_conll_line = str(token_all_elements[0]) + '\t' + token_all_elements[1] + '\t' + '_' + '\t'  + token_tag[1].strip() + '\t' + '_' + '\t' +  '_' + '\t' + token_all_elements[6] + '\t' + '_' + '\t' + '_' + '\t' + '_' + '\n'
+        #new_conll_line = str(token_all_elements[0]) + '\t' + token_all_elements[1] + '\t' + '_' + '\t'  + token_tag[1].strip() + '\t' + token_all_elements[4] + '\t' +  '_' + '\t' + token_all_elements[6] + '\t' + '_' + '\t' + '_' + '\t' + '_' + '\n'
+	new_conll_line = str(token_all_elements[0]) + '\t' + token_all_elements[1] + '\t' + '_' + '\t'  + token_tag[1].strip() + '\t' + '_' + '\t' +  '_' + '\t' + token_all_elements[6] + '\t' + '_' + '\t' + '_' + '\t' + '_' + '\n'
         f2.write(new_conll_line)
     f2.write('\n')
 f.close()
