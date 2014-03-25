@@ -1,5 +1,13 @@
 import sys
 import os
+from pymorphy import *
+
+def replace_param_with_default(param_to_check):
+    if param_to_check == "":
+        param_to_check = "_"
+    return param_to_check
+
+morph = get_morph('pymorphy_dict')
 f = open(sys.argv[1])
 f2 = open(sys.argv[1]+".coarse", 'w+')
 annotation_errors = open(sys.argv[1]+'.annotation_errors','w+')
@@ -38,10 +46,48 @@ for sent in sentences:
     f4 = open('temp_coarse')
     for i, line in enumerate(f4):
         token_tag = line.split('\t')
+        coarse_postag = token_tag[1].strip()
         token_all_elements = sent[i].split('\t')
-    #token id, form, lemma, coarse POS tag, POS tag, features, head, dependency relation, projective head, dependency relation to projective head
-        #new_conll_line = str(token_all_elements[0]) + '\t' + token_all_elements[1] + '\t' + '_' + '\t'  + token_tag[1].strip() + '\t' + token_all_elements[4] + '\t' +  '_' + '\t' + token_all_elements[6] + '\t' + '_' + '\t' + '_' + '\t' + '_' + '\n'
-	new_conll_line = str(token_all_elements[0]) + '\t' + token_all_elements[1] + '\t' + '_' + '\t'  + token_tag[1].strip() + '\t' + '_' + '\t' +  '_' + '\t' + token_all_elements[6] + '\t' + '_' + '\t' + '_' + '\t' + '_' + '\n'
+        postag = token_all_elements[4]
+	morph_info = morph.get_graminfo(token_all_elements[1].decode('utf-8').upper())
+        info_string = ""
+        lemma=""
+        for item in morph_info:
+            #info_string=item['class'].encode('utf-8')+'|'
+            info_string=item['info'].encode('utf-8')+'|'
+            lemma=item['lemma'].encode('utf-8')
+
+	#strip final "|"
+        info_string = info_string[:-1]
+
+	#if for some reason lemma of class/info is empty, 
+        #replace with a string of the appropriate conll format
+        info_string = replace_param_with_default(info_string)
+        lemma = replace_param_with_default(lemma)
+        postag = replace_param_with_default(postag)
+        coarse_postag = replace_param_with_default(coarse_postag)
+
+
+			 #token id
+	new_conll_line = str(token_all_elements[0]) + '\t'
+			 #surface form
+        new_conll_line+= token_all_elements[1] + '\t'
+                         #lemma
+        new_conll_line+= lemma + '\t'
+                         #coarse POS tag
+        new_conll_line+= coarse_postag + '\t'
+                         #detailed POS tag
+        new_conll_line+= postag + '\t'
+                         #features
+        new_conll_line+= info_string + '\t'
+                         #head
+        new_conll_line+= token_all_elements[6] + '\t'
+                         #dependency relation
+        new_conll_line+= '_' + '\t'
+                         #projective head
+        new_conll_line+= '_' + '\t'
+                         #dependency relation to projective head
+        new_conll_line+= '_' + '\n'
         f2.write(new_conll_line)
     f2.write('\n')
 f.close()

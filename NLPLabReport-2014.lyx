@@ -4,12 +4,12 @@
 \begin_header
 \textclass article
 \begin_preamble
-
 \usepackage{fullpage}\usepackage{amsfonts}\usepackage{eucal}\usepackage{amsbsy}\usepackage{amsopn}\usepackage{url}\usepackage{natbibspacing}\usepackage{latexsym}\usepackage{wasysym}\usepackage{rotating}\usepackage{fancyhdr}\DeclareMathOperator*{\argmax}{argmax}
 \DeclareMathOperator*{\argmin}{argmin}
-\usepackage{sectsty}\usepackage{color}\usepackage{multicol}\definecolor{orange}{rgb}{1,0.5,0}
+\usepackage{sectsty}\usepackage{color}\usepackage{multicol}\definecolor{orange}{rgb}{1,0.5,0}\usepackage{gb4e}\noautomath
 \usepackage{multirow}\usepackage{sidecap}\usepackage{caption}\renewcommand{\captionfont}{\small}
  \usepackage{textcomp}
+\usepackage[T1,T2A]{fontenc}
 \setlength{\oddsidemargin}{-0.04cm}
 \setlength{\textwidth}{16.59cm}
 \setlength{\topmargin}{-0.04cm}
@@ -41,11 +41,14 @@
 \date{April 25, 2014}
 \end_preamble
 \use_default_options false
+\begin_modules
+linguistics
+\end_modules
 \maintain_unincluded_children false
 \language english
 \language_package none
-\inputencoding latin9
-\fontencoding default
+\inputencoding utf8
+\fontencoding global
 \font_roman default
 \font_sans default
 \font_typewriter default
@@ -358,6 +361,61 @@ key "TUD-CS-2008-4"
  on Wiktionary.
 \end_layout
 
+\begin_layout Standard
+Preprocessing the corpus prior to annotation requires a tokenizer.
+ One available tokenizer is the Lingua Ru OpenCorpora Tokenizer, which uses
+ a probabilistic algorithm to do the tokenization 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "tokenizer"
+
+\end_inset
+
+.
+ Another tool that will be necessary is a part of speech tagger.
+ The only freely available part of speech tagger, as far as the author is
+ aware, is the TreeTagger tool, which uses a binary decision tree to estimate
+ transition probabilities 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Schmid94probabilisticpart-of-speech"
+
+\end_inset
+
+.
+ The parameter files used to train the TreeTagger for Russian were trained
+ 
+\begin_inset Quotes eld
+\end_inset
+
+on the disambiguated version of the Russian National Corpus
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Sharoff08designingand"
+
+\end_inset
+
+.
+ There is a choice of two parameter files - one using only basic part of
+ speech tags, and another using more detailed part of speech tags.
+ It is also helpful to have a visualization tool to perform the annotation
+ of the parse trees.
+ One such tool is the DgAnnotator, which provides a simple interface; it
+ uses CoNLLX format for both input and output
+\begin_inset CommandInset citation
+LatexCommand citep
+key "dgannotator"
+
+\end_inset
+
+.
+ 
+\end_layout
+
 \begin_layout Section
 Survey of Phenomena in Russian
 \end_layout
@@ -576,16 +634,574 @@ key "Franks05slaviclanguages"
 Initial Design
 \end_layout
 
+\begin_layout Standard
+The initial round of development used the Turbo Parser
+\begin_inset CommandInset citation
+LatexCommand citep
+key "conf/acl/MartinsAS13"
+
+\end_inset
+
+ to train a supervsed model using annotated training data from Wikipedia.
+ One of the Wikipedia dumps for Russian was used as the pool from which
+ the training and development corpus were extracted.
+ A subset of the corpus was extracted at random, from which development
+ and test sets were chosen such that they contained approximately 1000 tokens
+ each.
+ The rest of the subset was reserved for training data.
+ The data was first manually preprocessed to remove titles and other text
+ that were not part of the body of the Wikipedia article, such as filenames
+ and links to other pages.
+ All data has been tokenized using the Lingua Ru OpenCorpora Tokenizer tool,
+ mentioned in section 3 above.
+ Some automatic postprocessing was performed on the tokenized data in order
+ to correct some common mistakes made by the tokenizer (such as stripping
+ off various punctuation marks from the end of a token that was not an abbreviat
+ion), and, finally, some manual postprocessing that corrected for the cases
+ where the token was indeen an abbreviation.
+ The data was then part-of-speech tagged using the TreeTagger tool, also
+ mentioned in section 3 above.
+ Since there is no known freely available tool that can be used to split
+ Russian sentences, the 'SENT' part of speech tag output by TreeTagger was
+ used to split sentences.
+ This resulted in mostly correct sentence splitting but did not always work
+ with abbreviations, thus resulting in some incorrectly split sentences.
+ Next, the data was annotated using the DgAnnotator tool, also mentioned
+ in section 3.
+ Annotation of the data required many systematic decisions about how to
+ make attachments between words.
+ A discussion of some of the decisions made follows.
+ 
+\end_layout
+
+\begin_layout Standard
+In Russian it is grammatically correct to conjoin 2 independent clauses
+ with a comma, a dash, a colon, or a semicolon rather than an 
+\begin_inset Quotes eld
+\end_inset
+
+and
+\begin_inset Quotes erd
+\end_inset
+
+; in this case, there will be multiple heads attached to the root in one
+ sentence.
+ For compound nouns where one of the nouns is not proper and the other one
+ is, the one that is not the proper noun will be used as the head of the
+ proper noun, since one can argue that the proper noun is modifying the
+ non-proper noun (making it more specific).
+ An example of this is:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{exe} 
+\backslash
+ex  
+\backslash
+gll хореограф        Пьер Сандрини
+\backslash
+
+\backslash
+ horeograf Pier   Sandrin
+\backslash
+
+\backslash
+ 
+\backslash
+trans `'choreographer Pier    Sandrin' 
+\backslash
+end{exe}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Another consideration is that many sentences in Russian are grammatical
+ without verbs.
+ For example:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{exe}
+\backslash
+ex Пляж  чистый  и      обустроенный .
+ 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+pljazh  chistij     i       obustrojennij .
+ 
+\backslash
+
+\backslash
+ 
+\backslash
+trans
+\end_layout
+
+\begin_layout Plain Layout
+
+'beach  clean     and   equipped .'
+\backslash
+end{exe}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In these sentences, the next most important word in the sentence will be
+ selected as the head.
+ In the above example, this will be 
+\begin_inset Quotes eld
+\end_inset
+
+beach
+\begin_inset Quotes erd
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Another common, arbitrary case is that of an auxiliary verb followed by
+ an infinitive.
+ In this case, the auxiliary will be the head of the infinitive and the
+ subject of the clause, since the sentence will be grammatical if the infiinitiv
+e verb is taken out, but will not be grammatical if the auxiliary verb is
+ taken out.
+ The infinitive will be the head of the objects, direct objects, and obliques
+ in the clause.
+ In the example below, 
+\begin_inset Quotes eld
+\end_inset
+
+mozhno
+\begin_inset Quotes erd
+\end_inset
+
+, which translates as 
+\begin_inset Quotes eld
+\end_inset
+
+can
+\begin_inset Quotes erd
+\end_inset
+
+, is the head, and 
+\begin_inset Quotes eld
+\end_inset
+
+vospolzovatsja
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+use
+\begin_inset Quotes erd
+\end_inset
+
+, is its child.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{exe}
+\backslash
+ex Большая часть пляжа занята шезлонгами под зонтами , воспользоваться которыми
+ можно за отдельную плату ( 8 левов за шезлонг на день , и еще 8 , если
+ вы захотите воспользоваться стоящим рядом зонтиком , на большинстве отрезков
+ пляжа ) .
+ 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+bolshaja chast pljazha zanjata shezlongami pod zontami , vospolzovatsja
+ kotorimi mozhno za otdelnuju platu ( 8 levov za shezlong na den , i eshe
+ 8 , jesli vi zahotite vospolzovatsja stojashim rjadom zontikom , na bolshinstve
+ otrezkov pljazha ).
+ 
+\backslash
+
+\backslash
+ 
+\backslash
+trans
+\end_layout
+
+\begin_layout Plain Layout
+
+'A big part of the beach is taken up by beach chairs under umbrellas, which
+ one can use for a separate fee (8 levs for a beach chair for a day, and
+ another 8 if you want to use the adjacent umbrella, in most parts of the
+ beach.'
+\backslash
+end{exe}
+\end_layout
+
+\end_inset
+
+In the case of an adjective appearing in front of a compound noun, the first
+ noun in the compound will be selected as the head of the adjective.
+ 
+\end_layout
+
+\begin_layout Standard
+For compound acronyms, if it is unclear what they stand for, make the first
+ one the head and all subsequent ones attach in a chain.
+ In the case of a cardinal that enumerates a noun, make the cardinal the
+ head and the noun its child.
+ In the case of a date and the Russian word for 
+\begin_inset Quotes eld
+\end_inset
+
+year
+\begin_inset Quotes erd
+\end_inset
+
+, make the word for 
+\begin_inset Quotes eld
+\end_inset
+
+year
+\begin_inset Quotes erd
+\end_inset
+
+ the head, since it is slightly better grammatically if the year is removed
+ than if the word for 
+\begin_inset Quotes eld
+\end_inset
+
+year
+\begin_inset Quotes erd
+\end_inset
+
+ is removed.
+ 
+\end_layout
+
+\begin_layout Standard
+In prepositional phrases, use the preposition as the head of the phrase.
+\end_layout
+
+\begin_layout Standard
+Of course, many other decisions must be made on a case-to-case basis during
+ the course of annotation.
+ 
+\end_layout
+
 \begin_layout Section
 System Analysis on Corpus A
+\end_layout
+
+\begin_layout Standard
+5908 tokens were annotated during the first round of development.
+ There were 1059 tokens in test corpus A.
+ Training the Turbo parser using the standard mode resulted in 47.29 % unlabeled
+ attachment accuracy using both coarse and detailed part of speech tags.
+ Using only coarse part of speech tags resulted in a 63.81 % unlabeled attachment
+ accuracy.
+ Training the Turbo parser using basic mode resulted in 48.05% using both
+ coarse and detailed part of speech tags.
+ Training the Turbo parser using basic mode resulted in 64.82% using only
+ coarse part of speech tags.
 \end_layout
 
 \begin_layout Section
 Lessons Learned and Revised Design
 \end_layout
 
+\begin_layout Standard
+The initial development of the parser showed just how varied the results
+ can be with a minimal amount of training data.
+ This can be seen in the large difference in unlabeled attachment accurarices
+ when using data labeled with only coarse vs coarse and detailed part of
+ speech tags vs only detailed part of speech tags.
+ In the next round of development, it may help to include additional information
+, such as morphological features and lemmas.
+ This can be achieved using the morphological analyzer Pymorphy
+\begin_inset CommandInset citation
+LatexCommand citep
+key "pymorphy"
+
+\end_inset
+
+, which is based on the morphological dictionaries and work of 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "AOTparser"
+
+\end_inset
+
+.
+ This tool provides morphological information as well as lemmatization of
+ input text.
+ Furthermore, there are likely to be inconsistencies in the actual annotation
+ of the training data which lead to noise that will have a large effect
+ on the parser, given the small amount of training data.
+ Thus, in the next round of development, an active learning method based
+ on parser confidence is used to search for Wikipedia articles that are
+ most likely to help increase the unlabeled attachment score.
+\end_layout
+
 \begin_layout Section
 System Analysis on Corpus B
+\end_layout
+
+\begin_layout Standard
+Once the morphological analysis and lemmatization from the pymorphy tool
+ was incorporated into the parsing framework, several experiments were run
+ on the data that was annotated for part 6, where each experiment retained
+ different combinations of features to use as input for the TurboParser.
+ The results of these experiments can be seen in the figure below, where
+ M refers to the morphological features, L refers to the lemmas, DPOS refers
+ to the detailed part of speech tags, and CPOS refers to coarse part of
+ speech tags.
+ TurboParser was set to 
+\begin_inset Quotes eld
+\end_inset
+
+basic
+\begin_inset Quotes erd
+\end_inset
+
+ mode for these experiments.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}     
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tabular}     
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline      & Score on Corpus A & Score on Corpus B 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline     M,L,DPOS,CPOS & 48.05 % & 52.10 % 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline     M,DPOS,CPOS & 48.80 % &  52.02 %   
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline     L,DPOS,CPOS & 47.67 %  &  52.10 %  
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline     M,L,DPOS & 45.52 % &  49.89 % 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline     M,DPOS & 45.02 % &  50.19 % 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline     L,DPOS & 46.03 % &  49.28 % 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline     DPOS & 45.52 % &  49.58 % 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline     CPOS & 64.82 % & 72.69 % 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline     L,CPOS & 65.45 % & 73.15 % 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline     M,CPOS & 64.69 % & 74.22 % 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline     L,M,CPOS & 65.20 % & 74.83 % 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline     DPOS,CPOS & 48.05 % & 51.95 % 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hline     
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tabular}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+It is evident from the results of the above experiments that maximum performance
+ on both datasets is achieved when using coarse part of speech tags and
+ without using detailed part of speech tags.
+ Performance is further improved when lemmas or morphological information
+ is added to the coarse part of speech tags and is at its maximum when both
+ are included.
+ 
 \end_layout
 
 \begin_layout Section
