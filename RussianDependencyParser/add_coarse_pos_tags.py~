@@ -10,10 +10,6 @@ def replace_param_with_default(param_to_check):
 morph = get_morph('pymorphy_dict')
 f = open(sys.argv[1])
 f2 = open(sys.argv[1]+".coarse", 'w+')
-include_info_string = sys.argv[2]
-include_lemma=sys.argv[3]
-include_detailed_postag=sys.argv[4]
-include_coarse_postag=sys.argv[5]
 annotation_errors = open(sys.argv[1]+'.annotation_errors','w+')
 tokenNum = 1
 lines = []
@@ -45,39 +41,42 @@ for sent in sentences:
             f3.write(line_to_write)
 
     f3.close()
-    os.system('/home/mtydykov/NLPLab/repository/RussianDependencyParser/tree-tagger/bin/tree-tagger /home/mtydykov/NLPLab/repository/RussianDependencyParser/tree-tagger/russian-small.par temp temp_coarse -token')
+    os.system('/home/mtydykov/NLPLab/repository/RussianDependencyParser/tree-tagger/bin/tree-tagger /home/mtydykov/NLPLab/repository/RussianDependencyParser/tree-tagger/russian-small.par temp temp_coarse -token -lemma')
 
     f4 = open('temp_coarse')
     for i, line in enumerate(f4):
+        lemma1=""
+        lemma2=""
         token_tag = line.split('\t')
         coarse_postag = token_tag[1].strip()
+	lemma1 = token_tag[2].strip()
         token_all_elements = sent[i].split('\t')
         postag = token_all_elements[4]
 	morph_info = morph.get_graminfo(token_all_elements[1].decode('utf-8').upper())
         info_string = ""
-        lemma=""
+        
         for item in morph_info:
             #info_string=item['class'].encode('utf-8')+'|'
             info_string=item['info'].encode('utf-8')+'|'
-            lemma=item['lemma'].encode('utf-8')
+            lemma2=item['lemma'].encode('utf-8')
 
 	#strip final "|"
         info_string = info_string[:-1]
 
 	#if for some reason lemma of class/info is empty, 
         #replace with a string of the appropriate conll format
-        info_string = replace_param_with_default(include_info_string,info_string)
-        lemma = replace_param_with_default(include_lemma,lemma)
-        postag = replace_param_with_default(include_detailed_postag,postag)
-        coarse_postag = replace_param_with_default(include_coarse_postag,coarse_postag)
+        info_string = replace_param_with_default(info_string)
+        lemma = replace_param_with_default(lemma)
+        postag = replace_param_with_default(postag)
+        coarse_postag = replace_param_with_default(coarse_postag)
 
 
 			 #token id
 	new_conll_line = str(token_all_elements[0]) + '\t'
 			 #surface form
         new_conll_line+= token_all_elements[1] + '\t'
-                         #lemma
-        new_conll_line+= lemma + '\t'
+                         #lemma from TreeTagger
+        new_conll_line+= lemma1 + '\t'
                          #coarse POS tag
         new_conll_line+= coarse_postag + '\t'
                          #detailed POS tag
@@ -91,7 +90,10 @@ for sent in sentences:
                          #projective head
         new_conll_line+= '_' + '\t'
                          #dependency relation to projective head
-        new_conll_line+= '_' + '\n'
+        new_conll_line+= '_' + '\t'
+                         #lemma from pymorphy
+        new_conll_line+= lemma2 + '\n'
+                         #dependency relation to projective head
         f2.write(new_conll_line)
     f2.write('\n')
 f.close()

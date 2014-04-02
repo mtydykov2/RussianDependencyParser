@@ -1,0 +1,184 @@
+x = [.2,.1;.1,.2;0,0;0,0;0,0;0,0;0,0;0,0;0,0;0,0;.3,.1]
+vals_x = [0,1,2,3,4,5,6,7,8,9,10]
+vals_y=[0,1]
+probs = x
+exp_x = sum(probs*vals_x)
+exp_x = sum(probs'*vals_x)
+exp_x = sum(probs*vals_x')
+exp_x = sum(probs.*vals_x')
+exp_x = sum(sum(probs.*vals_x'))
+exp_y = sum(sum(probs.*vals_y'))
+exp_y = sum(sum(probs.*vals_y))
+exp_x^2
+sum(sum(probs.*(vals_x.^2)'))
+3*exp_x+4*exp_y+5
+sum(sum(probs.*vals_x(1)'))
+sum(sum(probs.*vals_x(0)'))
+sum(sum(probs.*vals_x(2)'))
+sum(sum(probs(2).*vals_x'))
+sum(sum(probs(1).*vals_x'))
+sum(probs(2).*vals_x')
+probs
+vals_x
+sum(probs(2)*vals_x)
+probs(2)
+probs
+sum(probs(2,:)*vals_x)
+sum(probs(2,:)*vals_x')
+sum(probs(2,:)'*vals_x)
+probs(2,:)
+probs(:,2)
+sum(probs(:,2)*vals_x)
+sum(probs(:,2)*vals_x')
+sum(probs(:,2)'*vals_x)
+sum(probs(:,2).*vals_x)
+probs(:,2)*vals_x
+exp_x_2
+exp_x_2 = sum(vals_x.^2*probs)
+exp_y_2 = sum(vals_y.^2*probs')
+sum(probs(:,2)*vals_x')
+sum(probs(:,2)*vals_x)
+probs(:,2)
+vals_x
+(probs(:,2)*vals_x)
+(probs(:,2).*vals_x)
+probs(:,2).*vals_x
+probs(:,2).*vals_x'
+sum(probs(:,2).*vals_x')
+-2*exp_y_2
+2*exp_x_2+3*exp_y_2-3*exp_x
+v_x = exp_x_2 - exp_x^2
+v_y = exp_y_2 - exp_y^2
+4*v_x
+9*v_y
+9*v_x + 16*v_y
+3*sqrt(var_x)
+3*sqrt(v_x)
+exp_xy = sum(vals_x'*vals_y.*probs)
+exp_xy = sum(sum(vals_x'*vals_y.*probs))
+cov_xy = exp_xy - exp_x*exp_y
+3*5*cov_xy
+3*4*cov_xy
+3*5*cov_xy
+stdev_x = sqrt(v_x)
+stdev_y = sqrt(v_y)
+corr_xy = cov_xy/(stdev_x*stdev_y)
+2*3*v_x/(sqrt(4*v_x)*sqrt(9*v_x))
+ = -0.2273
+   Corr(-X,Y) =  -1*co
+ = -0.2273
+   Corr(-X,Y) =  -1*co
+2*3*cov_xy/(sqrt(4*v_x)*sqrt(9*v_y))
+-1*cov_xy/(stdev_x*stdev_y)
+cov_xy/(stdev_x*stdev_y)
+quit
+# Octave 3.6.4, Mon Mar 03 12:07:14 2014 EST <root@mtydykov-MacBookPro>
+# Octave 3.6.4, Mon Mar 03 23:15:19 2014 EST <root@mtydykov-MacBookPro>
+# Octave 3.6.4, Mon Mar 03 23:15:40 2014 EST <root@mtydykov-MacBookPro>
+# Octave 3.6.4, Mon Mar 03 23:15:46 2014 EST <root@mtydykov-MacBookPro>
+# Octave 3.6.4, Mon Mar 03 23:16:16 2014 EST <root@mtydykov-MacBookPro>
+-q NN_music.csv music_train.csv music_dev.csv
+quit
+# Octave 3.6.4, Mon Mar 03 23:16:54 2014 EST <root@mtydykov-MacBookPro>
+# Octave 3.6.4, Mon Mar 03 23:17:26 2014 EST <root@mtydykov-MacBookPro>
+quit
+# Octave 3.6.4, Mon Mar 03 23:17:38 2014 EST <root@mtydykov-MacBookPro>
+vals = 1.3002
+10.0698
+5.4508
+3.8739
+5.4295
+3.5901
+3.7517
+6.9794
+6.8181
+6.8344
+5.3430
+1.5850
+5.4345
+7.2605
+4.9778
+6.0694
+5.4538
+3.3931
+4.5877
+2.4254
+vals = [1.3002,10.0698,5.4508,3.8739,5.4295,3.5901,3.7517,6.9794,6.8181,6.8344,5.3430,1.5850,5.4345,7.2605,4.9778,6.0694,5.4538,3.3931,4.5877,2.4254]
+log(sum(43.702*e^(-43.702*vals)))
+log(sum(43.702*e.^(-43.702*vals)))
+sum(vals)/n
+sum(vals)/len(vals)
+size(vals)
+sum(vals)/20
+1/(2*sqrt(2*pi))*e.^(-(vals-5.031)^2/8)
+1/(2*sqrt(2*pi))*e.^(-(vals-5.031).^2/8)
+log(sum(1/(2*sqrt(2*pi))*e.^(-(vals-5.031).^2/8)))
+log(sum(1/(2*sqrt(2*pi))*e.^-(((vals-5.031).^2))/8))
+log(sum(1/(2*sqrt(2*pi))*e.^-(((vals-5.031).^2)/8)))
+log(sum(1/(2*sqrt(2*pi))*e.^-(((vals-5.031).^2)/8)))
+intermediate = ((vals-5.031).^2)/8
+intermediate
+1/(2*sqrt(2*pi))*e.^-vals
+sum(log(1/(2*sqrt(2*pi))*e.^-vals))
+log(sum(1/(2*sqrt(2*pi))*e.^-vals))
+sum(log(43.702*e^(-43.702*vals)))
+sum(log(43.702*e.^(-43.702*vals)))
+sum(log(1/(2*sqrt(2*pi))*e.^-vals))
+vals2 = [0.89,0.92,0.53,0.65,0.99,0.78,0.85,0.81,0.31,0.12]
+sqrt(n/(sum(log(vals)))
+sqrt(n/(sum(log(vals))))
+sqrt(n/(sum(log(vals))))
+sqrt(n/(sum(log(vals)))-1)
+sqrt(n/(sum(log(vals2)))-1)
+sqrt(10/(sum(log(vals2)))-1)
+vals2
+log(vals2)
+(sqrt(10/(sum(log(vals2)))-1))^2
+vals2
+(sqrt(2*10/(log(e)-2*10*sum(log(vals2)))-1)
+(sqrt(2*10/(log(e)-2*10*sum(log(vals2)))-1))
+(sqrt(2*10/(log(e)-2*10*sum(log(vals2)))-1))^2
+vals_18 = [1.4664,-0.0026,2.9642,2.5201,1.9800,1.9652,1.2018,3.0187,1.8668,1.2855,3.3514,1.7752,1.4110,1.7062,1.1521,0.8799,4.5260,3.6555,2.3075,0.7429]
+sum(vals_18)/20
+(1+2*sum(vals_18))/(1+20)
+(1/4+sum(vals_18))/(1/4+20)
+(1-2*sum(vals_18))/(1+20)
+(1/4+sum(vals_18))/(-1/4+20)
+(-sum(vals_18))/(1+2*20)
+sum(vals)/20
+20/(sum(vals)*log(e))
+vals
+20/(sum(vals))*log(e)
+20/(sum(vals)*log(e))
+(20/(sum(vals))*log(e)
+)
+sum(vals)
+20/sum(vals)
+log(e)
+20/sum(vals)
+sum(log(0.19875*e^(-0.19875.*vals)))
+sum(log(0.19875*e.^(-0.19875*vals)))
+sum(log(0.19876*e.^(-0.19876*vals)))
+sum(log(0.1988*e.^(-0.1988*vals)))
+sum(log(0.2*e.^(-0.2*vals)))
+sum(log(.4*e.^(-0.4*vals)))
+sum(log(.1*e.^(-0.1*vals)))
+20/(sum(log(vals2))-1)
+10/(sum(log(vals2))-1)
+vals2
+10/(sum(log(vals2))-1)
+sqrt(10/(sum(log(vals2))-1))
+sqrt(10/(sum(log(vals2))-1))^2
+sqrt(10/(sum(log(vals2))-1))^2
+10/(sum(log(vals2))-1)
+(sqrt(10/(sum(log(vals2)))-1))^2
+10/(sum(log(vals2)))-1
+10/(-sum(log(vals2)))-1
+10/(-sum(log(vals2)))-1
+2*10/(log(e)-2*10*sum(log(vals2))))
+2*10/(log(e)-2*10*sum(log(vals2))) - 1
+2*10/(log(e)-2*sum(log(vals2))) - 1
+history 20
+history 40
+save ('environment_ml_hw_9');
+history -w 'ml_hw_9_history'

@@ -1,0 +1,59 @@
+import os
+import itertools
+def train_and_test_parser(filename, args_to_filter, model_type):
+    os.system('echo "\n"' + args_to_filter+'" "' + model_type + ' >> '+ filename) 
+    os.system('python filter_features.py all_train.conll.coarse ' + args_to_filter)                             
+    os.system('python filter_features.py all_test.conll.coarse ' + args_to_filter)     
+    os.system('./TurboParser-2.1.0/TurboParser --train --file_train=all_train.conll.coarse.parser_input  --file_model=russian_dependency_model.model --logtostderr --logtostderr --model_type='+model_type)                        
+    os.system('./TurboParser-2.1.0/TurboParser --test --evaluate --file_model=russian_dependency_model.model --file_test=all_test.conll.coarse.parser_input --file_prediction=russian_parse.conll.predicted --logtostderr')
+    os.system('./TurboParser-2.1.0/scripts/eval.pl -q -b -g all_test.conll.coarse.parser_input -s russian_parse.conll.predicted >> batch_test')
+    os.system('echo "----------------------------------------------------------------" >> ' + filename)
+
+def test_all(model_type, f1):
+    opts_args_morphy = []#"-m pymorphy", "-m tree_tagger"]
+    opts_args_lemmas = []#["-l pymorphy","-l treetagger"] 
+    default_starts = ["-d","-c tagset","-c spliced", "-d -c tagset", "-d -c spliced"]
+    for start in default_starts:
+        arg = start
+        # first try using only the must-be-present options
+        print arg
+        train_and_test_parser(f1, arg, model_type)
+        # then try various combinations with other options
+        # just morphology
+        for opts_args in opts_args_morphy: 
+            arg = start + " " + opts_args
+            train_and_test_parser(f1, arg, model_type)
+            # all combos of morphology with lemmas
+            for opts_args_2 in opts_args_lemmas:
+                arg += " " + opts_args_2
+                train_and_test_parser(f1, arg, model_type)
+        # just lemmas
+        for opts_args in opts_args_lemmas:
+            arg = start + " " + opts_args
+            train_and_test_parser(f1, arg, model_type)        
+    
+        
+
+os.environ["LD_LIBRARY_PATH"] ="$LD_LIBRARY_PATH:/home/mtydykov/NLPLab/repository/RussianDependencyParser/TurboParser-2.1.0/deps/local/lib:"
+os.system('cat allData/training/*_annotated > all_train.conll')
+os.system('cat allData/test/*_annotated > all_test.conll')
+
+#sort out all info that will go to the parse just once, here
+#os.system('python add_features.py all_train.conll')
+#os.system('python add_features.py all_test.conll')
+
+
+os.system('echo "Test on Corpus A:" > batch_test')
+test_all('basic', 'batch_test')
+#test_all('standard', 'batch_test')
+
+
+os.system('echo "****************************************************************" >> batch_test')
+os.system('echo "\n\nTest on Test Corpus B:" >> batch_test')
+os.system('cat allData/dev/*_annotated >> all_test.conll')
+
+#sort out all info that will go to the parse just once, here
+#os.system('python add_features.py all_test.conll')
+
+#test_all('basic', 'batch_test')
+#test_all('standard', 'batch_test')

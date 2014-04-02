@@ -1,38 +1,72 @@
-
+from optparse import OptionParser
 import sys
 import os
 
-def replace_param_with_default(bool_to_check, param_to_check):
-    if param_to_check == "_" or bool_to_check == '0':
-        param_to_check = "_"
-    return param_to_check
 
 f1 = open(sys.argv[1]+".parser_input","w")
 f2 = open(sys.argv[1])
-include_info_string = sys.argv[2]
-include_lemma=sys.argv[3]
-include_detailed_postag=sys.argv[4]
-include_coarse_postag=sys.argv[5]
+parser = OptionParser()
+parser.add_option("-m", action="store", dest="include_morph")
+parser.add_option("-l", action="store", dest="include_lemma")
+parser.add_option("-d", action="store_true", dest="include_detailed_postags")
+parser.add_option("-c", action="store", dest="include_coarse_postags")
+parser.add_option("--noUnk", action="store_true", dest="no_unk")
+(opts, args) = parser.parse_args()
 
 for i, line in enumerate(f2):
     if line != "\n":
-        print line
         conll_elements = line.split('\t')
         token_id = conll_elements[0]
         surface_form = conll_elements[1]
-        lemma = conll_elements[2]
-        coarse_postag = conll_elements[3]
-        postag = conll_elements[4]
-	info_string = conll_elements[5]
+        lemma_treetagger = conll_elements[2]
+        lemma_pymorphy = conll_elements[10].strip().lower()
+        coarse_postag_treetagger_tagset = conll_elements[3]
+        coarse_postag_treetagger_spliced_detailed = conll_elements[12]
+        detailed_postag_treetagger_tagset = conll_elements[4]
+	morph_pymorphy = conll_elements[5]
+        morph_treetagger = conll_elements[11]
         head = conll_elements[6]
         dep_relation = conll_elements[7]
         proj_head = conll_elements[8]
         dep_rel_proj_head = conll_elements[9].strip()
+        morph = "_"
+        lemma = "_"
+        coarse_postag = "_"
+        detailed_postag = "_"
 
-        info_string = replace_param_with_default(include_info_string,info_string)
-        lemma = replace_param_with_default(include_lemma,lemma)
-        postag = replace_param_with_default(include_detailed_postag,postag)
-        coarse_postag = replace_param_with_default(include_coarse_postag,coarse_postag)
+
+	if opts.include_morph != None:
+            # use pymorphy morph features
+            if opts.include_morph == "pymorphy" and morph_pymorphy != "_":
+                morph = morph_pymorphy
+            # use treetagger morph features
+            elif opts.include_morph == "treetagger" and morph_treetagger != "_":
+                morph = morph_treetagger
+        if opts.include_lemma != None:
+            # use pymorphy lemmas
+            if opts.include_lemma == "pymorphy" and lemma_pymorphy != "_":
+                lemma = lemma_pymorphy
+            # use treetagger lemmas
+            elif opts.include_lemma == "treetagger" and lemma_treetagger != "_":
+                lemma = lemma_treetagger
+                # sometimes treetagger lemmas unknown - if
+                # so specified, use pymorphy lemmas in these cases
+                if opts.no_unk != None:
+                    if lemma == "<unknown>":
+                        lemma = lemma_pymorphy
+
+        # use default detailed POS tags
+        if opts.include_detailed_postags:
+            if detailed_postag_treetagger_tagset != "_":
+                detailed_postag = detailed_postag_treetagger_tagset
+        if opts.include_coarse_postags != None:
+            # split up the detailed POS tags into coarse and morphology
+            # and use the coarse part here
+            if opts.include_coarse_postags == "spliced" and coarse_postag_treetagger_spliced_detailed != "_":
+                coarse_postag = coarse_postag_treetagger_spliced_detailed
+            # use default coarse POS tags
+            elif opts.include_coarse_postags == "":
+                coarse_postag = coarse_postag_treetagger_tagset
 
 			 #token id
 	new_conll_line = token_id + '\t'
@@ -43,9 +77,9 @@ for i, line in enumerate(f2):
                          #coarse POS tag
         new_conll_line+= coarse_postag + '\t'
                          #detailed POS tag
-        new_conll_line+= postag + '\t'
+        new_conll_line+= detailed_postag + '\t'
                          #features
-        new_conll_line+= info_string + '\t'
+        new_conll_line+= morph + '\t'
                          #head
         new_conll_line+= head + '\t'
                          #dependency relation
