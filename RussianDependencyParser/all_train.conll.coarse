@@ -372,6 +372,9 @@
 26	инфекцией	инфекция	S	Ncfsin	жр,ед,тв	25	_	_	_	ИНФЕКЦИ	cfsin	N
 27	Helicobacter	<unknown>	S	SENT	_	26	_	_	_	_	SENT	SENT
 
+1	pylori	<unknown>	S	Ncmsnn	_	0	_	_	_	_	cmsnn	N
+2	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
+
 1	Однако	однако	CONJ	C	_	2	_	_	_	ОДНАКО		C
 2	у	у	PR	Sp-g	_	0	_	_	_	У	p-g	S
 3	большинства	большинство	S	Ncnsgn	ср,ед,рд	10	_	_	_	БОЛЬШИНСТВ	cnsgn	N
@@ -1027,6 +1030,9 @@
 17	инфицированием	<unknown>	S	Ncnsin	ср,ед,тв	16	_	_	_	ИНФИЦИРОВАНИ	cnsin	N
 18	H.	<unknown>	S	SENT	_	17	_	_	_	_	SENT	SENT
 
+1	pylori	<unknown>	S	Ncmsnn	_	0	_	_	_	_	cmsnn	N
+2	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
+
 1	В	в	PR	Sp-l	_	13	_	_	_	В	p-l	S
 2	2005	@card@	NUM	Mc---d	_	3	_	_	_	_	c---d	M
 3	году	год	S	Ncmsnnl	мр,ед,пр,2	1	_	_	_	_	cmsnnl	N
@@ -1055,6 +1061,52 @@
 6	роль	роль	S	Ncfsan	жр,мн,рд	5	_	_	_	РОЛ	cfsan	N
 7	инфекции	инфекция	S	Ncfsgn	жр,мн,вн	6	_	_	_	ИНФЕКЦИ	cfsgn	N
 8	H.	<unknown>	S	SENT	_	7	_	_	_	_	SENT	SENT
+
+1	pylori	<unknown>	S	Ncmsnn	_	0	_	_	_	_	cmsnn	N
+2	в	в	PR	Sp-l	_	1	_	_	_	В	p-l	S
+3	развитии	развитие	S	Ncnsln	ср,ед,пр	2	_	_	_	РАЗВИТ	cnsln	N
+4	язвенной	<unknown>	A	Afpfsgf	жр,ед,пр,од,но	5	_	_	_	ЯЗВЕНН	fpfsgf	A
+5	болезни	болезнь	S	Ncfsgn	жр,мн,вн	10	_	_	_	БОЛЕЗН	cfsgn	N
+6	желудка	желудок	S	Ncmsgn	мр,ед,рд	7	_	_	_	ЖЕЛУД	cmsgn	N
+7	и	и	CONJ	C	_	0	_	_	_	И		C
+8	двенадцатиперстной	<unknown>	A	Afpfsgf	жр,ед,пр,од,но	9	_	_	_	ДВЕНАДЦАТИПЕРСТН	fpfsgf	A
+9	кишки	кишка	S	Ncfsgn	жр,мн,вн	7	_	_	_	КИШ	cfsgn	N
+10	и	и	CONJ	C	_	3	_	_	_	И		C
+11	гастритов	<unknown>	S	Ncmpgn	мр,мн,рд	10	_	_	_	ГАСТРИТ	cmpgn	N
+12	,	,	PUNCT	,	_	0	_	_	_	_		,
+13	язвы	язва	S	Ncfpnn	жр,мн,вн	14	_	_	_	ЯЗВ	cfpnn	N
+14	и	и	CONJ	C	_	17	_	_	_	И		C
+15	гастриты	гастрит	S	Ncmpnn	мр,мн,вн	14	_	_	_	ГАСТРИТ	cmpnn	N
+16	обычно	обычно	ADV	R	_	17	_	_	_	ОБЫЧНО		R
+17	лечили	лечить	V	Vmis-p-a-e	дст,прш,мн	0	_	_	_	ЛЕЧ	mis-p-a-e	V
+18	лекарствами	лекарство	S	Ncnpin	ср,мн,тв	17	_	_	_	ЛЕКАРСТВ	cnpin	N
+19	,	,	PUNCT	,	_	0	_	_	_	_		,
+20	которые	который	A-PRO	P---pna	мн,вн,но	18	_	_	_	КОТОР	---pna	P
+21	нейтрализуют	<unknown>	V	Afpfsaf	дст,буд,3л,мн	26	_	_	_	НЕЙТРАЛИЗ	fpfsaf	A
+22	кислоту	кислота	S	Ncfsan	жр,ед,вн	21	_	_	_	КИСЛОТ	cfsan	N
+23	(	(	PUNCT	-	_	0	_	_	_	_		-
+24	антациды	<unknown>	S	Ncmpnn	мн,мн,вн	22	_	_	_	ИД	cmpnn	N
+25	)	)	PUNCT	-	_	0	_	_	_	_		-
+26	или	или	CONJ	C	_	20	_	_	_	ИЛИ		C
+27	снижают	снижать	V	Vmip3p-a-e	дст,нст,3л,мн	26	_	_	_	СНИЖА	mip3p-a-e	V
+28	её	она	S-PRO	Ncnsan	_	29	_	_	_	_	cnsan	N
+29	продукцию	продукция	S	Ncfsan	жр,ед,вн	27	_	_	_	ПРОДУКЦИ	cfsan	N
+30	в	в	PR	Sp-l	_	29	_	_	_	В	p-l	S
+31	желудке	желудок	S	Ncmsln	мр,ед,пр	30	_	_	_	ЖЕЛУД	cmsln	N
+32	(	(	PUNCT	-	_	0	_	_	_	_		-
+33	ингибиторы	<unknown>	S	Ncmpan	мр,мн,вн	18	_	_	_	ИНГИБИТОР	cmpan	N
+34	протонного	<unknown>	A	Afpmsgf	ср,ед,рд,од,но	35	_	_	_	ПРОТОНН	fpmsgf	A
+35	насоса	насос	S	Ncmsgn	мр,ед,рд	33	_	_	_	НАСОС	cmsgn	N
+36	,	,	PUNCT	,	_	0	_	_	_	_		,
+37	блокаторы	<unknown>	S	Ncmpnn	мр,мн,вн	18	_	_	_	БЛОКАТОР	cmpnn	N
+38	H2-гистаминовых	<unknown>	S	Afpmpgf	мн,пр,од,но	39	_	_	_	ГИСТАМИНОВ	fpmpgf	A
+39	рецепторов	рецептор	S	Ncmpgn	мр,мн,рд	37	_	_	_	РЕЦЕПТОР	cmpgn	N
+40	,	,	PUNCT	,	_	0	_	_	_	_		,
+41	М-холинолитики	<unknown>	S	Ncmpny	мр,мн,им	42	_	_	_	ХОЛИНОЛИТИК	cmpny	N
+42	и	и	CONJ	C	_	18	_	_	_	И		C
+43	др.	<unknown>	S	Ncmpny	_	42	_	_	_	_	cmpny	N
+44	)	)	PUNCT	-	_	0	_	_	_	_		-
+45	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
 
 1	Хотя	хотя	CONJ	C	_	15	_	_	_	ХОТЯ		C
 2	такое	такой	A-PRO	P--nsna	ср,ед,вн,од,но	3	_	_	_	ТАК	--nsna	P
@@ -4589,6 +4641,87 @@
 8	болезни	болезнь	S	Ncfsgn	жр,мн,вн	6	_	_	_	БОЛЕЗН	cfsgn	N
 9	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
 
+1	Имеются	иметься	V	Vmip3p-m-e	дст,нст,3л,мн	0	_	_	_	ИМЕ	mip3p-m-e	V
+2	исследования	исследование	S	Ncnsgn	ср,мн,вн	1	_	_	_	ИССЛЕДОВАН	cnsgn	N
+3	,	,	PUNCT	,	_	0	_	_	_	_		,
+4	доказывающие	доказывать	V	Vmpp-p-afen	но,нст,дст,мн,вн	2	_	_	_	ДОКАЗЫВА	mpp-p-afen	V
+5	на	на	PR	Sp-l	_	4	_	_	_	НА	p-l	S
+6	большом	большой	A	Afpmslf	ср,ед,пр,од,но	8	_	_	_	_	fpmslf	A
+7	статистическом	статистический	A	Afpmslf	ср,ед,пр,од,но	8	_	_	_	СТАТИСТИЧЕСК	fpmslf	A
+8	материале	материал	S	Ncmsln	мр,ед,пр	5	_	_	_	МАТЕРИАЛ	cmsln	N
+9	,	,	PUNCT	,	_	0	_	_	_	_		,
+10	что	что	CONJ	C	вопр	4	_	_	_	ЧТО		C
+11	полная	полный	A	Afpfsnf	жр,ед,им,од,но	12	_	_	_	ПОЛ	fpfsnf	A
+12	эрадикация	<unknown>	S	Ncfsnn	жр,ед,им	10	_	_	_	ЭРАДИКАЦИ	cfsnn	N
+13	H.	<unknown>	S	SENT	_	12	_	_	_	_	SENT	SENT
+
+1	pylori	<unknown>	S	Ncmsnn	_	6	_	_	_	_	cmsnn	N
+2	почти	почти	ADV	R	_	6	_	_	_	ПОЧТИ		R
+3	в	в	PR	Sp-a	_	2	_	_	_	В	p-a	S
+4	два	два	NUM	Mcm-a	ср,вн	5	_	_	_	ДВ	cm-a	M
+5	раза	раз	S	Ncmsgn	мр,ед,рд	3	_	_	_	РАЗ	cmsgn	N
+6	увеличивает	увеличивать	V	Vmip3s-a-e	дст,нст,3л,ед	0	_	_	_	УВЕЛИЧИВА	mip3s-a-e	V
+7	вероятность	вероятность	S	Ncfsnn	жр,ед,вн	6	_	_	_	ВЕРОЯТНОСТ	cfsnn	N
+8	развития	развитие	S	Ncnsgn	ср,мн,вн	7	_	_	_	РАЗВИТ	cnsgn	N
+9	рефлюкс-эзофагита	<unknown>	S	Ncmsgn	мр,ед,вн	13	_	_	_	РЕФЛЮКС+АГИТ	cmsgn	N
+10	,	,	PUNCT	,	_	0	_	_	_	_		,
+11	пищевода	пищевод	S	Ncmsgn	мр,ед,рд	13	_	_	_	ПИЩЕВОД	cmsgn	N
+12	Баррета	<unknown>	S	Ncmsgn	мр,ед,рд	11	_	_	_	БАРРЕТ	cmsgn	N
+13	и	и	CONJ	C	_	8	_	_	_	И		C
+14	кардиоэзофагеальной	<unknown>	A	Afpfsgf	жр,имя,ед,тв	15	_	_	_	КАРДИОЭЗОФАГЕАЛЬН	fpfsgf	A
+15	аденокарциномы	<unknown>	S	Ncfsgn	жр,мн,вн	13	_	_	_	КАРЦИНОМ	cfsgn	N
+16	,	,	PUNCT	,	_	0	_	_	_	_		,
+17	а	а	CONJ	C	_	6	_	_	_	А		C
+18	также	также	PART	Q	_	17	_	_	_	ТАКЖЕ		Q
+19	то	то	PART	P--nsnn	_	18	_	_	_	ТО	--nsnn	P
+20	,	,	PUNCT	,	_	0	_	_	_	_		,
+21	что	что	CONJ	C	вопр	19	_	_	_	ЧТО		C
+22	наличие	наличие	S	Ncnsnn	ср,ед,вн	21	_	_	_	НАЛИЧ	cnsnn	N
+23	H.	<unknown>	S	SENT	_	22	_	_	_	_	SENT	SENT
+
+1	pylori	<unknown>	S	Ncmsnn	_	5	_	_	_	_	cmsnn	N
+2	в	в	PR	Sp-l	_	5	_	_	_	В	p-l	S
+3	теле	тело	S	Ncnsln	ср,ед,пр	2	_	_	_	ТЕЛ	cnsln	N
+4	желудка	желудок	S	Ncmsgn	мр,ед,рд	3	_	_	_	ЖЕЛУД	cmsgn	N
+5	снижает	снижать	V	Vmip3s-a-e	дст,нст,3л,ед	0	_	_	_	СНИЖА	mip3s-a-e	V
+6	риск	риск	S	Ncmsan	мр,ед,вн	5	_	_	_	РИСК	cmsan	N
+7	развития	развитие	S	Ncnsgn	ср,мн,вн	6	_	_	_	РАЗВИТ	cnsgn	N
+8	онкологических	онкологический	A	Afpmpgf	мн,пр,од,но	9	_	_	_	ОНКОЛОГИЧЕСК	fpmpgf	A
+9	заболеваний	заболевание	S	Ncnpgn	ср,мн,рд	7	_	_	_	ЗАБОЛЕВАН	cnpgn	N
+10	кардиального	<unknown>	A	Afpmsgf	мр,ед,вн	11	_	_	_	КАРДИАЛЬН	fpmsgf	A
+11	отдела	отдел	S	Ncmsgn	мр,ед,рд	9	_	_	_	ОТДЕЛ	cmsgn	N
+12	желудка	желудок	S	Ncmsgn	мр,ед,рд	11	_	_	_	ЖЕЛУД	cmsgn	N
+13	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
+
+1	Инфекционная	<unknown>	A	Afpfsnf	жр,ед,им,од,но	2	_	_	_	ИНФЕКЦИОН	fpfsnf	A
+2	теория	теория	S	Ncfsnn	жр,ед,им	4	_	_	_	ТЕОРИ	cfsnn	N
+3	не	не	PART	Q	_	4	_	_	_	НЕ		Q
+4	объясняет	объяснять	V	Vmip3s-a-e	дст,нст,3л,ед	5	_	_	_	ОБЪЯСНЯ	mip3s-a-e	V
+5	и	и	CONJ	C	_	0	_	_	_	И		C
+6	не	не	PART	Q	_	7	_	_	_	НЕ		Q
+7	учитывает	учитывать	V	Vmip3s-a-e	дст,нст,3л,ед	5	_	_	_	УЧИТЫВА	mip3s-a-e	V
+8	известные	известный	A	Afpmpnf	мн,вн,но	9	_	_	_	ИЗВЕСТ	fpmpnf	A
+9	факты	факт	S	Ncmpnn	мр,мн,вн	7	_	_	_	ФАКТ	cmpnn	N
+10	о	о	PR	Sp-l	_	9	_	_	_	О	p-l	S
+11	нарушении	нарушение	S	Ncnsln	ср,ед,пр	10	_	_	_	НАРУШЕН	cnsln	N
+12	секреции	секреция	S	Ncfsgn	жр,мн,вн	11	_	_	_	СЕКРЕЦИ	cfsgn	N
+13	мелатонина	<unknown>	S	Ncfsnn	жр,ед,им	12	_	_	_	ТОНИН	cfsnn	N
+14	у	у	PR	Sp-g	_	11	_	_	_	У	p-g	S
+15	язвенных	<unknown>	A	Afpmpgf	мн,пр,од,но	16	_	_	_	ЯЗВЕНН	fpmpgf	A
+16	больных	больной	S	Ncmpgy	мр,мн,пр	14	_	_	_	БОЛЬН	cmpgy	N
+17	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
+
+1	Отмечается	отмечаться	V	Vmip3s-m-e	дст,нст,3л,ед	0	_	_	_	ОТМЕЧА	mip3s-m-e	V
+2	,	,	PUNCT	,	_	0	_	_	_	_		,
+3	что	что	CONJ	C	вопр	1	_	_	_	ЧТО		C
+4	в	в	PR	Sp-l	_	3	_	_	_	В	p-l	S
+5	связи	связь	S	Ncfsln	жр,мн,вн	4	_	_	_	СВЯЗ	cfsln	N
+6	с	с	PR	Sp-i	_	5	_	_	_	С	p-i	S
+7	большим	больший	A	Afpnsif	мн,дт,од,но	8	_	_	_	БОЛЬШ	fpnsif	A
+8	числом	число	S	Ncnsin	ср,ед,тв	6	_	_	_	ЧИС	cnsin	N
+9	носителей	носитель	S	Ncmpgn	мр,мн,рд	8	_	_	_	НОСИТЕЛ	cmpgn	N
+10	H.	<unknown>	S	SENT	_	9	_	_	_	_	SENT	SENT
+
 1	pylori	<unknown>	S	Ncmsnn	_	0	_	_	_	_	cmsnn	N
 2	(	(	PUNCT	-	_	0	_	_	_	_		-
 3	в	в	PR	Sp-l	_	13	_	_	_	В	p-l	S
@@ -7219,6 +7352,19 @@
 11	,	,	PUNCT	,	_	0	_	_	_	_		,
 12	реальной	реальный	A	Afpfsif	жр,имя,ед,тв	8	_	_	_	АЛЬН	fpfsif	A
 13	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
+
+1	Во-вторых	во-вторых	PARENTH	R	_	8	_	_	_	ВО-ВТОРЫХ		R
+2	,	,	PUNCT	,	_	0	_	_	_	_		,
+3	власть	власть	S	Ncfsnn	жр,ед,вн	8	_	_	_	ВЛАСТ	cfsnn	N
+4	,	,	PUNCT	,	_	0	_	_	_	_		,
+5	сила	сила	S	Ncfsnn	ср,ед,рд	8	_	_	_	СИЛ	cfsnn	N
+6	,	,	PUNCT	,	_	0	_	_	_	_		,
+7	насилие	насилие	S	Ncnsnn	ср,ед,вн	8	_	_	_	НАСИЛ	cnsnn	N
+8	стали	стать	V	Vmis-p-a-p	жр,мн,вн	0	_	_	_	СТАЛ	mis-p-a-p	V
+9	главным	главный	A	Afpmsif	ср,мн,дт	10	_	_	_	ГЛАВН	fpmsif	A
+10	фактором	фактор	S	Ncmsin	мр,ед,тв	8	_	_	_	ФАКТОР	cmsin	N
+11	жизни	жизнь	S	Ncfsgn	жр,мн,вн	10	_	_	_	ЖИЗН	cfsgn	N
+12	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
 
 1	В-третьих	в-третьих	PARENTH	R	_	5	_	_	_	В-ТРЕТЬИХ		R
 2	,	,	PUNCT	,	_	0	_	_	_	_		,

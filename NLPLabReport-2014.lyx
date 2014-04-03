@@ -656,9 +656,9 @@ key "conf/acl/MartinsAS13"
  mentioned in section 3 above.
  Some automatic postprocessing was performed on the tokenized data in order
  to correct some common mistakes made by the tokenizer (such as stripping
- off various punctuation marks from the end of a token that was not an abbreviat
-ion), and, finally, some manual postprocessing that corrected for the cases
- where the token was indeen an abbreviation.
+ off punctuation marks from the end of a token that was not an abbreviation),
+ and, finally, some manual postprocessing that corrected for the cases where
+ the token was indeen an abbreviation.
  The data was then part-of-speech tagged using the TreeTagger tool, also
  mentioned in section 3 above.
  Since there is no known freely available tool that can be used to split
