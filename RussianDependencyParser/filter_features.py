@@ -13,7 +13,7 @@ def main(argv, include_morph=None, include_lemma=None, include_detailed_postags=
             lemma_treetagger = conll_elements[2]
             lemma_pymorphy = conll_elements[10].strip().lower()
             coarse_postag_treetagger_tagset = conll_elements[3]
-            coarse_postag_treetagger_spliced_detailed = conll_elements[12].strip()
+            coarse_postag_treetagger_split_detailed = conll_elements[12].strip()
             detailed_postag_treetagger_tagset = conll_elements[4]
     	    morph_pymorphy = conll_elements[5]
             morph_treetagger = conll_elements[11]
@@ -54,8 +54,8 @@ def main(argv, include_morph=None, include_lemma=None, include_detailed_postags=
             if include_coarse_postags != None:
                 # split up the detailed POS tags into coarse and morphology
                 # and use the coarse part here
-                if include_coarse_postags == "spliced" and coarse_postag_treetagger_spliced_detailed != "_":
-                    coarse_postag = coarse_postag_treetagger_spliced_detailed
+                if include_coarse_postags == "split" and coarse_postag_treetagger_split_detailed != "_":
+                    coarse_postag = coarse_postag_treetagger_split_detailed
                 # use default coarse POS tags
                 elif include_coarse_postags == "tagset":
                     coarse_postag = coarse_postag_treetagger_tagset

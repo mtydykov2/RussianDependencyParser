@@ -41,7 +41,7 @@ def test_all(model_type, f1):
     opts_args_morphy = [None, "pymorphy", "treetagger"]
     opts_args_lemmas = [None, "pymorphy","treetagger"] 
     default_starts_detailed = [True,False]
-    default_starts_coarse=[None, "spliced", "tagset"]
+    default_starts_coarse=[None, "split", "tagset"]
     no_unk_vals = [True, False]
     
     #test all possible combinations of tool output
@@ -60,7 +60,7 @@ def test_all(model_type, f1):
          
 os.environ["LD_LIBRARY_PATH"] ="$LD_LIBRARY_PATH:/home/mtydykov/NLPLab/repository/RussianDependencyParser/TurboParser-2.1.0/deps/local/lib:"
 subprocess.call('cat allData/training/*_annotated > all_train.conll', shell=True)
-subprocess.call('cat allData/test/*_annotated > all_test.conll', shell=True)
+subprocess.call('cat allData/test_A/*_annotated > all_test.conll', shell=True)
 
 #sort out all info that will go to the parse just once, here
 subprocess.call('python add_features.py all_train.conll', shell=True)
@@ -73,7 +73,7 @@ test_all(model_type='standard', f1='batch_test_corpus_a')
 
 
 subprocess.call('echo "\n\nTest on Test Corpus B:" > batch_test_corpus_b', shell=True)
-subprocess.call('cat allData/dev/*_annotated > all_test.conll', shell=True)
+subprocess.call('cat allData/test_B/*_annotated > all_test.conll', shell=True)
 
 #sort out all info that will go to the parse just once, here
 subprocess.call('python add_features.py all_test.conll', shell=True)
