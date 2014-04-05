@@ -1,1177 +1,1110 @@
-1	Сиван	<unknown>	V	Ncmsnn	мр,ед,вн	0	_	_	_	ВАН	cmsnn	N
-2	(	(	PUNCT	-	_	0	_	_	_	_		-
-3	)	)	PUNCT	-	_	0	_	_	_	_		-
+1	Иевлевы	<unknown>	S	Afpmpnf	мр-жр,мн,им	0	_	_	_	иевлев	fpmpnf	A
+2	—	<unknown>	S	-	_	0	_	_	_	_		-
+3	русские	русский	A	Afpmpnf	жр,мн,им	5	_	_	_	русск	fpmpnf	A
+4	дворянские	дворянский	A	Afpmpnf	мн,им,од,но	5	_	_	_	дворянск	fpmpnf	A
+5	роды	роды	S	Ncmpnn	мр,мн,им	1	_	_	_	род	cmpnn	N
+6	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
+
+1	Предок	<unknown>	S	Ncmsny	мр,ед,им	12	_	_	_	пред	cmsny	N
+2	одного	один	A-PRO	P--msga	мр,ед,рд,од,но	1	_	_	_	од	--msga	P
+3	из	из	PR	Sp-g	_	2	_	_	_	из	p-g	S
+4	родов	роды	S	Ncmpgn	мр,мн,рд	3	_	_	_	род	cmpgn	N
+5	Иевлевых	<unknown>	A	Npmsgy	мр-жр,мн,рд	4	_	_	_	иевлев	pmsgy	N
+6	—	<unknown>	S	-	_	0	_	_	_	_		-
+7	новгородский	<unknown>	A	Afpmsnf	мр,ед,им,од,но	8	_	_	_	новгородск	fpmsnf	A
+8	дворянин	дворянин	S	Ncmsny	мр,ед,им	1	_	_	_	дворян	cmsny	N
+9	Василий	василий	S	Npmsny	мр,имя,ед,им	8	_	_	_	васил	pmsny	N
+10	Иевлев	<unknown>	S	Npmsny	мр,ед,им	9	_	_	_	иевлев	pmsny	N
+11	—	<unknown>	S	-	_	0	_	_	_	_		-
+12	был	быть	V	Vmis-sma-e	дст,прш,мр,ед	0	_	_	_	_	mis-sma-e	V
+13	пожалован	пожаловать	V	Vmps-smpsp	од,но,прш,стр,ед,мр	12	_	_	_	пожал	mps-smpsp	V
+14	поместьями	<unknown>	S	Ncfpin	ср,мн,тв	13	_	_	_	помест	cfpin	N
+15	при	при	PR	Sp-l	дст,пвл,2л,ед	13	_	_	_	п	p-l	S
+16	великом	великий	A	Afpmslf	мр,ед,пр,од,но	17	_	_	_	вели	fpmslf	A
+17	князе	князь	S	Ncmsly	мр,ед,пр	15	_	_	_	княз	cmsly	N
+18	Василии	василий	S	Npmsly	мр,имя,ед,пр	17	_	_	_	васил	pmsly	N
+19	Васильевиче	васильевич	S	Npmsly	мр,отч,ед,пр,	18	_	_	_	васил	pmsly	N
+20	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
+
+1	Клементий	<unknown>	S	Npmsny	мр,имя,ед,им	3	_	_	_	клемент	pmsny	N
+2	Иевлев	<unknown>	S	Npmsny	мр,ед,им	1	_	_	_	иевлев	pmsny	N
+3	был	быть	V	Vmis-sma-e	дст,прш,мр,ед	0	_	_	_	_	mis-sma-e	V
+4	послом	посол	S	Ncmsiy	мр,ед,тв	3	_	_	_	пос	cmsiy	N
+5	в	в	PR	Sp-l	_	3	_	_	_	в	p-l	S
+6	Швеции	швеция	S	Ncfsln	жр,ед,рд	10	_	_	_	швеци	cfsln	N
+7	(	(	PUNCT	-	_	0	_	_	_	_		-
+8	1655	@card@	NUM	Mc---d	_	6	_	_	_	_	c---d	M
+9	)	)	PUNCT	-	_	0	_	_	_	_		-
+10	и	и	CONJ	C	_	5	_	_	_	и		C
+11	Персии	персия	S	Ncfsgn	жр,ед,рд	10	_	_	_	перси	cfsgn	N
+12	(	(	PUNCT	-	_	0	_	_	_	_		-
+13	1667	@card@	NUM	Mc---d	_	11	_	_	_	_	c---d	M
+14	)	)	PUNCT	-	_	0	_	_	_	_		-
+15	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
+
+1	В	в	PR	Sp-l	_	6	_	_	_	в	p-l	S
+2	XVII	XVII	A-NUM	Mo---d	_	3	_	_	_	_	o---d	M
+3	веке	веко	S	Ncmsln	мр,ед,пр	1	_	_	_	век	cmsln	N
+4	многие	многий	A-PRO	P---pna	мн,им,од,но	5	_	_	_	мног	---pna	P
+5	Иевлевы	<unknown>	S	Npmsgy	мр-жр,мн,им	6	_	_	_	иевлев	pmsgy	N
+6	были	быть	V	Vmis-p-a-e	дст,прш,мн	0	_	_	_	_	mis-p-a-e	V
+7	воеводами	<unknown>	S	Ncmpin	мр,мн,тв	10	_	_	_	воевод	cmpin	N
+8	,	,	PUNCT	,	_	0	_	_	_	_		,
+9	стольниками	<unknown>	S	Ncmpin	мр,мн,тв	10	_	_	_	стольник	cmpin	N
+10	и	и	CONJ	C	_	6	_	_	_	и		C
+11	стряпчими	<unknown>	A	Ncmpiy	мр,мн,тв	10	_	_	_	стряпч	cmpiy	N
+12	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
+
+1	Это	этот	A-PRO	P--nsnn	ср,ед,им	3	_	_	_	эт	--nsnn	P
+2	род	род	S	Ncmsnn	мр,ед,им	3	_	_	_	род	cmsnn	N
+3	внесён	<unknown>	S	Ncfpgn	_	0	_	_	_	внесён	cfpgn	N
+4	в	в	PR	Sp-l	_	3	_	_	_	в	p-l	S
+5	VI	VI	A-NUM	Mo---d	_	6	_	_	_	_	o---d	M
+6	часть	часть	S	Ncfsnn	жр,ед,им	4	_	_	_	част	cfsnn	N
+7	родословной	родословная	S	Ncfsin	жр,ед,рд,од,но	8	_	_	_	родослов	cfsin	N
+8	книги	книга	S	Ncfsgn	жр,ед,рд	6	_	_	_	книг	cfsgn	N
+9	Тульской	тульский	A	Afpfsgf	жр,ед,рд,од,но	10	_	_	_	тульск	fpfsgf	A
+10	губернии	губерния	S	Ncfsgn	жр,ед,рд	8	_	_	_	губерни	cfsgn	N
+11	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
+
+1	Другие	другой	A-PRO	P---pna	мн,им,од,но	2	_	_	_	друг	---pna	P
+2	роды	роды	S	Ncmpnn	мр,мн,им	0	_	_	_	род	cmpnn	N
+3	Иевлевых	<unknown>	A	Npmsgy	мр-жр,мн,рд	2	_	_	_	иевлев	pmsgy	N
 4	—	<unknown>	S	-	_	0	_	_	_	_		-
-5	третий	третий	A-NUM	Momsa	мр,ед,им	6	_	_	_	ТРЕТ	omsa	M
-6	месяц	месяц	S	Ncmsan	мр,ед,вн	13	_	_	_	МЕСЯЦ	cmsan	N
-7	еврейского	еврейский	A	Afpmsgf	ср,ед,рд,од,но	8	_	_	_	ЕВРЕЙСК	fpmsgf	A
-8	года	год	S	Ncmsgn	мр,мн,вн	6	_	_	_	_	cmsgn	N
-9	,	,	PUNCT	,	_	0	_	_	_	_		,
-10	начинающегося	начинаться	V	Vmpp-smm-eg	од,но,нст,дст,ед,ср,рд	8	_	_	_	НАЧИНА	mpp-smm-eg	V
-11	с	с	PR	Sp-g	_	10	_	_	_	С	p-g	S
-12	нисана	<unknown>	S	Ncmsgn	мр,ед,рд	11	_	_	_	НИСАН	cmsgn	N
-13	и	и	CONJ	C	_	1	_	_	_	И		C
-14	девятый	девятый	A-NUM	Momsn	мр,ед,вн,но	13	_	_	_	ДЕВЯТ	omsn	M
-15	—	<unknown>	A	-	_	0	_	_	_	_		-
-16	года	год	S	Ncmsgn	мр,мн,вн	14	_	_	_	_	cmsgn	N
-17	,	,	PUNCT	,	_	0	_	_	_	_		,
-18	начинающегося	начинаться	V	Vmpp-smm-eg	од,но,нст,дст,ед,ср,рд	16	_	_	_	НАЧИНА	mpp-smm-eg	V
-19	с	с	PR	Sp-g	_	18	_	_	_	С	p-g	S
-20	тишрея	<unknown>	S	Ncmsgn	жр,ед,им	19	_	_	_	РЕ	cmsgn	N
-21	,	,	PUNCT	,	_	0	_	_	_	_		,
-22	приходится	приходиться	V	Vmip3s-m-e	дст,нст,3л,ед	1	_	_	_	ПРИХО	mip3s-m-e	V
-23	на	на	PR	Sp-a	_	22	_	_	_	НА	p-a	S
-24	июнь	июнь	S	Ncmsan	мр,ед,вн	23	_	_	_	ИЮН	cmsan	N
-25	—	<unknown>	S	-	_	0	_	_	_	_		-
-26	июль	июль	S	Ncmsnn	мр,ед,вн	23	_	_	_	ИЮЛ	cmsnn	N
-27	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
+5	общим	общий	A	Afpnsif	мр,ед,тв,од,но	6	_	_	_	общ	fpnsif	A
+6	числом	число	S	Ncnsin	ср,ед,тв	7	_	_	_	чис	cnsin	N
+7	16	@card@	NUM	Mc---d	_	2	_	_	_	_	c---d	M
+8	—	<unknown>	S	-	_	0	_	_	_	_		-
+9	более	более	ADV	Mc	сравн	10	_	_	_	_	c	M
+10	позднего	поздний	A	Afpnsgf	мр,ед,рд,од,но	11	_	_	_	поз	fpnsgf	A
+11	происхождения	происхождение	S	Ncnsgn	ср,ед,рд	2	_	_	_	происхожден	cnsgn	N
+12	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
 
-1	Памятные	памятный	A	Afpmpnf	мн,вн,но	2	_	_	_	ПАМЯТ	fpmpnf	A
-2	даты	дата	S	Ncfpnn	жр,мн,вн	5	_	_	_	ДАТ	cfpnn	N
-3	6	@card@	NUM	Mc---d	_	4	_	_	_	_	c---d	M
-4	сивана	<unknown>	S	Ncmsgn	жр,ед,им	2	_	_	_	АН	cmsgn	N
-5	празднуют	праздновать	V	Vmip3p-a-e	дст,нст,3л,мн	0	_	_	_	ПРАЗДН	mip3p-a-e	V
-6	Шавуот	<unknown>	S	Npmsny	мр,ед,вн	5	_	_	_	ШАВУОТ	pmsny	N
-7	(	(	PUNCT	-	_	0	_	_	_	_		-
-8	Пятидесятницу	<unknown>	S	Ncfsan	жр,ед,вн	6	_	_	_	ПЯТИДЕСЯТНИЦ	cfsan	N
-9	)	)	PUNCT	-	_	0	_	_	_	_		-
-10	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
-
-1	23	@card@	NUM	Mc---d	_	2	_	_	_	_	c---d	M
-2	сивана	<unknown>	S	Ncmsgn	жр,ед,им	0	_	_	_	АН	cmsgn	N
-3	—	<unknown>	S	-	_	0	_	_	_	_		-
-4	Согласно	согласно	PR	Sp-d	_	15	_	_	_	СОГЛАСНО	p-d	S
-5	книге	книга	S	Ncfsdn	жр,ед,пр	4	_	_	_	КНИГ	cfsdn	N
-6	Есфирь	<unknown>	S	R	жр,имя,ед,вн	5	_	_	_	ЕСФИР		R
-7	(	(	PUNCT	-	_	0	_	_	_	_		-
-8	)	)	PUNCT	-	_	0	_	_	_	_		-
-9	,	,	PUNCT	,	_	0	_	_	_	_		,
-10	Мардохей	<unknown>	S	Npmsny	мр,ед,вн	11	_	_	_	МАРДОХЕ	pmsny	N
-11	и	и	CONJ	C	_	15	_	_	_	И		C
-12	секретари	секретарь	S	Ncmpny	мр,мн,им	11	_	_	_	СЕКРЕТАР	cmpny	N
-13	царя	царь	S	Ncmsgy	мр,ед,вн	12	_	_	_	ЦАР	cmsgy	N
-14	Ахашвероша	<unknown>	S	Npmsgy	мр,ед,рд	13	_	_	_	АХАШВЕРОШ	pmsgy	N
-15	записали	записать	V	Vmis-p-a-p	дст,прш,мн	0	_	_	_	ПИ	mis-p-a-p	V
-16	указ	указ	S	Ncmsan	мр,ед,вн	15	_	_	_	УКАЗ	cmsan	N
-17	,	,	PUNCT	,	_	0	_	_	_	_		,
-18	дающий	давать	V	Vmpp-smafen	но,нст,дст,ед,мр,вн	16	_	_	_	ДА	mpp-smafen	V
-19	иудеям	иудей	S	Ncmpdy	мр,мн,дт	18	_	_	_	ИУДЕ	cmpdy	N
-20	право	право	S	Ncnsan	_	18	_	_	_	ВО	cnsan	N
-21	на	на	PR	Sp-a	_	20	_	_	_	НА	p-a	S
-22	самооборону	самооборона	S	Ncfsan	жр,ед,вн	21	_	_	_	ОБОРОН	cfsan	N
-23	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
-
-1	6	@card@	NUM	Mc---d	_	2	_	_	_	_	c---d	M
-2	сивана	<unknown>	S	Ncmsgn	жр,ед,им	0	_	_	_	АН	cmsgn	N
-3	33	@card@	NUM	Mc---d	_	4	_	_	_	_	c---d	M
-4	года	год	S	Ncmsgn	мр,мн,вн	2	_	_	_	_	cmsgn	N
-5	н. 	<unknown>	A	Afpmpns	_	6	_	_	_	_	fpmpns	A
-6	э.	<unknown>	S	SENT	_	4	_	_	_	_	SENT	SENT
-
-1	в	в	PR	Sp-a	_	13	_	_	_	В	p-a	S
-2	Пятидесятницу	<unknown>	S	Ncfsan	жр,ед,вн	1	_	_	_	ПЯТИДЕСЯТНИЦ	cfsan	N
-3	,	,	PUNCT	,	_	0	_	_	_	_		,
-4	согласно	согласно	PR	Sp-d	_	13	_	_	_	СОГЛАСНО	p-d	S
-5	Деяниям	<unknown>	S	Ncnpdn	жр,имя,мн,дт	4	_	_	_	ЯНИ	cnpdn	N
-6	апостолов	апостол	S	Ncmpgy	мр,ед,им	5	_	_	_	АПОСТОЛОВ	cmpgy	N
-7	(	(	PUNCT	-	_	0	_	_	_	_		-
-8	)	)	PUNCT	-	_	0	_	_	_	_		-
-9	,	,	PUNCT	,	_	0	_	_	_	_		,
-10	ученики	ученик	S	Ncmpny	мр,мн,им	13	_	_	_	УЧЕНИК	cmpny	N
-11	Иисуса	иисус	S	Npmsgy	мр,имя,ед,вн	10	_	_	_	ИИСУС	pmsgy	N
-12	Христа	христос	S	Ncmsgy	мр,ед,вн	11	_	_	_	ХРИСТ	cmsgy	N
-13	исполнились	исполниться	V	Vmis-p-m-p	дст,прш,мн	0	_	_	_	ИСПОЛН	mis-p-m-p	V
-14	Святого	святой	A	Afpmsgf	ср,ед,рд,од,но	15	_	_	_	СВЯТ	fpmsgf	A
-15	Духа	дух	S	Ncmsgy	мр,ед,рд	13	_	_	_	ДУХ	cmsgy	N
-16	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
-
-1	Боконон	<unknown>	S	Npmsny	жр,мн,рд	0	_	_	_	НОН	pmsny	N
-2	(	(	PUNCT	-	_	0	_	_	_	_		-
-3	;	;	PUNCT	-	_	0	_	_	_	_		-
-4	1891	@card@	NUM	Mc---d	_	1	_	_	_	_	c---d	M
+1	Описание	описание	S	Ncnsnn	ср,ед,им	0	_	_	_	описан	cnsnn	N
+2	герба	герб	S	Ncmsgn	мр,ед,рд	1	_	_	_	герб	cmsgn	N
+3	В	в	PR	Sp-l	_	15	_	_	_	в	p-l	S
+4	щите	щит	S	Ncmsln	мр,ед,пр	3	_	_	_	щит	cmsln	N
 5	,	,	PUNCT	,	_	0	_	_	_	_		,
-6	Тобаго	<unknown>	S	Vmpp-smafeg	ср,ед,0	1	_	_	_	ТОБАГО	mpp-smafeg	V
-7	—	<unknown>	S	-	_	0	_	_	_	_		-
-8	неизвестно	неизвестный	A	R	нст	1	_	_	_	ИЗВЕСТНО		R
+6	разделённом	<unknown>	V	Afpmslf	мр,ед,тв	4	_	_	_	разделённ	fpmslf	A
+7	надвое	надвое	ADV	R	_	6	_	_	_	надвое		R
+8	,	,	PUNCT	,	_	0	_	_	_	_		,
+9	в	в	PR	Sp-l	_	15	_	_	_	в	p-l	S
+10	верхней	верхний	A	Afpfslf	жр,ед,рд,од,но	11	_	_	_	верхн	fpfslf	A
+11	половине	половина	S	Ncfsln	жр,ед,дт	9	_	_	_	половин	cfsln	N
+12	в	в	PR	Sp-l	_	15	_	_	_	в	p-l	S
+13	голубом	голубой	A	Afpnslf	мр,ед,пр,од,но	14	_	_	_	голуб	fpnslf	A
+14	поле	пола	S	Ncnsln	мр,ед,пр	12	_	_	_	пол	cnsln	N
+15	видна	видный	A	Afpfsns	од,но,прш,стр,ед,жр	0	_	_	_	ви	fpfsns	A
+16	рука	рука	S	Ncfsnn	жр,ед,им	15	_	_	_	рук	cfsnn	N
+17	с	с	PR	Sp-i	_	16	_	_	_	с	p-i	S
+18	серебряной	серебряный	A	Afpfsif	жр,ед,рд,од,но	19	_	_	_	серебрян	fpfsif	A
+19	саблей	сабля	S	Ncfsin	жр,ед,тв	17	_	_	_	саб	cfsin	N
+20	,	,	PUNCT	,	_	0	_	_	_	_		,
+21	выходящая	выходить	V	Vmpp-sfafen	од,но,нст,дст,ед,жр,им	19	_	_	_	выхо	mpp-sfafen	V
+22	из	из	PR	Sp-g	_	21	_	_	_	из	p-g	S
+23	облака	облако	S	Ncnsgn	ср,ед,рд	22	_	_	_	облак	cnsgn	N
+24	,	,	PUNCT	,	_	0	_	_	_	_		,
+25	на	на	PR	Sp-l	_	15	_	_	_	на	p-l	S
+26	вершине	вершина	S	Ncfsln	жр,ед,дт	25	_	_	_	вершин	cfsln	N
+27	щита	щит	S	Ncmsgn	мр,ед,рд	26	_	_	_	щит	cmsgn	N
+28	означенного	означать	V	Afpnsgf	од,но,прш,стр,ед,мр,рд	27	_	_	_	означ	fpnsgf	A
+29	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
+
+1	В	в	PR	Sp-l	_	8	_	_	_	в	p-l	S
+2	нижней	нижний	A	Afpfslf	жр,ед,рд,од,но	3	_	_	_	нижн	fpfslf	A
+3	половине	половина	S	Ncfsln	жр,ед,дт	1	_	_	_	половин	cfsln	N
+4	в	в	PR	Sp-l	_	8	_	_	_	в	p-l	S
+5	красном	красный	A	Afpnslf	мр,ед,пр,од,но	6	_	_	_	крас	fpnslf	A
+6	поле	пола	S	Ncnsln	мр,ед,пр	4	_	_	_	пол	cnsln	N
+7	горизонтально	горизонтально	ADV	R	ср,ед,од,но	8	_	_	_	горизонтал		R
+8	изображена	изобразить	V	Vmps-sfpsp	од,но,прш,стр,ед,жр	0	_	_	_	изобра	mps-sfpsp	V
+9	серебряная	серебряный	A	Afpfsnf	жр,ед,им,од,но	10	_	_	_	серебрян	fpfsnf	A
+10	пушка	пушка	S	Ncfsnn	жр,ед,им	8	_	_	_	пуш	cfsnn	N
+11	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
+
+1	Щит	щит	S	Ncmsnn	мр,ед,им	2	_	_	_	щит	cmsnn	N
+2	увенчан	увенчать	V	Vmps-smpsp	од,но,прш,стр,ед,мр	0	_	_	_	увенча	mps-smpsp	V
+3	дворянскими	<unknown>	A	Afpmpif	мн,тв,од,но	4	_	_	_	дворянск	fpmpif	A
+4	шлемом	шлем	S	Ncmsin	мр,ед,тв	5	_	_	_	шлем	cmsin	N
+5	и	и	CONJ	C	_	2	_	_	_	и		C
+6	короной	корона	S	Ncfsin	жр,ед,тв	5	_	_	_	корон	cfsin	N
+7	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
+
+1	Нашлемник	<unknown>	S	Ncmsny	мр,ед,им	0	_	_	_	нашлемник	cmsny	N
+2	:	:	PUNCT	-	_	0	_	_	_	_		-
+3	три	три	NUM	Mc--n	дст,пвл,2л,ед	5	_	_	_	т	c--n	M
+4	страусовых	<unknown>	A	Afpmplf	мн,рд,од,но	5	_	_	_	страусов	fpmplf	A
+5	пера	перо	S	Ncnsgn	ср,ед,рд	0	_	_	_	пер	cnsgn	N
+6	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
+
+1	Намёт	<unknown>	S	Ncmsnn	дст,нст,3л,ед	0	_	_	_	нам	cmsnn	N
+2	на	на	PR	Sp-l	_	1	_	_	_	на	p-l	S
+3	щите	щит	S	Ncmsln	мр,ед,пр	2	_	_	_	щит	cmsln	N
+4	красный	красный	A	Afpmsnf	мр,ед,им,од,но	1	_	_	_	крас	fpmsnf	A
+5	,	,	PUNCT	,	_	0	_	_	_	_		,
+6	подложенный	<unknown>	A	Vmps-smpfpn	од,но,прш,стр,ед,мр,им	1	_	_	_	подлож	mps-smpfpn	V
+7	серебром	серебро	S	Ncnsin	ср,ед,тв	6	_	_	_	серебр	cnsin	N
+8	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
+
+1	Щит	щит	S	Ncmsnn	мр,ед,им	2	_	_	_	щит	cmsnn	N
+2	держат	держать	V	Vmip3p-a-e	дст,нст,3л,мн	0	_	_	_	держ	mip3p-a-e	V
+3	два	два	NUM	Mcm-a	мр,им	4	_	_	_	дв	cm-a	M
+4	льва	лев	S	Ncmsgy	мр,ед,рд	2	_	_	_	л	cmsgy	N
+5	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
+
+1	Герб	герб	S	Ncmsnn	мр,ед,им	4	_	_	_	герб	cmsnn	N
+2	рода	род	S	Ncmsgn	мр,ед,рд	1	_	_	_	род	cmsgn	N
+3	Иевлевых	<unknown>	A	Afpmpgf	мр-жр,мн,рд	2	_	_	_	иевлев	fpmpgf	A
+4	внесён	<unknown>	S	Ncfpgn	_	0	_	_	_	внесён	cfpgn	N
+5	в	в	PR	Sp-a	_	4	_	_	_	в	p-a	S
+6	Часть	часть	S	Ncfsan	жр,ед,им	5	_	_	_	част	cfsan	N
+7	7	@card@	NUM	Mc---d	_	6	_	_	_	_	c---d	M
+8	Общего	общий	A	Afpnsgf	мр,ед,рд,од,но	9	_	_	_	общ	fpnsgf	A
+9	гербовника	<unknown>	S	Ncmsgn	мр,ед,рд	6	_	_	_	гербовник	cmsgn	N
+10	дворянских	дворянский	A	Afpmpgf	мн,рд,од,но	11	_	_	_	дворянск	fpmpgf	A
+11	родов	роды	S	Ncmpgn	мр,мн,рд	9	_	_	_	род	cmpgn	N
+12	Всероссийской	всероссийский	A	Afpfsgf	жр,ед,рд,од,но	13	_	_	_	всероссийск	fpfsgf	A
+13	империи	империя	S	Ncfsgn	жр,ед,рд	11	_	_	_	импери	cfsgn	N
+14	,	,	PUNCT	,	_	0	_	_	_	_		,
+15	стр.	<unknown>	S	Ncfsan	_	4	_	_	_	_	cfsan	N
+16	38	@card@	NUM	Mc---d	_	15	_	_	_	_	c---d	M
+17	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
+
+1	Винченцо	<unknown>	S	Npmsny	ср,ед,им	0	_	_	_	винченц	pmsny	N
+2	Кардиле	<unknown>	S	Npmsny	жр,имя,ед,дт	1	_	_	_	дил	pmsny	N
+3	(	(	PUNCT	-	_	0	_	_	_	_		-
+4	;	;	PUNCT	-	_	0	_	_	_	_		-
+5	16	@card@	NUM	Mc---d	_	6	_	_	_	_	c---d	M
+6	апреля	апрель	S	Ncmsgn	мр,ед,рд	7	_	_	_	апрел	cmsgn	N
+7	1761	@card@	NUM	Mc---d	_	1	_	_	_	_	c---d	M
+8	,	,	PUNCT	,	_	0	_	_	_	_		,
+9	Савока	<unknown>	S	Ncfsnn	ср,ед,рд	1	_	_	_	о	cfsnn	N
+10	—	<unknown>	S	-	_	0	_	_	_	_		-
+11	3	@card@	NUM	Mc---d	_	12	_	_	_	_	c---d	M
+12	июля	июль	S	Ncmsgn	мр,ед,рд	13	_	_	_	июл	cmsgn	N
+13	1837	@card@	NUM	Mc---d	_	1	_	_	_	_	c---d	M
+14	,	,	PUNCT	,	_	0	_	_	_	_		,
+15	Палермо	<unknown>	S	Ncmsnn	мр,ед,0	1	_	_	_	палермо	cmsnn	N
+16	)	)	PUNCT	-	_	0	_	_	_	_		-
+17	—	<unknown>	A	-	_	0	_	_	_	_		-
+18	каноник	<unknown>	S	Ncmsny	мр,ед,им	1	_	_	_	каноник	cmsny	N
+19	кафедрального	кафедральный	A	Afpmsgf	мр,ед,рд,од,но	20	_	_	_	кафедрал	fpmsgf	A
+20	собора	собор	S	Ncmsgn	мр,ед,рд	18	_	_	_	собор	cmsgn	N
+21	Палермо	<unknown>	S	Ncmsan	мр,ед,0	20	_	_	_	палермо	cmsan	N
+22	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
+
+1	Написал	написать	V	Vmis-sma-p	дст,прш,мр,ед	0	_	_	_	напи	mis-sma-p	V
+2	несколько	несколько	NUM	Mc--a	им	3	_	_	_	нескольк	c--a	M
+3	поэм	поэма	S	Ncfpgn	жр,мн,рд	1	_	_	_	поэм	cfpgn	N
+4	:	:	PUNCT	-	_	0	_	_	_	_		-
+5	«Lu	<unknown>	S	SENT	_	1	_	_	_	_	SENT	SENT
+
+1	Triunfu	<unknown>	S	Ncmsnn	_	13	_	_	_	_	cmsnn	N
+2	di	<unknown>	S	-	_	13	_	_	_	_		-
+3	la	la	S	-	_	13	_	_	_	_		-
+4	Paci»	<unknown>	S	Ncmpnn	_	13	_	_	_	_	cmpnn	N
+5	,	,	PUNCT	,	_	0	_	_	_	_		,
+6	«Lu	<unknown>	A	Mc	_	13	_	_	_	_	c	M
+7	Spitall	<unknown>	S	Mc	_	13	_	_	_	_	c	M
+8	di	<unknown>	S	-	_	13	_	_	_	_		-
+9	li	<unknown>	S	Mc	_	13	_	_	_	_	c	M
+10	Pazzi»	<unknown>	S	Mc	_	13	_	_	_	_	c	M
+11	,	,	PUNCT	,	_	0	_	_	_	_		,
+12	«L’Organu»	<unknown>	S	Mc	_	13	_	_	_	_	c	M
+13	и	и	CONJ	C	_	0	_	_	_	и		C
+14	др.	<unknown>	S	Ncfsan	_	13	_	_	_	_	cfsan	N
+15	,	,	PUNCT	,	_	0	_	_	_	_		,
+16	собранные	собирать	V	Vmps-p-pfpn	од,но,прш,стр,мн,им	14	_	_	_	соб	mps-p-pfpn	V
+17	под	под	PR	Sp-i	_	16	_	_	_	под	p-i	S
+18	заглавием	заглавие	S	Ncnsin	ср,ед,тв	17	_	_	_	заглав	cnsin	N
+19	:	:	PUNCT	-	_	0	_	_	_	_		-
+20	«Lu	<unknown>	S	SENT	_	18	_	_	_	_	SENT	SENT
+
+1	Triunfu	<unknown>	S	Ncmsnn	_	0	_	_	_	_	cmsnn	N
+2	di	<unknown>	S	-	_	0	_	_	_	_		-
+3	la	la	S	-	_	0	_	_	_	_		-
+4	Pacid	<unknown>	S	SENT	_	0	_	_	_	_	SENT	SENT
+
+1	ed	<unknown>	S	-	_	0	_	_	_	_		-
+2	autri	<unknown>	S	SENT	_	0	_	_	_	_	SENT	SENT
+
+1	poesii»	<unknown>	S	Ncmsnn	_	0	_	_	_	_	cmsnn	N
+2	(	(	PUNCT	-	_	0	_	_	_	_		-
+3	Палермо	<unknown>	S	Ncmsnn	мр,ед,0	0	_	_	_	палермо	cmsnn	N
+4	)	)	PUNCT	-	_	0	_	_	_	_		-
+5	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
+
+1	Клавдиан	<unknown>	S	Npmsny	жр,имя,мн,рд	0	_	_	_	диан	pmsny	N
+2	—	<unknown>	S	-	_	0	_	_	_	_		-
+3	александрийский	<unknown>	A	Afpmsnf	мр,ед,им,од,но	4	_	_	_	александрийск	fpmsnf	A
+4	неоплатоник	<unknown>	S	Ncmsny	мр,ед,им	1	_	_	_	неоплатоник	cmsny	N
+5	IV	IV	A-NUM	Mo---d	_	6	_	_	_	_	o---d	M
+6	века	веко	S	Ncmsgn	мр,ед,рд	4	_	_	_	век	cmsgn	N
+7	,	,	PUNCT	,	_	0	_	_	_	_		,
+8	ученик	ученик	S	Ncmsny	мр,ед,им	10	_	_	_	ученик	cmsny	N
+9	Ямвлиха	<unknown>	S	Ncfsnn	ср,ед,рд	10	_	_	_	лих	cfsnn	N
+10	и	и	CONJ	C	_	1	_	_	_	и		C
+11	орат	<unknown>	S	Ncmsnn	мр,ед,им	10	_	_	_	орат	cmsnn	N
+12	теурга	<unknown>	S	Ncmsgn	мр,ед,рд	11	_	_	_	теург	cmsgn	N
+13	Максима	максима	S	Npmsgy	мр,ед,рд	12	_	_	_	максим	pmsgy	N
+14	,	,	PUNCT	,	_	0	_	_	_	_		,
+15	известного	известный	A	Afpmsaf	мр,ед,рд,од,но	23	_	_	_	извест	fpmsaf	A
+16	,	,	PUNCT	,	_	0	_	_	_	_		,
+17	помимо	помимо	PR	Sp-g	_	18	_	_	_	помимо	p-g	S
+18	прочего	прочий	A-PRO	P--nsgn	ср,ед,рд	23	_	_	_	проч	--nsgn	P
+19	,	,	PUNCT	,	_	0	_	_	_	_		,
+20	по	по	PR	Sp-l	_	18	_	_	_	по	p-l	S
+21	его	его	A-PRO	P-----a	3л,мр,ед,рд	20	_	_	_	_	-----a	P
+22	истории	история	S	Ncfsln	жр,ед,рд	21	_	_	_	истори	cfsln	N
+23	императора	император	S	Ncmsgy	мр,ед,рд	13	_	_	_	император	cmsgy	N
+24	Юлиана	юлиана	S	Npmsay	мр,имя,ед,рд	23	_	_	_	юлиан	pmsay	N
+25	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
+
+1	Реляционная	<unknown>	A	Afpfsnf	жр,ед,им,од,но	2	_	_	_	реляционн	fpfsnf	A
+2	алгебра	алгебра	S	Ncfsnn	жр,ед,им	0	_	_	_	алгебр	cfsnn	N
+3	—	<unknown>	S	-	_	0	_	_	_	_		-
+4	замкнутая	замкнуть	V	Afpfsnf	од,но,прш,стр,ед,жр,им	5	_	_	_	замкн	fpfsnf	A
+5	система	система	S	Ncfsnn	жр,ед,им	2	_	_	_	систем	cfsnn	N
+6	операций	операция	S	Ncfpgn	жр,мн,рд	5	_	_	_	операци	cfpgn	N
+7	над	над	PR	Sp-i	_	6	_	_	_	над	p-i	S
+8	отношениями	отношение	S	Ncnpin	ср,мн,тв	7	_	_	_	отношен	cnpin	N
+9	в	в	PR	Sp-l	_	8	_	_	_	в	p-l	S
+10	реляционной	<unknown>	A	Afpfslf	жр,ед,рд,од,но	11	_	_	_	реляционн	fpfslf	A
+11	модели	модель	S	Ncfsln	жр,ед,рд	9	_	_	_	модел	cfsln	N
+12	данных	данные	S	Ncmpgn	од,но,прш,стр,мн,рд	11	_	_	_	да	cmpgn	N
+13	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
+
+1	Операции	операция	S	Ncfpnn	жр,ед,рд	5	_	_	_	операци	cfpnn	N
+2	реляционной	<unknown>	A	Afpfsgf	жр,ед,рд,од,но	3	_	_	_	реляционн	fpfsgf	A
+3	алгебры	алгебра	S	Ncfsgn	жр,ед,рд	1	_	_	_	алгебр	cfsgn	N
+4	также	также	PART	Q	_	5	_	_	_	также		Q
+5	называют	называть	V	Vmip3p-a-e	дст,нст,3л,мн	0	_	_	_	называ	mip3p-a-e	V
+6	реляционными	<unknown>	A	Afpmpif	мн,тв,од,но	7	_	_	_	реляционн	fpmpif	A
+7	операциями	операция	S	Ncfpin	жр,мн,тв	5	_	_	_	операци	cfpin	N
+8	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
+
+1	Первоначальный	первоначальный	A	Afpmsnf	мр,ед,им,од,но	2	_	_	_	первоначал	fpmsnf	A
+2	набор	набор	S	Ncmsnn	мр,ед,им	6	_	_	_	набор	cmsnn	N
+3	из	из	PR	Sp-l	_	2	_	_	_	из	p-l	S
+4	8	@card@	NUM	Mc---d	_	5	_	_	_	_	c---d	M
+5	операций	операция	S	Ncfpgn	жр,мн,рд	3	_	_	_	операци	cfpgn	N
+6	был	быть	V	Vmis-sma-e	дст,прш,мр,ед	13	_	_	_	_	mis-sma-e	V
+7	предложен	предложный	A	Vmps-smpsp	од,но,прш,стр,ед,мр	13	_	_	_	предлож	mps-smpsp	V
+8	Э.	<unknown>	A	Afpmsif	_	7	_	_	_	_	fpmsif	A
+9	Коддом	<unknown>	S	Ncmsin	мр,ед,им	8	_	_	_	дом	cmsin	N
+10	в	в	PR	Sp-a	_	7	_	_	_	в	p-a	S
+11	1970-е	<unknown>	S	Mo-pad	ср,ед,0	12	_	_	_	е	o-pad	M
+12	годы	год	S	Ncmpan	мр,мн,им	10	_	_	_	_	cmpan	N
+13	и	и	CONJ	C	_	0	_	_	_	и		C
+14	включал	включать	V	Vmis-sma-e	дст,прш,мр,ед	13	_	_	_	включа	mis-sma-e	V
+15	как	как	ADV-PRO	C	_	14	_	_	_	как		C
+16	операции	операция	S	Ncfpan	жр,ед,рд	15	_	_	_	операци	cfpan	N
+17	,	,	PUNCT	,	_	0	_	_	_	_		,
+18	которые	который	A-PRO	P---pna	мн,им,од,но	16	_	_	_	котор	---pna	P
+19	до	до	PR	Sp-g	_	22	_	_	_	до	p-g	S
+20	сих	сей	A-PRO	P---pga	мн,рд,од,но	21	_	_	_	с	---pga	P
+21	пор	пора	S	Ncfpgn	жр,мн,рд	19	_	_	_	пор	cfpgn	N
+22	используются	использоваться	V	Vmip3p-m-e	дст,нст,3л,мн	18	_	_	_	использ	mip3p-m-e	V
+23	(	(	PUNCT	-	_	0	_	_	_	_		-
+24	проекция	проекция	S	Ncfsnn	жр,ед,им	27	_	_	_	проекци	cfsnn	N
+25	,	,	PUNCT	,	_	0	_	_	_	_		,
+26	соединение	соединение	S	Ncnsnn	ср,ед,им	27	_	_	_	соединен	cnsnn	N
+27	и	и	CONJ	C	_	16	_	_	_	и		C
+28	т.д.	<unknown>	V	Ncnsnn	_	27	_	_	_	_	cnsnn	N
+29	)	)	PUNCT	-	_	0	_	_	_	_		-
+30	,	,	PUNCT	,	_	0	_	_	_	_		,
+31	так	так	ADV-PRO	P-----r	_	14	_	_	_	так	-----r	P
+32	и	и	CONJ	C	_	31	_	_	_	и		C
+33	операции	операция	S	Ncfpnn	жр,ед,рд	31	_	_	_	операци	cfpnn	N
+34	,	,	PUNCT	,	_	0	_	_	_	_		,
+35	которые	который	A-PRO	P---pna	мн,им,од,но	33	_	_	_	котор	---pna	P
+36	не	не	PART	Q	_	37	_	_	_	не		Q
+37	вошли	войти	V	Vmis-p-a-p	дст,прш,мн	35	_	_	_	во	mis-p-a-p	V
+38	в	в	PR	Sp-a	_	37	_	_	_	в	p-a	S
+39	употребление	употребление	S	Ncnsan	ср,ед,им	38	_	_	_	употреблен	cnsan	N
+40	(	(	PUNCT	-	_	0	_	_	_	_		-
+41	например	например	PARENTH	R	_	33	_	_	_	например		R
+42	,	,	PUNCT	,	_	0	_	_	_	_		,
+43	деление	деление	S	Ncnsnn	ср,ед,им	41	_	_	_	делен	cnsnn	N
+44	отношений	отношение	S	Ncnpgn	ср,мн,рд	43	_	_	_	отношен	cnpgn	N
+45	)	)	PUNCT	-	_	0	_	_	_	_		-
+46	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
+
+1	В	в	PR	Sp-l	_	8	_	_	_	в	p-l	S
+2	процессе	процесс	S	Ncmsln	мр,ед,пр	1	_	_	_	процесс	cmsln	N
+3	развития	развитие	S	Ncnsgn	ср,ед,рд	2	_	_	_	развит	cnsgn	N
+4	реляционной	<unknown>	A	Afpfsgf	жр,ед,рд,од,но	5	_	_	_	реляционн	fpfsgf	A
+5	теории	теория	S	Ncfsgn	жр,ед,рд	6	_	_	_	теори	cfsgn	N
+6	и	и	CONJ	C	_	3	_	_	_	и		C
+7	практики	практика	S	Ncfsgn	мр,мн,им	6	_	_	_	практик	cfsgn	N
+8	было	быть	V	Vmis-sna-e	дст,прш,ср,ед	0	_	_	_	_	mis-sna-e	V
+9	предложено	предлагать	V	Vmps-snpsp	од,но,прш,стр,ед,ср	8	_	_	_	предлож	mps-snpsp	V
+10	несколько	несколько	NUM	Mc--a	им	9	_	_	_	нескольк	c--a	M
+11	новых	новый	A	Afpmpgf	ср,мн,рд	13	_	_	_	нов	fpmpgf	A
+12	реляционных	<unknown>	A	Afpmpgf	мн,рд,од,но	13	_	_	_	реляционн	fpmpgf	A
+13	операций	операция	S	Ncfpgn	жр,мн,рд	10	_	_	_	операци	cfpgn	N
+14	,	,	PUNCT	,	_	0	_	_	_	_		,
+15	например	например	ADV	R	_	8	_	_	_	например		R
+16	полусоединение	<unknown>	S	Ncnsnn	ср,ед,им	20	_	_	_	соединен	cnsnn	N
+17	(	(	PUNCT	-	_	0	_	_	_	_		-
+18	SEMI-JOIN	<unknown>	S	Mc	_	16	_	_	_	_	c	M
+19	)	)	PUNCT	-	_	0	_	_	_	_		-
+20	и	и	CONJ	C	_	15	_	_	_	и		C
+21	полуразность	<unknown>	S	Ncfsnn	жр,ед,им	23	_	_	_	разност	cfsnn	N
+22	,	,	PUNCT	,	_	0	_	_	_	_		,
+23	или	или	CONJ	C	_	20	_	_	_	или		C
+24	анти-полусоединение	<unknown>	S	Ncnsnn	ср,ед,им	23	_	_	_	соединен	cnsnn	N
+25	(	(	PUNCT	-	_	0	_	_	_	_		-
+26	ANTI-SEMI-JOIN	<unknown>	S	SENT	_	24	_	_	_	_	SENT	SENT
+
+1	)	)	PUNCT	-	_	0	_	_	_	_		-
+2	,	,	PUNCT	,	_	0	_	_	_	_		,
+3	CROSS	<unknown>	S	Mc	_	0	_	_	_	_	c	M
+4	APPLY	<unknown>	S	SENT	_	0	_	_	_	_	SENT	SENT
+
+1	и	и	CONJ	C	_	0	_	_	_	и		C
+2	OUTER	<unknown>	S	Ncmsnn	_	1	_	_	_	_	cmsnn	N
+3	APPLY	<unknown>	S	Mc	_	1	_	_	_	_	c	M
+4	,	,	PUNCT	,	_	0	_	_	_	_		,
+5	транзитивное	<unknown>	A	Afpnsaf	ср,ед,им,од,но	6	_	_	_	транзитив	fpnsaf	A
+6	замыкание	замыкание	S	Ncnsan	ср,ед,им	3	_	_	_	замыкан	cnsan	N
+7	(	(	PUNCT	-	_	0	_	_	_	_		-
+8	TCLOSE	<unknown>	S	Ncmsnn	_	6	_	_	_	_	cmsnn	N
 9	)	)	PUNCT	-	_	0	_	_	_	_		-
-10	—	<unknown>	A	-	_	0	_	_	_	_		-
-11	персонаж	персонаж	S	Ncmsny	мр,ед,вн	1	_	_	_	ПЕРСОНАЖ	cmsny	N
-12	книги	книга	S	Ncfsgn	жр,мн,вн	11	_	_	_	КНИГ	cfsgn	N
-13	Курта	Курт	S	Npmsgy	жр,ед,им	12	_	_	_	КУРТ	pmsgy	N
-14	Воннегута	Воннегут	S	Npmsgy	жр,ед,им	13	_	_	_	ГУТ	pmsgy	N
-15	«	«	PUNCT	-	_	0	_	_	_	_		-
-16	Колыбель	<unknown>	S	Ncfsnn	жр,ед,вн	12	_	_	_	КОЛЫБЕЛ	cfsnn	N
-17	для	для	PR	Sp-g	_	16	_	_	_	ДЛЯ	p-g	S
-18	кошки	кошка	S	Ncfsgy	жр,мн,вн	17	_	_	_	КОШ	cfsgy	N
-19	»	»	PUNCT	-	_	0	_	_	_	_		-
-20	(	(	PUNCT	-	_	0	_	_	_	_		-
-21	1963	@card@	NUM	Mc---d	_	12	_	_	_	_	c---d	M
+10	и	и	CONJ	C	_	0	_	_	_	и		C
+11	др	<unknown>	S	P---pna	мн,0	10	_	_	_	др	---pna	P
+12	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
+
+1	Поскольку	поскольку	CONJ	C	_	13	_	_	_	поскольку		C
+2	многие	многий	A-PRO	P---pnn	мн,им,од,но	3	_	_	_	мног	---pnn	P
+3	операции	операция	S	Ncfsgn	жр,ед,рд	4	_	_	_	операци	cfsgn	N
+4	выразимы	<unknown>	A	Afpmpns	жр,имя,ед,рд	1	_	_	_	разим	fpmpns	A
+5	друг	друг	S	P---snn	мр,ед,им	6	_	_	_	дру	---snn	P
+6	через	через	PR	Sp-a	_	4	_	_	_	через	p-a	S
+7	друга	друг	S	P---san	мр,ед,рд	6	_	_	_	дру	---san	P
+8	,	,	PUNCT	,	_	0	_	_	_	_		,
+9	в	в	PR	Sp-l	_	13	_	_	_	в	p-l	S
+10	составе	состав	S	Ncmsln	мр,ед,пр	9	_	_	_	состав	cmsln	N
+11	реляционной	<unknown>	A	Afpfsgf	жр,ед,рд,од,но	12	_	_	_	реляционн	fpfsgf	A
+12	алгебры	алгебра	S	Ncfsgn	жр,ед,рд	10	_	_	_	алгебр	cfsgn	N
+13	можно	можно	PRAEDIC	R	нст	0	_	_	_	можно		R
+14	выделить	выделить	V	Vmn----a-p	дст	13	_	_	_	выдел	mn----a-p	V
+15	несколько	несколько	NUM	Mc--a	им	16	_	_	_	нескольк	c--a	M
+16	вариантов	вариант	S	Ncmpgn	мр,мн,рд	14	_	_	_	вариант	cmpgn	N
+17	базиса	базис	S	Ncmsgn	мр,ед,рд	16	_	_	_	базис	cmsgn	N
+18	(	(	PUNCT	-	_	0	_	_	_	_		-
+19	набора	набор	S	Ncmsgn	мр,ед,рд	17	_	_	_	набор	cmsgn	N
+20	операций	операция	S	Ncfpgn	жр,мн,рд	19	_	_	_	операци	cfpgn	N
+21	,	,	PUNCT	,	_	0	_	_	_	_		,
+22	через	через	PR	Sp-a	_	20	_	_	_	через	p-a	S
+23	который	который	A-PRO	P--msaa	мр,ед,им,од,но	22	_	_	_	котор	--msaa	P
+24	выразимы	<unknown>	S	Afpmpns	жр,имя,ед,рд	25	_	_	_	разим	fpmpns	A
+25	все	всё	S-PRO	R	ср,ед,им,од,но	23	_	_	_	в		R
+26	остальные	остальной	S-PRO	P---pnn	мн,им	25	_	_	_	остальн	---pnn	P
+27	)	)	PUNCT	-	_	0	_	_	_	_		-
+28	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
+
+1	Наиболее	наиболее	ADV	R	_	2	_	_	_	наиболее		R
+2	известный	известный	A	Afpmsnf	мр,ед,им,од,но	3	_	_	_	извест	fpmsnf	A
+3	и	и	CONJ	C	_	6	_	_	_	и		C
+4	строго	строго	ADV	R	ср,ед,од,но	5	_	_	_	стро		R
+5	определённый	определенный	A	Afpmsn	мр,ед,им,од,но	3	_	_	_	определённ	fpmsn	A
+6	базис	базис	S	Ncmsan	мр,ед,им	11	_	_	_	базис	cmsan	N
+7	(	(	PUNCT	-	_	0	_	_	_	_		-
+8	алгебра	алгебра	S	Ncfsnn	жр,ед,им	6	_	_	_	алгебр	cfsnn	N
+9	А	а	CONJ	C	_	8	_	_	_	а		C
+10	)	)	PUNCT	-	_	0	_	_	_	_		-
+11	предложен	предложный	A	Vmps-smpsp	од,но,прш,стр,ед,мр	0	_	_	_	предлож	mps-smpsp	V
+12	Кристофером	<unknown>	S	Npmsiy	мр,имя,ед,тв	14	_	_	_	кристофер	pmsiy	N
+13	Дейтом	<unknown>	S	Npmsny	мр,имя,ед,им	12	_	_	_	том	pmsny	N
+14	и	и	CONJ	C	_	11	_	_	_	и		C
+15	Хью	<unknown>	S	Npmsny	мр,имя,0	14	_	_	_	хью	pmsny	N
+16	Дарвеном	<unknown>	S	Npmsny	ср,ед,тв	15	_	_	_	вен	pmsny	N
+17	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
+
+1	Реляционная	<unknown>	A	Afpfsnf	жр,ед,им,од,но	2	_	_	_	реляционн	fpfsnf	A
+2	алгебра	алгебра	S	Ncfsnn	жр,ед,им	3	_	_	_	алгебр	cfsnn	N
+3	и	и	CONJ	C	_	6	_	_	_	и		C
+4	реляционное	<unknown>	A	Afpnsnf	ср,ед,им,од,но	5	_	_	_	реляционн	fpnsnf	A
+5	исчисление	исчисление	S	Ncnsnn	ср,ед,им	3	_	_	_	исчислен	cnsnn	N
+6	эквивалентны	эквивалентный	A	Afpmpns	мн,од,но	0	_	_	_	эквивалент	fpmpns	A
+7	по	по	PR	Sp-d	_	6	_	_	_	по	p-d	S
+8	своей	свой	A-PRO	P--fsda	жр,ед,рд,од,но	10	_	_	_	сво	--fsda	P
+9	выразительной	выразительный	A	Afpfsif	жр,ед,рд,од,но	10	_	_	_	выразител	fpfsif	A
+10	силе	сила	S	Ncfsdn	жр,ед,дт	7	_	_	_	сил	cfsdn	N
+11	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
+
+1	Существуют	существовать	V	Vmip3p-a-e	дст,нст,3л,мн	0	_	_	_	существ	mip3p-a-e	V
+2	правила	правило	S	Ncnpan	дст,прш,жр,ед	1	_	_	_	прав	cnpan	N
+3	преобразования	преобразование	S	Ncnsgn	ср,ед,рд	2	_	_	_	преобразован	cnsgn	N
+4	запросов	запрос	S	Ncmpgn	мр,мн,рд	3	_	_	_	запрос	cmpgn	N
+5	между	между	PR	Sp-i	_	3	_	_	_	между	p-i	S
+6	ними	они	S-PRO	P-3-pin	3л,мн,тв	5	_	_	_	_	-3-pin	P
+7	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
+
+1	Реляционная	<unknown>	A	Afpfsnf	жр,ед,им,од,но	2	_	_	_	реляционн	fpfsnf	A
+2	алгебра	алгебра	S	Ncfsnn	жр,ед,им	3	_	_	_	алгебр	cfsnn	N
+3	представляет	представлять	V	Vmip3s-a-e	дст,нст,3л,ед	0	_	_	_	представля	mip3s-a-e	V
+4	собой	себя	S-PRO	P----in	тв	3	_	_	_	с	----in	P
+5	набор	набор	S	Ncmsan	мр,ед,им	3	_	_	_	набор	cmsan	N
+6	таких	такой	A-PRO	P---pga	мн,рд,од,но	7	_	_	_	так	---pga	P
+7	операций	операция	S	Ncfpgn	жр,мн,рд	5	_	_	_	операци	cfpgn	N
+8	над	над	PR	Sp-i	_	7	_	_	_	над	p-i	S
+9	отношениями	отношение	S	Ncnpin	ср,мн,тв	8	_	_	_	отношен	cnpin	N
+10	,	,	PUNCT	,	_	0	_	_	_	_		,
+11	что	что	CONJ	C	ср,ед,им	3	_	_	_	ч		C
+12	результат	результат	S	Ncmsnn	мр,ед,им	17	_	_	_	результат	cmsnn	N
+13	каждой	каждый	A-PRO	P--fsga	жр,ед,рд,од,но	15	_	_	_	кажд	--fsga	P
+14	из	из	PR	Sp-g	_	15	_	_	_	из	p-g	S
+15	операций	операция	S	Ncfpgn	жр,мн,рд	12	_	_	_	операци	cfpgn	N
+16	также	также	PART	Q	_	17	_	_	_	также		Q
+17	является	являться	V	Vmip3s-m-e	дст,нст,3л,ед	11	_	_	_	явля	mip3s-m-e	V
+18	отношением	отношение	S	Ncnsin	ср,ед,тв	17	_	_	_	отношен	cnsin	N
+19	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
+
+1	Это	этот	A-PRO	P--nsnn	ср,ед,им	2	_	_	_	эт	--nsnn	P
+2	свойство	свойство	S	Ncnsnn	ср,ед,им	4	_	_	_	свойств	cnsnn	N
+3	алгебры	алгебра	S	Ncfsgn	жр,ед,рд	2	_	_	_	алгебр	cfsgn	N
+4	называется	называться	V	Vmip3s-m-e	дст,нст,3л,ед	0	_	_	_	называ	mip3s-m-e	V
+5	замкнутостью	замкнутость	S	Ncfsin	жр,ед,тв	4	_	_	_	замкнутост	cfsin	N
+6	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
+
+1	Операции	операция	S	Ncfpnn	жр,ед,рд	5	_	_	_	операци	cfpnn	N
+2	над	над	PR	Sp-i	_	1	_	_	_	над	p-i	S
+3	одним	один	A-PRO	P--msia	мр,ед,тв,од,но	4	_	_	_	од	--msia	P
+4	отношением	отношение	S	Ncnsin	ср,ед,тв	2	_	_	_	отношен	cnsin	N
+5	называются	называться	V	Vmip3p-m-e	дст,нст,3л,мн	0	_	_	_	называ	mip3p-m-e	V
+6	унарными	<unknown>	A	Afpmpif	мн,тв,од,но	5	_	_	_	унар	fpmpif	A
+7	,	,	PUNCT	,	_	0	_	_	_	_		,
+8	над	над	PR	Sp-i	_	1	_	_	_	над	p-i	S
+9	двумя	два	NUM	Mcm-i	мр,тв	10	_	_	_	дв	cm-i	M
+10	отношениями	отношение	S	Ncnpin	ср,мн,тв	8	_	_	_	отношен	cnpin	N
+11	—	<unknown>	S	-	_	0	_	_	_	_		-
+12	бинарными	<unknown>	A	Afpmpif	мн,тв,од,но	5	_	_	_	бинар	fpmpif	A
+13	,	,	PUNCT	,	_	0	_	_	_	_		,
+14	над	над	PR	Sp-i	_	1	_	_	_	над	p-i	S
+15	тремя	три	NUM	Mc--i	тв	14	_	_	_	тр	c--i	M
+16	—	<unknown>	S	-	_	0	_	_	_	_		-
+17	тернарными	<unknown>	A	Afpmpif	мн,тв,од,но	5	_	_	_	тернарн	fpmpif	A
+18	(	(	PUNCT	-	_	0	_	_	_	_		-
+19	таковые	таковой	A-PRO	P---pnn	мн,им,од,но	17	_	_	_	таков	---pnn	P
+20	практически	практически	ADV	R	мн,од,но	21	_	_	_	практическ		R
+21	неизвестны	неизвестный	A	Afpmpns	мн,од,но	19	_	_	_	неизвест	fpmpns	A
 22	)	)	PUNCT	-	_	0	_	_	_	_		-
 23	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
 
-1	Основоположник	<unknown>	S	Ncmsny	мр,ед,им	0	_	_	_	ОСНОВОПОЛОЖНИК	cmsny	N
-2	религии	религия	S	Ncfsgn	жр,мн,вн	1	_	_	_	РЕЛИГИ	cfsgn	N
-3	боконизма	<unknown>	S	Ncmsgn	мр,ед,рд	2	_	_	_	БОКОНИЗМ	cmsgn	N
-4	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
-
-1	Боконон	<unknown>	S	Npmsny	жр,мн,рд	0	_	_	_	НОН	pmsny	N
-2	—	<unknown>	S	-	_	0	_	_	_	_		-
-3	один	один	A-PRO	P--msna	мр,вн	1	_	_	_	ОД	--msna	P
-4	из	из	PR	Sp-g	жр,имя,мн,вн	3	_	_	_	ИЗ	p-g	S
-5	самых	самый	A-PRO	P---pga	мн,пр,од,но	6	_	_	_	САМ	---pga	P
-6	таинственных	таинственный	A	Afpmpgf	мн,пр,од,но	7	_	_	_	ТАИНСТВЕН	fpmpgf	A
-7	персонажей	персонаж	S	Ncmpgy	мр,мн,рд	4	_	_	_	ПЕРСОНАЖ	cmpgy	N
-8	романа	роман	S	Ncmsgn	жр,имя,ед,им	7	_	_	_	РОМАН	cmsgn	N
-9	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
-
-1	В	в	PR	Sp-l	_	3	_	_	_	В	p-l	S
-2	нем	нем	S	P-3msln	мр,0	1	_	_	_	М	-3msln	P
-3	видели	видеть	V	Vmis-p-a-e	дст,прш,мн	0	_	_	_	ВИ	mis-p-a-e	V
-4	пародию	пародия	S	Ncfsan	жр,ед,вн	3	_	_	_	ПАРОДИ	cfsan	N
-5	на	на	PR	Sp-a	_	8	_	_	_	НА	p-a	S
-6	самого	самый	A-PRO	P--msaa	ср,ед,рд,од,но	7	_	_	_	САМ	--msaa	P
-7	бога	бог	S	Ncmsgy	мр,ед,вн	5	_	_	_	БО	cmsgy	N
-8	и	и	CONJ	C	_	4	_	_	_	И		C
-9	на	на	PR	Sp-a	_	8	_	_	_	НА	p-a	S
-10	философа-экзистенциалиста	<unknown>	S	Ncmsay	мр,ед,вн	9	_	_	_	ФИЛОСОФ+ЭКЗИСТЕНЦИАЛИСТ	cmsay	N
-11	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
-
-1	В	в	PR	Sp-l	_	3	_	_	_	В	p-l	S
-2	нем	нем	S	P-3msln	мр,0	1	_	_	_	М	-3msln	P
-3	усматривали	усматривать	V	Vmis-p-a-e	дст,прш,мн	0	_	_	_	УСМАТРИВА	mis-p-a-e	V
-4	автопародию	<unknown>	S	Ncfsan	жр,ед,вн	3	_	_	_	ПАРОДИ	cfsan	N
-5	,	,	PUNCT	,	_	0	_	_	_	_		,
-6	его	оно	S-PRO	P-----a	0,од,но	7	_	_	_	ЕГО	-----a	P
-7	объявляли	объявлять	V	Vmis-p-a-e	дст,прш,мн	0	_	_	_	ОБЪЯВЛЯ	mis-p-a-e	V
-8	рупором	рупор	S	Ncmsin	мр,ед,тв	7	_	_	_	РУПОР	cmsin	N
-9	идей	идея	S	Ncfpgn	жр,мн,рд	8	_	_	_	ИДЕ	cfpgn	N
-10	Воннегута	Воннегут	S	Npmsgy	жр,ед,им	9	_	_	_	ГУТ	pmsgy	N
-11	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
-
-1	Согласно	согласно	PR	Sp-d	_	12	_	_	_	СОГЛАСНО	p-d	S
-2	теории	теория	S	Ncfsdn	жр,мн,вн	1	_	_	_	ТЕОРИ	cfsdn	N
-3	«	«	PUNCT	-	_	0	_	_	_	_		-
-4	динамического	динамический	A	Afpnsgf	ср,ед,рд,од,но	5	_	_	_	ДИНАМИЧЕСК	fpnsgf	A
-5	напряжения	напряжение	S	Ncnsgn	ср,мн,вн	2	_	_	_	НАПРЯЖЕН	cnsgn	N
-6	»	»	PUNCT	-	_	0	_	_	_	_		-
-7	,	,	PUNCT	,	_	0	_	_	_	_		,
-8	выдвинутой	выдвигать	V	Ncfsin	од,но,прш,стр,ед,жр,пр	2	_	_	_	ВЫДВИН	cfsin	N
-9	Бокононом	<unknown>	A	Npmsiy	мр,ед,тв	8	_	_	_	ОНОН	pmsiy	N
-10	,	,	PUNCT	,	_	0	_	_	_	_		,
-11	зло	зло	ADV	R	_	12	_	_	_	ЗЛО		R
-12	искоренить	искоренять	V	Vmn----a-p	дст	13	_	_	_	ИСКОРЕН	mn----a-p	V
-13	невозможно	невозможно	ADV	R	нст	15	_	_	_	ВОЗМОЖНО		R
-14	,	,	PUNCT	,	_	0	_	_	_	_		,
-15	но	но	CONJ	C	_	0	_	_	_	НО		C
-16	возможно	возможно	PRAEDIC	R	нст	17	_	_	_	ВОЗМОЖНО		R
-17	и	и	CONJ	C	_	15	_	_	_	И		C
-18	,	,	PUNCT	,	_	0	_	_	_	_		,
-19	более	более	ADV	R	_	22	_	_	_	БОЛЕЕ		R
-20	того	то	S-PRO	P--nsgn	ср,ед,0	19	_	_	_	ТОГО	--nsgn	P
-21	,	,	PUNCT	,	_	0	_	_	_	_		,
-22	необходимо	необходимо	PRAEDIC	R	од,но,нст,стр,ед,ср	17	_	_	_	ОБХО		R
-23	противопоставить	противопоставить	V	Vmn----a-p	дст	22	_	_	_	ПОСТАВ	mn----a-p	V
-24	злу	зло	S	Ncnsdn	ср,ед,дт	23	_	_	_	З	cnsdn	N
-25	добро	добро	S	Ncnsan	0	23	_	_	_	ДОБРО	cnsan	N
-26	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
-
-1	Спасать	спасать	V	Vmn----a-e	дст	0	_	_	_	СПАСА	mn----a-e	V
-2	человека	человек	S	Ncmsgy	мр,ед,вн	1	_	_	_	_	cmsgy	N
-3	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
-
-1	Казалось	казаться	V	Vmis-snm-e	дст,прш,ср,ед	0	_	_	_	КА	mis-snm-e	V
-2	бы	бы	PART	Q	_	1	_	_	_	БЫ		Q
-3	,	,	PUNCT	,	_	0	_	_	_	_		,
-4	что	что	CONJ	C	вопр	1	_	_	_	ЧТО		C
-5	может	мочь	V	Vmip3s-a-e	_	4	_	_	_	МОЖЕТ	mip3s-a-e	V
-6	быть	быть	V	Vmn----a-e	дст	5	_	_	_	_	mn----a-e	V
-7	похвальнее	<unknown>	A	Afcmsnf	сравн,од,но	6	_	_	_	ПОХВАЛ	fcmsnf	A
-8	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
-
-1	Настораживало	<unknown>	V	Vmis-sna-e	дст,прш,ср,ед	0	_	_	_	НАСТОРАЖИВА	mis-sna-e	V
-2	только	только	PART	Q	_	4	_	_	_	ТОЛЬКО		Q
-3	упрямое	упрямый	A	Afpnsaf	ср,ед,вн,од,но	4	_	_	_	УПРЯМ	fpnsaf	A
-4	нежелание	нежелание	S	Ncnsan	ср,ед,вн	1	_	_	_	ЖЕЛАН	cnsan	N
-5	Боконона	<unknown>	S	Npmsgy	жр,ед,им	4	_	_	_	НОН	pmsgy	N
-6	что-либо	что-либо	S-PRO	P--nsan	ср,ед,вн	7	_	_	_	Ч	--nsan	P
-7	менять	менять	V	Vmn----a-e	дст	4	_	_	_	МЕНЯ	mn----a-e	V
-8	в	в	PR	Sp-l	_	7	_	_	_	В	p-l	S
-9	дурной	дурной	A	Afpfslf	жр,ед,пр,од,но	10	_	_	_	ДУР	fpfslf	A
-10	реальности	реальность	S	Ncfsln	жр,мн,вн	8	_	_	_	РЕАЛЬНОСТ	cfsln	N
-11	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
-
-1	Попытавшись	<unknown>	V	Vmgs---m-p	дст,прш	10	_	_	_	ПОПЫТА	mgs---m-p	V
-2	в	в	PR	Sp-a	_	1	_	_	_	В	p-a	S
-3	свое	свой	A-PRO	P--nsaa	ср,ед,вн,од,но	4	_	_	_	СВО	--nsaa	P
-4	время	время	S	Ncnsan	ср,ед,вн	2	_	_	_	ВРЕМ	cnsan	N
-5	учредить	учредить	V	Vmn----a-p	дст	1	_	_	_	УЧРЕ	mn----a-p	V
-6	на	на	PR	Sp-n	_	5	_	_	_	НА	p-n	S
-7	Сан-Лоренцо	Сан-Лоренцо	S	Ncmsnn	мр,ед,вн	6	_	_	_	САН+ЛОРЕНЦ	cmsnn	N
-8	утопию	утопия	S	Ncfsan	жр,ед,вн	5	_	_	_	УТОПИ	cfsan	N
-9	—	<unknown>	S	-	_	0	_	_	_	_		-
-10	и	и	CONJ	C	_	32	_	_	_	И		C
-11	с	с	PR	Sp-i	_	13	_	_	_	С	p-i	S
-12	треском	треск	S	Ncmsin	мр,ед,тв	11	_	_	_	ТРЕСК	cmsin	N
-13	провалившись	проваливаться	V	Vmis-p-m-p	дст,прш	10	_	_	_	ПРОВАЛ	mis-p-m-p	V
-14	,	,	PUNCT	,	_	0	_	_	_	_		,
-15	—	<unknown>	S	-	_	0	_	_	_	_		-
-16	Боконон	<unknown>	S	Npmsny	жр,мн,рд	32	_	_	_	НОН	pmsny	N
-17	,	,	PUNCT	,	_	0	_	_	_	_		,
-18	этот	этот	A-PRO	P--msna	мр,ед,вн,но	20	_	_	_	ЭТ	--msna	P
-19	дальний	дальний	A	Afpmsnf	мр,ед,вн,но	20	_	_	_	ДАЛЬН	fpmsnf	A
-20	родственник	родственник	S	Ncmsny	мр,ед,им	16	_	_	_	РОДСТВЕННИК	cmsny	N
-21	горьковского	горьковский	A	Afpmsgf	ср,ед,рд,од,но	22	_	_	_	ГОРЬКОВСК	fpmsgf	A
-22	Луки	лука	S	Npmsgy	мр,имя,ед,рд	20	_	_	_	ЛУК	pmsgy	N
-23	,	,	PUNCT	,	_	0	_	_	_	_		,
-24	в	в	PR	Sp-l	_	32	_	_	_	В	p-l	S
-25	качестве	качество	S	Ncnsln	ср,ед,пр	24	_	_	_	КАЧЕСТВ	cnsln	N
-26	спасения	спасение	S	Ncnsgn	ср,мн,вн	25	_	_	_	СПАСЕН	cnsgn	N
-27	обитателей	обитатель	S	Ncmpgy	мр,мн,вн	26	_	_	_	ОБИТАТЕЛ	cmpgy	N
-28	острова	остров	S	Ncmsgn	мр,мн,вн	27	_	_	_	ОСТРОВ	cmsgn	N
-29	от	от	PR	Sp-g	_	26	_	_	_	ОТ	p-g	S
-30	всех	весь	A-PRO	P---pga	мн,пр	31	_	_	_	ВСЕ	---pga	P
-31	бед	беда	S	Ncfpgn	жр,мн,рд	29	_	_	_	БЕД	cfpgn	N
-32	избрал	избрать	V	Vmis-sma-p	дст,прш,мр,ед	0	_	_	_	ИЗБ	mis-sma-p	V
-33	оригинальный	оригинальный	A	Afpmsaf	мр,ед,вн,но	34	_	_	_	ОРИГИНАЛ	fpmsaf	A
-34	путь	путь	S	Ncmsan	мр,ед,вн	32	_	_	_	ПУТ	cmsan	N
-35	—	<unknown>	S	-	_	0	_	_	_	_		-
-36	«	«	PUNCT	-	_	0	_	_	_	_		-
-37	давать	давать	V	Vmn----a-e	дст	34	_	_	_	ДА	mn----a-e	V
-38	им	они	S-PRO	P-3-pdn	ср,ед,рд,аббр	37	_	_	_	ИМ	-3-pdn	P
-39	ложь	ложь	S	Ncfsnn	жр,ед,вн	37	_	_	_	Л	cfsnn	N
-40	,	,	PUNCT	,	_	0	_	_	_	_		,
-41	приукрашивая	<unknown>	V	Vmgp---a-e	дст,нст	37	_	_	_	ПРИУКРАШИВА	mgp---a-e	V
-42	ее	ее	A-PRO	P-3fsan	0,од,но	41	_	_	_	ЕЕ	-3fsan	P
-43	все	всё	S-PRO	R	мн,вн	44	_	_	_	ВСЕ		R
-44	больше	больше	ADV	Afcmsnf	_	45	_	_	_	БОЛЬШЕ	fcmsnf	A
-45	и	и	CONJ	C	_	41	_	_	_	И		C
-46	больше	больше	ADV	Afcmsnf	_	45	_	_	_	БОЛЬШЕ	fcmsnf	A
-47	»	»	PUNCT	-	_	0	_	_	_	_		-
-48	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
-
-1	Боконон	<unknown>	S	Npmsny	жр,мн,рд	2	_	_	_	НОН	pmsny	N
-2	родился	родиться	V	Vmis-smm-e	дст,прш,мр,ед	0	_	_	_	РО	mis-smm-e	V
-3	в	в	PR	Sp-l	_	2	_	_	_	В	p-l	S
-4	1891	@card@	NUM	Mc---d	_	5	_	_	_	_	c---d	M
-5	году	год	S	Ncmsnnl	мр,ед,пр,2	3	_	_	_	_	cmsnnl	N
-6	(	(	PUNCT	-	_	0	_	_	_	_		-
-7	при	при	PR	Sp-l	_	10	_	_	_	ПРИ	p-l	S
-8	крещении	крещение	S	Ncnsln	ср,ед,пр	7	_	_	_	КРЕЩЕН	cnsln	N
-9	ему	оно	S-PRO	P-3msdn	3л,ср,ед,дт	10	_	_	_	_	-3msdn	P
-10	дали	дать	V	Vmis-p-a-p	мр-жр,0	0	_	_	_	ДАЛИ	mis-p-a-p	V
-11	имя	имя	S	Ncnsan	ср,ед,вн	10	_	_	_	ИМ	cnsan	N
-12	Лайонел	<unknown>	V	Npmsny	жр,имя,мн,вн	11	_	_	_	НЕЛ	pmsny	N
-13	Бойд	<unknown>	S	Npmsny	мр-жр,мн,вн	12	_	_	_	БОЙД	pmsny	N
-14	Джонсон	<unknown>	S	Npmsny	мр,имя,ед,им	13	_	_	_	ДЖОНСОН	pmsny	N
-15	)	)	PUNCT	-	_	0	_	_	_	_		-
-16	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
-
-1	Он	он	S-PRO	P-3msnn	3л,мр,ед,им	2	_	_	_	_	-3msnn	P
-2	был	быть	V	Vmis-sma-e	дст,прш,мр,ед	0	_	_	_	_	mis-sma-e	V
-3	негром	негр	S	Ncmsiy	мр,ед,вн	2	_	_	_	ГРОМ	cmsiy	N
-4	епископального	<unknown>	A	Afpnsgf	ср,ед,рд,од,но	5	_	_	_	ЕПИСКОПАЛ	fpnsgf	A
-5	вероисповедания	вероисповедание	S	Ncnsgn	ср,мн,вн	3	_	_	_	ВЕРОИСПОВЕДАН	cnsgn	N
+1	Пример	примереть	V	Ncmsnn	дст,прш,мр,ед	0	_	_	_	прим	cmsnn	N
+2	унарной	<unknown>	A	Afpfsgf	жр,ед,рд,од,но	3	_	_	_	унар	fpfsgf	A
+3	операции	операция	S	Ncfsgn	жр,ед,рд	1	_	_	_	операци	cfsgn	N
+4	—	<unknown>	S	-	_	0	_	_	_	_		-
+5	проекция	проекция	S	Ncfsnn	жр,ед,им	1	_	_	_	проекци	cfsnn	N
 6	,	,	PUNCT	,	_	0	_	_	_	_		,
-7	британским	британский	A	Afpmsif	мн,дт,од,но	8	_	_	_	БРИТАНСК	fpmsif	A
-8	подданным	подданный	S	Ncmsiy	мр,мн,дт	2	_	_	_	ПОДДАНН	cmsiy	N
-9	с	с	PR	Sp-g	_	8	_	_	_	С	p-g	S
-10	острова	остров	S	Ncmsgn	мр,мн,вн	9	_	_	_	ОСТРОВ	cmsgn	N
-11	Тобаго	<unknown>	S	Npmsny	ср,ед,0	10	_	_	_	ТОБАГО	pmsny	N
+7	пример	пример	S	Ncmsnn	дст,прш,мр,ед	0	_	_	_	прим	cmsnn	N
+8	бинарной	<unknown>	A	Afpfsgf	жр,ед,рд,од,но	9	_	_	_	бинар	fpfsgf	A
+9	операции	операция	S	Ncfsgn	жр,ед,рд	7	_	_	_	операци	cfsgn	N
+10	—	<unknown>	S	-	_	0	_	_	_	_		-
+11	объединение	объединение	S	Ncnsnn	ср,ед,им	7	_	_	_	объединен	cnsnn	N
 12	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
 
-1	Он	он	S-PRO	P-3msnn	3л,мр,ед,им	2	_	_	_	_	-3msnn	P
-2	был	быть	V	Vmis-sma-e	дст,прш,мр,ед	0	_	_	_	_	mis-sma-e	V
-3	младшим	младший	A	Afpmsif	мн,дт,од,но	2	_	_	_	МЛАДШ	fpmsif	A
-4	из	из	PR	Sp-g	жр,имя,мн,вн	3	_	_	_	ИЗ	p-g	S
-5	шести	шесть	NUM	Mc--g	пр	6	_	_	_	ШЕСТ	c--g	M
-6	детей	ребенок	S	Ncnpgy	жр,имя,мн,вн	4	_	_	_	ТЕ	cnpgy	N
-7	в	в	PR	Sp-n	_	6	_	_	_	В	p-n	S
-8	состоятельной	состоятельный	A	Afpfsif	жр,ед,пр,од,но	9	_	_	_	СОСТОЯТЕЛ	fpfsif	A
-9	семье	семья	S	Ncfsdn	жр,ед,пр	7	_	_	_	СЕМ	cfsdn	N
-10	,	,	PUNCT	,	_	0	_	_	_	_		,
-11	которая	который	A-PRO	P--fsna	жр,ед,им,од,но	9	_	_	_	КОТОР	--fsna	P
-12	стала	стать	V	Vmis-sfa-p	дст,прш,жр,ед	11	_	_	_	СТА	mis-sfa-p	V
-13	состоятельной	состоятельный	A	Afpfsif	жр,ед,пр,од,но	12	_	_	_	СОСТОЯТЕЛ	fpfsif	A
-14	после	после	PR	Sp-g	_	12	_	_	_	ПОСЛЕ	p-g	S
-15	того	то	S-PRO	P--nsgn	ср,ед,0	14	_	_	_	ТОГО	--nsgn	P
-16	,	,	PUNCT	,	_	0	_	_	_	_		,
-17	как	как	CONJ	C	вопр	14	_	_	_	КАК		C
-18	дед	дед	S	Ncmsny	мр,ед,им	20	_	_	_	ДЕД	cmsny	N
-19	Боконона	<unknown>	S	Npmsgy	жр,ед,им	18	_	_	_	НОН	pmsgy	N
-20	нашёл	найти	V	Vmis-sma	_	17	_	_	_	НАШЁЛ	mis-sma	V
-21	спрятанное	спрятать	V	Vmps-snpfpn	од,но,прш,стр,ед,ср,вн	23	_	_	_	СПРЯ	mps-snpfpn	V
-22	пиратами	пират	S	Ncmpiy	мр,мн,тв	21	_	_	_	ПИРАТ	cmpiy	N
-23	сокровище	сокровище	S	Ncnsan	ср,ед,пр	20	_	_	_	СОКРОВИЩ	cnsan	N
-24	стоимостью	стоимость	S	Ncfsin	жр,ед,тв	23	_	_	_	СТОИМОСТ	cfsin	N
-25	около	около	PR	Sp-l	_	26	_	_	_	ОКОЛО	p-l	S
-26	250	@card@	NUM	Mc---d	_	27	_	_	_	_	c---d	M
-27	тысяч	тысяча	S	Ncfpgn	жр,мн,рд	28	_	_	_	ТЫС	cfpgn	N
-28	долларов	доллар	S	Ncmpgn	мр,ед,од,но	24	_	_	_	ДОЛЛАРОВ	cmpgn	N
-29	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
-
-1	Предполагается	предполагаться	V	Vmip3s-m-e	дст,нст,3л,ед	0	_	_	_	ПОЛАГА	mip3s-m-e	V
-2	,	,	PUNCT	,	_	0	_	_	_	_		,
-3	что	что	CONJ	C	вопр	1	_	_	_	ЧТО		C
-4	сокровище	сокровище	S	Ncnsnn	ср,ед,пр	6	_	_	_	СОКРОВИЩ	cnsnn	N
-5	изначально	изначально	ADV	R	_	6	_	_	_	ИЗНАЧАЛЬНО		R
-6	принадлежало	принадлежать	V	Vmis-sna-e	дст,прш,ср,ед	3	_	_	_	ПРИНАДЛЕЖ	mis-sna-e	V
-7	знаменитому	знаменитый	A	Afpmsdf	ср,ед,дт,од,но	9	_	_	_	ЗНАМЕНИТ	fpmsdf	A
-8	английскому	английский	A	Afpmsdf	ср,ед,дт,од,но	9	_	_	_	АНГЛИЙСК	fpmsdf	A
-9	пирату	<unknown>	S	Ncmsdy	мр,ед,дт	6	_	_	_	ПИРАТ	cmsdy	N
-10	Чёрной	<unknown>	A	Npmsny	мр,имя,ед,им	11	_	_	_	НО	pmsny	N
-11	Бороде	<unknown>	S	Npmsny	жр,ед,пр	9	_	_	_	БОРОД	pmsny	N
-12	—	<unknown>	S	-	_	0	_	_	_	_		-
-13	Эдварду	<unknown>	S	Npmsdy	жр,имя,ед,вн	9	_	_	_	ЭДВАРД	pmsdy	N
-14	Тичу	<unknown>	S	Npmsdy	мр,имя,ед,дт	13	_	_	_	ТИЧ	pmsdy	N
-15	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
-
-1	Деньги	деньга	S	Ncmpnn	жр,мн,вн	2	_	_	_	ДЕНЬГ	cmpnn	N
-2	были	быть	V	Vmis-p-a-e	жр,мн,вн	0	_	_	_	БЫЛ	mis-p-a-e	V
-3	вложены	вкладывать	V	Vmps-p-psp	од,но,прш,стр,мн	2	_	_	_	ВЛОЖ	mps-p-psp	V
-4	в	в	PR	Sp-a	_	3	_	_	_	В	p-a	S
-5	предприятия	предприятие	S	Ncnpan	ср,мн,вн	4	_	_	_	ПРИЯТ	cnpan	N
-6	,	,	PUNCT	,	_	0	_	_	_	_		,
-7	связанные	связывать	V	Vmps-p-pfpn	мн,вн,но	5	_	_	_	СВЯЗАН	mps-p-pfpn	V
-8	с	с	PR	Sp-i	_	7	_	_	_	С	p-i	S
-9	асфальтом	асфальт	S	Ncmsin	мр,ед,тв	8	_	_	_	АСФАЛЬТ	cmsin	N
-10	,	,	PUNCT	,	_	0	_	_	_	_		,
-11	копрой	<unknown>	S	Ncfsin	жр,ед,тв	8	_	_	_	КОПР	cfsin	N
-12	,	,	PUNCT	,	_	0	_	_	_	_		,
-13	какао	какао	S	Ncnsnn	ср,0	8	_	_	_	КАКАО	cnsnn	N
-14	,	,	PUNCT	,	_	0	_	_	_	_		,
-15	в	в	PR	Sp-a	_	3	_	_	_	В	p-a	S
-16	скотоводство	<unknown>	S	Ncnsan	ср,ед,вн	17	_	_	_	СКОТОВОДСТВ	cnsan	N
-17	и	и	CONJ	C	_	15	_	_	_	И		C
-18	птицеводство	<unknown>	S	Ncnsan	ср,ед,вн	17	_	_	_	ПТИЦЕВОДСТВ	cnsan	N
-19	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
-
-1	Юный	юный	A	Afpmsnf	мр,ед,вн,но	2	_	_	_	ЮН	fpmsnf	A
-2	Лайонел	<unknown>	V	Npmsny	жр,имя,мн,вн	5	_	_	_	НЕЛ	pmsny	N
-3	Бойд	<unknown>	S	Npmsny	мр-жр,мн,вн	2	_	_	_	БОЙД	pmsny	N
-4	Джонсон	<unknown>	S	Npmsny	мр,имя,ед,им	3	_	_	_	ДЖОНСОН	pmsny	N
-5	учился	учиться	V	Vmis-smm-e	дст,прш,мр,ед	9	_	_	_	УЧ	mis-smm-e	V
-6	в	в	PR	Sp-l	_	5	_	_	_	В	p-l	S
-7	епископальной	<unknown>	A	Afpfslf	жр,ед,пр,од,но	8	_	_	_	ЕПИСКОПАЛ	fpfslf	A
-8	школе	школа	S	Ncfsln	жр,ед,пр	6	_	_	_	ШКОЛ	cfsln	N
-9	и	и	CONJ	C	_	0	_	_	_	И		C
-10	активно	активно	ADV	R	_	11	_	_	_	АКТИВНО		R
-11	интересовался	интересоваться	V	Vmis-smm-e	дст,прш,мр,ед	9	_	_	_	ИНТЕРЕС	mis-smm-e	V
-12	церковной	церковный	A	Afpfsdf	жр,ед,пр,од,но	13	_	_	_	ЦЕРКОВ	fpfsdf	A
-13	службой	служба	S	Ncfsin	жр,ед,тв	11	_	_	_	СЛУЖБ	cfsin	N
-14	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
-
-1	В	в	PR	Sp-l	_	9	_	_	_	В	p-l	S
-2	1911	@card@	NUM	Mc---d	_	3	_	_	_	_	c---d	M
-3	году	год	S	Ncmsnnl	мр,ед,пр,2	1	_	_	_	_	cmsnnl	N
-4	для	для	PR	Sp-g	_	9	_	_	_	ДЛЯ	p-g	S
-5	получения	получение	S	Ncnsgn	ср,мн,вн	4	_	_	_	ПОЛУЧЕН	cnsgn	N
-6	высшего	высший	A	Afpnsgf	прев,ср,ед,рд,од,но	7	_	_	_	ВЫ	fpnsgf	A
-7	образования	образование	S	Ncnsgn	ср,мн,вн	5	_	_	_	ОБРАЗОВАН	cnsgn	N
-8	он	он	S-PRO	P-3msnn	3л,мр,ед,им	9	_	_	_	_	-3msnn	P
-9	отправился	отправиться	V	Vmis-smm-p	дст,прш,мр,ед	0	_	_	_	ОТПРАВ	mis-smm-p	V
-10	один	один	A-NUM	P--msna	мр,вн	9	_	_	_	ОД	--msna	P
-11	на	на	PR	Sp-l	_	9	_	_	_	НА	p-l	S
-12	небольшом	небольшой	A	Afpmslf	ср,ед,пр,од,но	14	_	_	_	_	fpmslf	A
-13	парусном	<unknown>	A	Afpmslf	ср,ед,пр,од,но	14	_	_	_	ПАРУС	fpmslf	A
-14	судне	судно	S	Ncnsln	ср,ед,пр	11	_	_	_	СУД	cnsln	N
-15	под	под	PR	Sp-i	мр,ед,аббр,0	14	_	_	_	ПОД	p-i	S
-16	названием	название	S	Ncnsin	ср,ед,тв	15	_	_	_	НАЗВАН	cnsin	N
-17	«	«	PUNCT	-	_	0	_	_	_	_		-
-18	Туфелька	<unknown>	S	Ncfsnn	жр,ед,им	16	_	_	_	ТУФЕЛ	cfsnn	N
-19	»	»	PUNCT	-	_	0	_	_	_	_		-
-20	из	из	PR	Sp-g	жр,имя,мн,вн	9	_	_	_	ИЗ	p-g	S
-21	Тобаго	<unknown>	S	Npmsgy	ср,ед,0	20	_	_	_	ТОБАГО	pmsgy	N
-22	в	в	PR	Sp-a	_	9	_	_	_	В	p-a	S
-23	Лондон	лондон	S	Ncmsan	мр,ед,вн	22	_	_	_	ЛОНДОН	cmsan	N
-24	,	,	PUNCT	,	_	0	_	_	_	_		,
-25	где	где	ADV-PRO	P-----r	вопр	23	_	_	_	ГДЕ	-----r	P
-26	поступил	поступить	V	Vmis-sma-p	дст,прш,мр,ед	25	_	_	_	ПОСТУП	mis-sma-p	V
-27	в	в	PR	Sp-a	_	26	_	_	_	В	p-a	S
-28	Лондонскую	<unknown>	A	Afpfsaf	жр,ед,вн,од,но	29	_	_	_	ЛОНДОНСК	fpfsaf	A
-29	школу	школа	S	Ncfsan	жр,ед,вн	27	_	_	_	ШКОЛ	cfsan	N
-30	экономики	экономика	S	Ncfsgn	жр,мн,вн	31	_	_	_	ЭКОНОМИК	cfsgn	N
-31	и	и	CONJ	C	_	29	_	_	_	И		C
-32	политических	политический	A	Afpmpgf	мн,пр,од,но	33	_	_	_	ПОЛИТИЧЕСК	fpmpgf	A
-33	наук	наука	S	Ncfpgn	жр,мн,рд	31	_	_	_	НАУК	cfpgn	N
-34	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
-
-1	Однако	однако	CONJ	C	_	8	_	_	_	ОДНАКО		C
-2	с	с	PR	Sp-i	_	8	_	_	_	С	p-i	S
-3	началом	начало	S	Ncnsin	ср,ед,тв	2	_	_	_	НАЧАЛ	cnsin	N
-4	Первой	первый	A-NUM	Mofsi	жр,ед,пр,од,но	5	_	_	_	ПЕРВ	ofsi	M
-5	мировой	мировой	A	Afpfsgf	жр,ед,пр,од,но	6	_	_	_	МИРОВ	fpfsgf	A
-6	войны	война	S	Ncfsgn	жр,мн,вн	3	_	_	_	ВОЙН	cfsgn	N
-7	он	он	S-PRO	P-3msnn	3л,мр,ед,им	8	_	_	_	_	-3msnn	P
-8	пошёл	пойти	V	Vmis-sma	_	0	_	_	_	ПОШЁЛ	mis-sma	V
-9	в	в	PR	Sp-a	_	8	_	_	_	В	p-a	S
-10	пехоту	пехота	S	Ncfsan	жр,ед,вн	9	_	_	_	ПЕХОТ	cfsan	N
-11	,	,	PUNCT	,	_	0	_	_	_	_		,
-12	где	где	ADV-PRO	P-----r	вопр	10	_	_	_	ГДЕ	-----r	P
-13	сумел	суметь	V	Vmis-sma-p	дст,прш,мр,ед	12	_	_	_	СУМЕ	mis-sma-p	V
-14	себя	себя	S-PRO	P----an	вн	15	_	_	_	С	----an	P
-15	проявить	проявить	V	Vmn----a-p	дст	13	_	_	_	ПРОЯВ	mn----a-p	V
-16	—	<unknown>	S	-	_	0	_	_	_	_		-
-17	был	быть	V	Vmis-sma-e	дст,прш,мр,ед	12	_	_	_	_	mis-sma-e	V
-18	произведён	<unknown>	S	Ncfpgn	мр,ед,вн	17	_	_	_	ПРОИЗВЕДЁН	cfpgn	N
-19	в	в	PR	Sp-a	_	18	_	_	_	В	p-a	S
-20	офицеры	офицер	S	Ncmpay	мр,мн,им	19	_	_	_	ОФИЦЕР	cmpay	N
-21	,	,	PUNCT	,	_	0	_	_	_	_		,
-22	четыре	четыре	NUM	Mc--n	вн	23	_	_	_	ЧЕТЫР	c--n	M
-23	раза	раз	S	Ncmsgn	мр,ед,рд	24	_	_	_	РАЗ	cmsgn	N
-24	награждён	<unknown>	S	Ncfpgn	мр,ед,вн	17	_	_	_	НАГРАЖДЁН	cfpgn	N
-25	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
-
-1	Во	во	PR	Sp-l	_	7	_	_	_	ВО	p-l	S
-2	второй	второй	A-NUM	Mofsl	жр,ед,пр,од,но	3	_	_	_	ВТОР	ofsl	M
-3	битве	битва	S	Ncfsln	жр,ед,пр	1	_	_	_	БИТВ	cfsln	N
-4	на	на	PR	Sp-l	_	3	_	_	_	НА	p-l	S
-5	Ипре	<unknown>	S	Ncfsln	жр,ед,пр	4	_	_	_	ПР	cfsln	N
-6	он	он	S-PRO	P-3msnn	3л,мр,ед,им	7	_	_	_	_	-3msnn	P
-7	был	быть	V	Vmis-sma-e	дст,прш,мр,ед	0	_	_	_	_	mis-sma-e	V
-8	отравлен	отравлять	V	Vmps-smpsp	од,но,прш,стр,ед,мр	7	_	_	_	ОТРАВ	mps-smpsp	V
-9	газами	газ	S	Ncmpin	мр,мн,тв	8	_	_	_	ГАЗ	cmpin	N
-10	,	,	PUNCT	,	_	0	_	_	_	_		,
-11	два	два	NUM	Mcm-n	ср,вн	12	_	_	_	ДВ	cm-n	M
-12	года	год	S	Ncmsgn	мр,мн,вн	13	_	_	_	_	cmsgn	N
-13	провёл	провести	V	Vmis-sma	_	16	_	_	_	ПРОВЁЛ	mis-sma	V
-14	в	в	PR	Sp-l	_	13	_	_	_	В	p-l	S
-15	госпитале	госпиталь	S	Ncmsln	мр,ед,пр	14	_	_	_	ГОСПИТАЛ	cmsln	N
-16	и	и	CONJ	C	_	0	_	_	_	И		C
-17	потом	потом	ADV-PRO	P-----r	_	18	_	_	_	ПОТОМ	-----r	P
-18	был	быть	V	Vmis-sma-e	дст,прш,мр,ед	16	_	_	_	_	mis-sma-e	V
-19	уволен	уволить	V	Vmps-smpsp	од,но,прш,стр,ед,мр	18	_	_	_	УВОЛ	mps-smpsp	V
-20	с	с	PR	Sp-g	_	19	_	_	_	С	p-g	S
-21	военной	военный	A	Afpfsgf	жр,ед,пр,од,но	22	_	_	_	ВОЕН	fpfsgf	A
-22	службы	служба	S	Ncfsgn	жр,мн,вн	20	_	_	_	СЛУЖБ	cfsgn	N
-23	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
-
-1	Он	он	S-PRO	P-3msnn	3л,мр,ед,им	5	_	_	_	_	-3msnn	P
-2	снова	снова	ADV	R	_	5	_	_	_	СНОВА		R
-3	в	в	PR	Sp-l	_	5	_	_	_	В	p-l	S
-4	одиночестве	одиночество	S	Ncnsln	ср,ед,пр	3	_	_	_	ОДИНОЧЕСТВ	cnsln	N
-5	поплыл	поплыть	V	Vmis-sma-p	дст,прш,мр,ед	0	_	_	_	ПОПЛЫ	mis-sma-p	V
-6	в	в	PR	Sp-a	_	5	_	_	_	В	p-a	S
-7	Тобаго	<unknown>	S	Afpmsaf	ср,ед,0	6	_	_	_	ТОБАГО	fpmsaf	A
-8	на	на	PR	Sp-l	_	5	_	_	_	НА	p-l	S
-9	своей	свой	A-PRO	P--fsla	жр,ед,пр,од,но	11	_	_	_	СВО	--fsla	P
-10	«	«	PUNCT	-	_	0	_	_	_	_		-
-11	Туфельке	<unknown>	S	Ncfsln	жр,ед,пр	8	_	_	_	ТУФЕЛ	cfsln	N
-12	»	»	PUNCT	-	_	0	_	_	_	_		-
-13	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
-
-1	В	в	PR	Sp-l	_	7	_	_	_	В	p-l	S
-2	восьмидесяти	восемьдесят	NUM	Mc--l	пр	3	_	_	_	ВОС	c--l	M
-3	милях	миля	S	Ncfpln	жр,мн,пр	1	_	_	_	МИЛ	cfpln	N
-4	от	от	PR	Sp-g	_	3	_	_	_	ОТ	p-g	S
-5	дома	дом	S	Ncmsgn	_	4	_	_	_	ДОМА	cmsgn	N
-6	его	оно	S-PRO	P-----a	0,од,но	7	_	_	_	ЕГО	-----a	P
-7	остановила	остановить	V	Vmis-sfa-p	дст,прш,жр,ед	8	_	_	_	ОСТАНОВ	mis-sfa-p	V
-8	и	и	CONJ	C	_	0	_	_	_	И		C
-9	обыскала	<unknown>	V	Vmis-sfa-p	дст,прш,жр,ед	8	_	_	_	ОБЫ	mis-sfa-p	V
-10	немецкая	немецкий	A	Afpfsnf	жр,ед,им,од,но	11	_	_	_	НЕМЕЦК	fpfsnf	A
-11	подлодка	подлодка	S	Ncfsnn	жр,ед,им	9	_	_	_	ПОДЛОД	cfsnn	N
-12	«	«	PUNCT	-	_	0	_	_	_	_		-
-13	У-99	<unknown>	S	I	_	11	_	_	_	_		I
-14	»	»	PUNCT	-	_	0	_	_	_	_		-
-15	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
-
-1	Он	он	S-PRO	P-3msnn	3л,мр,ед,им	2	_	_	_	_	-3msnn	P
-2	был	быть	V	Vmis-sma-e	дст,прш,мр,ед	7	_	_	_	_	mis-sma-e	V
-3	взят	взять	V	Vmps-smpsp	од,но,прш,стр,ед,мр	2	_	_	_	В	mps-smpsp	V
-4	в	в	PR	Sp-a	_	3	_	_	_	В	p-a	S
-5	плен	плен	S	Ncmsan	жр,мн,рд	4	_	_	_	ПЛЕН	cmsan	N
-6	,	,	PUNCT	,	_	0	_	_	_	_		,
-7	а	а	CONJ	C	_	0	_	_	_	А		C
-8	его	его	A-PRO	P-----a	0,од,но	9	_	_	_	ЕГО	-----a	P
-9	судно	судно	S	Ncnsnn	ср,ед,од,но	10	_	_	_	СУД	cnsnn	N
-10	потоплено	потопить	V	Vmps-snpsp	од,но,прш,стр,ед,ср	7	_	_	_	ПОТОП	mps-snpsp	V
-11	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
-
-1	Однако	однако	CONJ	C	_	5	_	_	_	ОДНАКО		C
-2	подводную	подводный	A	Afpfsaf	жр,ед,вн,од,но	3	_	_	_	ПОДВОДН	fpfsaf	A
-3	лодку	лодка	S	Ncfsan	жр,ед,вн	4	_	_	_	ЛОД	cfsan	N
-4	обнаружил	обнаружить	V	Vmis-sma-p	дст,прш,мр,ед	5	_	_	_	ОБНАРУЖ	mis-sma-p	V
-5	и	и	CONJ	C	_	13	_	_	_	И		C
-6	захватил	захватить	V	Vmis-sma-p	дст,прш,мр,ед	5	_	_	_	ХВА	mis-sma-p	V
-7	английский	английский	A	Afpmsaf	мр,ед,вн,но	8	_	_	_	АНГЛИЙСК	fpmsaf	A
-8	эсминец	эсминец	S	Ncmsan	мр,ед,вн	6	_	_	_	ЭСМИН	cmsan	N
-9	«	«	PUNCT	-	_	0	_	_	_	_		-
-10	Ворон	ворона	S	Ncmsnn	жр,мн,вн	8	_	_	_	ВОРОН	cmsnn	N
-11	»	»	PUNCT	-	_	0	_	_	_	_		-
-12	,	,	PUNCT	,	_	0	_	_	_	_		,
-13	и	и	CONJ	C	_	0	_	_	_	И		C
-14	Джонсон	<unknown>	S	Npmsny	мр,имя,ед,им	15	_	_	_	ДЖОНСОН	pmsny	N
-15	был	быть	V	Vmis-sma-e	дст,прш,мр,ед	13	_	_	_	_	mis-sma-e	V
-16	взят	взять	V	Vmps-smpsp	од,но,прш,стр,ед,мр	15	_	_	_	В	mps-smpsp	V
-17	на	на	PR	Sp-a	_	16	_	_	_	НА	p-a	S
-18	борт	борт	S	Ncmsan	мр,ед,вн	17	_	_	_	БОРТ	cmsan	N
-19	эсминца	эсминец	S	Ncmsgn	мр,ед,рд	18	_	_	_	ЭСМИН	cmsgn	N
-20	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
-
-1	«	«	PUNCT	-	_	0	_	_	_	_		-
-2	Ворон	ворона	S	Ncmsnn	жр,мн,вн	4	_	_	_	ВОРОН	cmsnn	N
-3	»	»	PUNCT	-	_	0	_	_	_	_		-
-4	направлялся	направляться	V	Vmis-smm-e	дст,прш,мр,ед	0	_	_	_	НАПРАВЛЯ	mis-smm-e	V
-5	в	в	PR	Sp-a	_	4	_	_	_	В	p-a	S
-6	Средиземное	средиземный	A	Afpnsaf	ср,ед,вн,од,но	7	_	_	_	СРЕДИЗЕМН	fpnsaf	A
-7	море	море	S	Ncnsan	ср,ед,пр	5	_	_	_	МОР	cnsan	N
+1	N-арную	<unknown>	S	Afpfsaf	жр,ед,вн	3	_	_	_	арн	fpfsaf	A
+2	реляционную	<unknown>	A	Afpfsaf	жр,ед,вн,од,но	3	_	_	_	реляционн	fpfsaf	A
+3	операцию	операция	S	Ncfsan	жр,ед,вн	5	_	_	_	операци	cfsan	N
+4	f	<unknown>	S	-	_	3	_	_	_	_		-
+5	можно	можно	PRAEDIC	R	нст	0	_	_	_	можно		R
+6	представить	представить	V	Vmn----a-p	дст	5	_	_	_	представ	mn----a-p	V
+7	функцией	функция	S	Ncfsin	жр,ед,тв	6	_	_	_	функци	cfsin	N
 8	,	,	PUNCT	,	_	0	_	_	_	_		,
-9	но	но	CONJ	C	_	4	_	_	_	НО		C
-10	так	так	ADV-PRO	P-----r	указат	13	_	_	_	ТАК	-----r	P
-11	и	и	CONJ	C	_	10	_	_	_	И		C
-12	не	не	PART	Q	_	13	_	_	_	НЕ		Q
-13	дошел	дойти	V	Vmis-sma-p	дст,прш,мр,ед	9	_	_	_	_	mis-sma-p	V
-14	туда	туда	ADV-PRO	P-----r	указат	13	_	_	_	ТУДА	-----r	P
-15	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
+9	возвращающей	<unknown>	V	Vmis-sma-p	од,но,нст,дст,ед,жр,рд	11	_	_	_	возвраща	mis-sma-p	V
+10	отношение	отношение	S	Ncnsan	ср,ед,им	9	_	_	_	отношен	cnsan	N
+11	и	и	CONJ	C	_	7	_	_	_	и		C
+12	имеющей	иметь	V	Vmpp-sfafei	од,но,нст,дст,ед,жр,рд	11	_	_	_	име	mpp-sfafei	V
+13	n	N	S	-	_	14	_	_	_	_		-
+14	отношений	отношение	S	Ncnpgn	ср,мн,рд	12	_	_	_	отношен	cnpgn	N
+15	в	в	PR	Sp-l	_	12	_	_	_	в	p-l	S
+16	качестве	качество	S	Ncnsln	ср,ед,пр	15	_	_	_	качеств	cnsln	N
+17	аргументов	аргумент	S	Ncmpgn	мр,мн,рд	16	_	_	_	аргумент	cmpgn	N
+18	:	:	PUNCT	-	_	0	_	_	_	_		-
+19	Поскольку	поскольку	CONJ	C	_	31	_	_	_	поскольку		C
+20	реляционная	<unknown>	A	Afpfsnf	жр,ед,им,од,но	21	_	_	_	реляционн	fpfsnf	A
+21	алгебра	алгебра	S	Ncfsnn	жр,ед,им	22	_	_	_	алгебр	cfsnn	N
+22	является	являться	V	Vmip3s-m-e	дст,нст,3л,ед	19	_	_	_	явля	mip3s-m-e	V
+23	замкнутой	замкнутый	A	Afpfsif	од,но,прш,стр,ед,жр,рд	22	_	_	_	замкн	fpfsif	A
+24	,	,	PUNCT	,	_	0	_	_	_	_		,
+25	в	в	PR	Sp-l	_	31	_	_	_	в	p-l	S
+26	качестве	качество	S	Ncnsln	ср,ед,пр	25	_	_	_	качеств	cnsln	N
+27	операндов	<unknown>	S	Ncmpgn	мр,мн,рд	26	_	_	_	операнд	cmpgn	N
+28	в	в	PR	Sp-a	_	27	_	_	_	в	p-a	S
+29	реляционные	<unknown>	A	Afpmpaf	мн,им,од,но	30	_	_	_	реляционн	fpmpaf	A
+30	операции	операция	S	Ncfpan	жр,ед,рд	28	_	_	_	операци	cfpan	N
+31	можно	можно	PRAEDIC	R	нст	0	_	_	_	можно		R
+32	подставлять	подставлять	V	Vmn----a-e	дст	31	_	_	_	подставля	mn----a-e	V
+33	другие	другой	A-PRO	P---pna	мн,им,од,но	34	_	_	_	друг	---pna	P
+34	выражения	выражение	S	Ncnsgn	ср,ед,рд	32	_	_	_	выражен	cnsgn	N
+35	реляционной	<unknown>	A	Afpfsgf	жр,ед,рд,од,но	36	_	_	_	реляционн	fpfsgf	A
+36	алгебры	алгебра	S	Ncfsgn	жр,ед,рд	34	_	_	_	алгебр	cfsgn	N
+37	(	(	PUNCT	-	_	0	_	_	_	_		-
+38	подходящие	подходить	V	Vmpp-p-afen	од,но,нст,дст,мн,им	34	_	_	_	подхо	mpp-p-afen	V
+39	по	по	PR	Sp-d	_	38	_	_	_	по	p-d	S
+40	типу	тип	S	Ncmsdn	мр,ед,дт	39	_	_	_	тип	cmsdn	N
+41	)	)	PUNCT	-	_	0	_	_	_	_		-
+42	:	:	PUNCT	-	_	0	_	_	_	_		-
+43	В	в	PR	Sp-n	_	46	_	_	_	в	p-n	S
+44	реляционных	<unknown>	A	Afpmpgf	мн,рд,од,но	45	_	_	_	реляционн	fpmpgf	A
+45	выражениях	выражение	S	Ncnpln	ср,мн,пр	43	_	_	_	выражен	cnpln	N
+46	можно	можно	PRAEDIC	R	нст	0	_	_	_	можно		R
+47	использовать	использовать	V	Vmn----a-e	дст	46	_	_	_	использ	mn----a-e	V
+48	вложенные	вкладывать	V	Vmps-p-pfpa	од,но,прш,стр,мн,им	49	_	_	_	влож	mps-p-pfpa	V
+49	выражения	выражение	S	Ncnsgn	ср,ед,рд	47	_	_	_	выражен	cnsgn	N
+50	сколь	сколь	ADV-PRO	P-----r	_	51	_	_	_	сколь	-----r	P
+51	угодно	угодно	PART	Q	ср,ед,од,но	52	_	_	_	угод		Q
+52	сложной	сложный	A	Afpfsgf	жр,ед,рд,од,но	53	_	_	_	слож	fpfsgf	A
+53	структуры	структура	S	Ncfsgn	жр,ед,рд	49	_	_	_	структур	cfsgn	N
+54	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
 
-1	Корабль	корабль	S	Ncmsnn	мр,ед,вн	2	_	_	_	КОРАБЛ	cmsnn	N
-2	потерял	потерять	V	Vmis-sma-p	дст,прш,мр,ед	5	_	_	_	ПОТЕРЯ	mis-sma-p	V
-3	управление	управление	S	Ncnsan	ср,ед,вн	2	_	_	_	УПРАВЛЕН	cnsan	N
+1	Некоторые	некоторый	A-PRO	P---pna	мн,им,од,но	3	_	_	_	некотор	---pna	P
+2	реляционные	<unknown>	A	Afpmpnf	мн,им,од,но	3	_	_	_	реляционн	fpmpnf	A
+3	операции	операция	S	Ncfpnn	жр,ед,рд	15	_	_	_	операци	cfpnn	N
 4	,	,	PUNCT	,	_	0	_	_	_	_		,
-5	и	и	CONJ	C	_	0	_	_	_	И		C
-6	вскоре	вскоре	ADV	R	_	8	_	_	_	ВСКОРЕ		R
-7	его	оно	S-PRO	P-3msan	0,од,но	8	_	_	_	ЕГО	-3msan	P
-8	прибило	прибить	V	Vmis-sna-p	дст,прш,ср,ед	5	_	_	_	ПРИБ	mis-sna-p	V
-9	к	к	PR	Sp-d	_	8	_	_	_	К	p-d	S
-10	Островам	<unknown>	S	Ncnpdn	мр,мн,дт	9	_	_	_	ОСТРОВ	cnpdn	N
-11	Зеленого	зеленый	A	Afpmsgf	ср,ед,рд,од,но	12	_	_	_	ЗЕЛ	fpmsgf	A
-12	Мыса	<unknown>	S	Ncmsgn	мр,ед,рд	10	_	_	_	МЫС	cmsgn	N
-13	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
-
-1	Джонсон	<unknown>	S	Npfsny	мр,имя,ед,им	2	_	_	_	ДЖОНСОН	pfsny	N
-2	прожил	прожить	V	Vmis-sma	дст,прш,мр,ед	0	_	_	_	ПРОЖИ	mis-sma	V
-3	на	на	PR	Sp-l	_	2	_	_	_	НА	p-l	S
-4	этих	этот	A-PRO	P---pla	мн,пр,од,но	5	_	_	_	ЭТ	---pla	P
-5	островах	остров	S	Ncmpln	мр,мн,пр	3	_	_	_	ОСТРОВ	cmpln	N
-6	восемь	восемь	NUM	Mc--n	вн	7	_	_	_	ВОС	c--n	M
-7	месяцев	месяц	S	Ncmpgn	мр,мн,рд	2	_	_	_	МЕСЯЦ	cmpgn	N
-8	,	,	PUNCT	,	_	0	_	_	_	_		,
-9	после	после	PR	Sp-g	_	1	_	_	_	ПОСЛЕ	p-g	S
-10	чего	что	S-PRO	P--nsgn	вопр	9	_	_	_	ЧЕГО	--nsgn	P
-11	поступил	поступить	V	Vmis-sma-p	дст,прш,мр,ед	9	_	_	_	ПОСТУП	mis-sma-p	V
-12	матросом	матрос	S	Ncmsiy	мр,ед,тв	11	_	_	_	МАТРОС	cmsiy	N
-13	на	на	PR	Sp-a	_	11	_	_	_	НА	p-a	S
-14	рыболовецкое	<unknown>	A	Afpnsaf	ср,ед,вн,од,но	15	_	_	_	РЫБОЛОВЕЦК	fpnsaf	A
-15	судно	судно	S	Ncnsnn	ср,ед,од,но	13	_	_	_	СУД	cnsnn	N
+5	в	в	PR	Sp-l	_	8	_	_	_	в	p-l	S
+6	частности	частность	S	Ncfsln	жр,ед,рд	5	_	_	_	частност	cfsln	N
+7	,	,	PUNCT	,	_	0	_	_	_	_		,
+8	операции	операция	S	Ncfpnn	жр,ед,рд	3	_	_	_	операци	cfpnn	N
+9	объединения	объединение	S	Ncnsgn	ср,ед,рд	12	_	_	_	объединен	cnsgn	N
+10	,	,	PUNCT	,	_	0	_	_	_	_		,
+11	пересечения	пересечение	S	Ncnsgn	ср,ед,рд	12	_	_	_	пересечен	cnsgn	N
+12	и	и	CONJ	C	_	8	_	_	_	и		C
+13	вычитания	<unknown>	S	Ncnsgn	ср,ед,рд	12	_	_	_	вычитан	cnsgn	N
+14	,	,	PUNCT	,	_	0	_	_	_	_		,
+15	требуют	требовать	V	Vmip3p-a-e	дст,нст,3л,мн	0	_	_	_	треб	mip3p-a-e	V
 16	,	,	PUNCT	,	_	0	_	_	_	_		,
-17	которое	который	A-PRO	P--nsna	ср,ед,вн,од,но	15	_	_	_	КОТОР	--nsna	P
-18	занималось	заниматься	V	Vmis-snm-e	дст,прш,ср,ед	17	_	_	_	ЗАНИМА	mis-snm-e	V
-19	контрабандной	<unknown>	A	Afpfsif	жр,ед,пр,од,но	20	_	_	_	КОНТРАБАНД	fpfsif	A
-20	перевозкой	перевозка	S	Ncfsin	жр,ед,тв	18	_	_	_	ВОЗ	cfsin	N
-21	иммигрантов	иммигрант	S	Ncmpgy	мр,мн,вн	20	_	_	_	ИММИГРАНТ	cmpgy	N
-22	в	в	PR	Sp-a	_	20	_	_	_	В	p-a	S
-23	Нью-Бедфорд	<unknown>	S	Ncmsan	жр,мн,рд	22	_	_	_	ОРД	cmsan	N
-24	,	,	PUNCT	,	_	0	_	_	_	_		,
-25	штат	штат	S	Ncmsnn	мр,ед,вн	23	_	_	_	ШТАТ	cmsnn	N
-26	Массачусетс	массачусетс	S	Ncmsnn	мр,ед,вн	25	_	_	_	МАССАЧУСЕТС	cmsnn	N
-27	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
+17	чтобы	чтобы	CONJ	C	_	15	_	_	_	чтобы		C
+18	отношения	отношение	S	Ncnpnn	ср,ед,рд	19	_	_	_	отношен	cnpnn	N
+19	имели	иметь	V	Vmis-p-a-e	дст,прш,мн	17	_	_	_	име	mis-p-a-e	V
+20	совпадающие	совпадать	V	Vmpp-p-afea	од,но,нст,дст,мн,им	24	_	_	_	совпада	mpp-p-afea	V
+21	(	(	PUNCT	-	_	0	_	_	_	_		-
+22	одинаковые	одинаковый	A	Afpmpnf	мн,им,од,но	24	_	_	_	одинаков	fpmpnf	A
+23	)	)	PUNCT	-	_	0	_	_	_	_		-
+24	заголовки	заголовок	S	Ncmpnn	мр,мн,им	19	_	_	_	заголов	cmpnn	N
+25	(	(	PUNCT	-	_	0	_	_	_	_		-
+26	схемы	схема	S	Ncfsgn	жр,ед,рд	24	_	_	_	схем	cfsgn	N
+27	)	)	PUNCT	-	_	0	_	_	_	_		-
+28	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
 
-1	Судно	судно	S	Ncnsnn	ср,ед,од,но	2	_	_	_	СУД	cnsnn	N
-2	потерпело	потерпеть	V	Vmis-sna-p	дст,прш,ср,ед	0	_	_	_	ПОТЕРП	mis-sna-p	V
-3	крушение	крушение	S	Ncnsan	ср,ед,вн	2	_	_	_	КРУШЕН	cnsan	N
-4	возле	возле	PR	Sp-g	_	3	_	_	_	ВОЗЛЕ	p-g	S
-5	Ньюпорта	<unknown>	S	Ncmsgn	мр,ед,рд	4	_	_	_	Р	cmsgn	N
-6	на	на	PR	Sp-l	_	3	_	_	_	НА	p-l	S
-7	Род-Айленде	<unknown>	S	Ncmsln	мр,ед,пр	6	_	_	_	АЙЛЕНД	cmsln	N
-8	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
-
-1	Некоторое	некоторый	A-PRO	P--nsaa	ср,ед,вн,од,но	2	_	_	_	КОТОР	--nsaa	P
-2	время	время	S	Ncnsan	ср,ед,вн	4	_	_	_	ВРЕМ	cnsan	N
-3	Джонсон	<unknown>	S	Npmsny	мр,имя,ед,им	4	_	_	_	ДЖОНСОН	pmsny	N
-4	жил	жить	V	Vmis-sma-e	жр,мн,рд	0	_	_	_	ЖИЛ	mis-sma-e	V
-5	в	в	PR	Sp-l	_	4	_	_	_	В	p-l	S
-6	Ньюпорте	Ньюпорт	S	Ncmsln	мр,ед,пр	5	_	_	_	Р	cmsln	N
-7	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
-
-1	Он	он	S-PRO	P-3msnn	3л,мр,ед,им	2	_	_	_	_	-3msnn	P
-2	работал	работать	V	Vmis-sma-e	дст,прш,мр,ед	0	_	_	_	РАБОТА	mis-sma-e	V
-3	садовником	садовник	S	Ncmsiy	мр,ед,тв	4	_	_	_	САДОВНИК	cmsiy	N
-4	и	и	CONJ	C	_	2	_	_	_	И		C
-5	плотником	плотник	S	Ncmsiy	мр,ед,тв	4	_	_	_	ПЛОТНИК	cmsiy	N
-6	в	в	PR	Sp-l	_	2	_	_	_	В	p-l	S
-7	имении	имение	S	Ncnsln	ср,ед,пр	6	_	_	_	ИМЕН	cnsln	N
-8	Рэмфордов	<unknown>	S	Ncmpgy	мр,мн,рд	7	_	_	_	ФОРД	cmpgy	N
-9	,	,	PUNCT	,	_	0	_	_	_	_		,
-10	где	где	ADV-PRO	P-----r	вопр	7	_	_	_	ГДЕ	-----r	P
-11	имел	иметь	V	Vmis-sma-e	дст,прш,мр,ед	10	_	_	_	ИМЕ	mis-sma-e	V
-12	возможность	возможность	S	Ncfsan	жр,ед,вн	11	_	_	_	ВОЗМОЖНОСТ	cfsan	N
-13	видеть	видеть	V	Vmn----a-e	дст	12	_	_	_	ВИ	mn----a-e	V
-14	генерала	генерал	S	Ncmsgy	мр,ед,вн	28	_	_	_	ГЕНЕРАЛ	cmsgy	N
-15	Джона	джон	S	Npmsgy	мр,имя,ед,вн	14	_	_	_	ДЖОН	pmsgy	N
-16	Першинга	<unknown>	S	Ncmsgn	жр,имя,ед,им	15	_	_	_	ИНГ	cmsgn	N
-17	,	,	PUNCT	,	_	0	_	_	_	_		,
-18	Франклина	<unknown>	S	Npmsgy	мр,ед,рд	28	_	_	_	ФРАНКЛИН	pmsgy	N
-19	Делано	делать	V	Npmsgy	од,но,прш,стр,ед,ср	18	_	_	_	ДЕЛА	pmsgy	N
-20	Рузвельта	рузвельт	S	Npmsgy	мр,ед,вн	19	_	_	_	РУЗВЕЛЬТ	pmsgy	N
-21	,	,	PUNCT	,	_	0	_	_	_	_		,
-22	Энрико	Энрико	S	Npmsay	мр,имя,0	28	_	_	_	ЭНРИКО	pmsay	N
-23	Карузо	<unknown>	S	Npmsgy	0,од,но	22	_	_	_	КАРУЗО	pmsgy	N
-24	,	,	PUNCT	,	_	0	_	_	_	_		,
-25	Уоррена	<unknown>	S	Npmsgy	мр,имя,ед,вн	28	_	_	_	УОРРЕН	pmsgy	N
-26	Гамалиеля	<unknown>	S	Npmsgy	мр,имя,ед,вн	25	_	_	_	ГАМАЛИЕЛ	pmsgy	N
-27	Гардинга	<unknown>	S	Npmsgy	жр,имя,ед,им	26	_	_	_	ИНГ	pmsgy	N
-28	и	и	CONJ	C	_	13	_	_	_	И		C
-29	Гарри	гарри	S	Npmsgy	мр,имя,0	28	_	_	_	ГАРРИ	pmsgy	N
-30	Гудини	<unknown>	S	Npmsgy	мр-жр,0	29	_	_	_	ГУДИНИ	pmsgy	N
-31	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
-
-1	После	после	PR	Sp-g	_	11	_	_	_	ПОСЛЕ	p-g	S
-2	окончания	окончание	S	Ncnsgn	ср,мн,вн	1	_	_	_	ОКОНЧАН	cnsgn	N
-3	Первой	первый	A-NUM	Mofsi	жр,ед,пр,од,но	4	_	_	_	ПЕРВ	ofsi	M
-4	мировой	мировой	A	Afpfsgf	жр,ед,пр,од,но	5	_	_	_	МИРОВ	fpfsgf	A
-5	войны	война	S	Ncfsgn	жр,мн,вн	2	_	_	_	ВОЙН	cfsgn	N
-6	в	в	PR	Sp-l	_	11	_	_	_	В	p-l	S
-7	качестве	качество	S	Ncnsln	ср,ед,пр	6	_	_	_	КАЧЕСТВ	cnsln	N
-8	первого	первый	A-NUM	Momsg	ср,ед,рд,од,но	9	_	_	_	ПЕРВ	omsg	M
-9	помощника	помощник	S	Ncmsgy	мр,ед,вн	7	_	_	_	ПОМОЩНИК	cmsgy	N
-10	капитана	капитан	S	Ncmsgy	мр,ед,вн	9	_	_	_	КАПИТАН	cmsgy	N
-11	отправился	отправиться	V	Vmis-smm-p	дст,прш,мр,ед	0	_	_	_	ОТПРАВ	mis-smm-p	V
-12	в	в	PR	Sp-a	_	11	_	_	_	В	p-a	S
-13	кругосветное	кругосветный	A	Afpnsaf	ср,ед,вн,од,но	14	_	_	_	КРУГОСВЕТ	fpnsaf	A
-14	путешествие	путешествие	S	Ncnsan	ср,ед,вн	12	_	_	_	ПУТЕШЕСТВИ	cnsan	N
-15	на	на	PR	Sp-l	_	11	_	_	_	НА	p-l	S
-16	яхте	яхта	S	Ncfsln	жр,ед,пр	15	_	_	_	ЯХТ	cfsln	N
-17	«	«	PUNCT	-	_	0	_	_	_	_		-
-18	Шехеразада	<unknown>	S	Ncfsnn	жр,имя,ед,им	16	_	_	_	АЗАД	cfsnn	N
-19	»	»	PUNCT	-	_	0	_	_	_	_		-
-20	,	,	PUNCT	,	_	0	_	_	_	_		,
-21	в	в	PR	Sp-l	_	14	_	_	_	В	p-l	S
-22	ходе	хода	S	Ncmsln	мр,ед,пр	21	_	_	_	ХОД	cmsln	N
-23	которого	который	A-PRO	P--msga	ср,ед,рд,од,но	21	_	_	_	КОТОР	--msga	P
-24	планировалось	планировать	V	Vmis-snm-e	дст,прш,ср,ед	21	_	_	_	ПЛАНИР	mis-snm-e	V
-25	зайти	зайти	V	Vmn----a-p	дст	24	_	_	_	ЗА	mn----a-p	V
-26	в	в	PR	Sp-a	_	25	_	_	_	В	p-a	S
-27	Испанию	испания	S	Ncfsan	жр,ед,вн	40	_	_	_	ИСПАНИ	cfsan	N
-28	,	,	PUNCT	,	_	0	_	_	_	_		,
-29	Францию	франция	S	Ncfsan	жр,ед,вн	40	_	_	_	ФРАНЦИ	cfsan	N
-30	,	,	PUNCT	,	_	0	_	_	_	_		,
-31	Италию	италия	S	Ncfsan	жр,ед,вн	40	_	_	_	ИТАЛИ	cfsan	N
-32	,	,	PUNCT	,	_	0	_	_	_	_		,
-33	Грецию	греция	S	Ncfsan	жр,ед,вн	40	_	_	_	ГРЕЦИ	cfsan	N
-34	,	,	PUNCT	,	_	0	_	_	_	_		,
-35	Египет	египет	S	Ncmsnn	мр,ед,вн	40	_	_	_	ЕГИП	cmsnn	N
-36	,	,	PUNCT	,	_	0	_	_	_	_		,
-37	Индию	индия	S	Ncfsan	жр,ед,вн	40	_	_	_	ИНДИ	cfsan	N
-38	,	,	PUNCT	,	_	0	_	_	_	_		,
-39	Китай	китай	S	Ncmsan	мр,ед,вн	40	_	_	_	КИТА	cmsan	N
-40	и	и	CONJ	C	_	26	_	_	_	И		C
-41	Японию	япония	S	Ncfsan	жр,ед,вн	40	_	_	_	ЯПОНИ	cfsan	N
-42	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
-
-1	Он	он	S-PRO	P-3msnn	3л,мр,ед,им	2	_	_	_	_	-3msnn	P
-2	прожил	прожить	V	Vmis-sma	дст,прш,мр,ед	7	_	_	_	ПРОЖИ	mis-sma	V
-3	в	в	PR	Sp-l	_	2	_	_	_	В	p-l	S
-4	Индии	индия	S	Ncfsln	жр,ед,пр	3	_	_	_	ИНДИ	cfsln	N
-5	два	два	NUM	Mcm-a	ср,вн	6	_	_	_	ДВ	cm-a	M
-6	года	год	S	Ncmsgn	мр,мн,вн	2	_	_	_	_	cmsgn	N
-7	и	и	CONJ	C	_	0	_	_	_	И		C
-8	стал	стать	V	Vmis-sma-p	дст,прш,мр,ед	7	_	_	_	СТА	mis-sma-p	V
-9	там	там	ADV-PRO	P-----r	указат	8	_	_	_	ТАМ	-----r	P
-10	приверженцем	приверженец	S	Ncmsiy	мр,ед,тв	8	_	_	_	ПРИВЕРЖЕН	cmsiy	N
-11	Ганди	Ганди	S	Npmsgy	мр-жр,0	10	_	_	_	ГАНДИ	pmsgy	N
-12	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
-
-1	Однажды	однажды	ADV	R	_	3	_	_	_	ОДНАЖДЫ		R
-2	он	он	S-PRO	P-3msnn	3л,мр,ед,им	3	_	_	_	_	-3msnn	P
-3	был	быть	V	Vmis-sma-e	дст,прш,мр,ед	0	_	_	_	_	mis-sma-e	V
-4	арестован	арестовать	V	Vmps-smpsp	од,но,прш,стр,ед,мр	3	_	_	_	АРЕСТ	mps-smpsp	V
-5	за	за	PR	Sp-a	_	4	_	_	_	ЗА	p-a	S
-6	то	то	S-PRO	P--nsan	_	5	_	_	_	ТО	--nsan	P
-7	,	,	PUNCT	,	_	0	_	_	_	_		,
-8	что	что	CONJ	C	вопр	6	_	_	_	ЧТО		C
-9	возглавил	возглавить	V	Vmis-sma-p	дст,прш,мр,ед	8	_	_	_	ВОЗГЛАВ	mis-sma-p	V
-10	группу	группа	S	Ncfsan	жр,ед,вн	9	_	_	_	ГРУПП	cfsan	N
-11	демонстрантов	демонстрант	S	Ncmpgn	мр,мн,вн	10	_	_	_	ДЕМОНСТРАНТ	cmpgn	N
-12	,	,	PUNCT	,	_	0	_	_	_	_		,
-13	протестовавших	<unknown>	V	Vmps-p-afpg	од,но,прш,дст,мн,пр	11	_	_	_	ПРОТЕСТ	mps-p-afpg	V
-14	против	против	PR	Sp-g	нст	13	_	_	_	ПРОТИВ	p-g	S
-15	господства	господство	S	Ncnsgn	ср,мн,вн	14	_	_	_	ГОСПОДСТВ	cnsgn	N
-16	англичан	англичанин	S	Ncmpgy	мр,мн,вн	15	_	_	_	АНГЛИЧАН	cmpgy	N
-17	:	:	PUNCT	-	_	0	_	_	_	_		-
-18	они	они	S-PRO	P-3-pnn	3л,мн,им	19	_	_	_	_	-3-pnn	P
-19	ложились	ложиться	V	Vmis-p-m-e	дст,прш,мн	22	_	_	_	ЛОЖ	mis-p-m-e	V
-20	на	на	PR	Sp-a	_	19	_	_	_	НА	p-a	S
-21	рельсы	рельс	S	Ncmpan	мр,мн,вн	20	_	_	_	РЕЛЬС	cmpan	N
-22	и	и	CONJ	C	_	0	_	_	_	И		C
-23	останавливали	останавливать	V	Vmis-p-a-e	дст,прш,мн	22	_	_	_	ОСТАНАВЛИВА	mis-p-a-e	V
-24	поезда	поезд	S	Ncmsgn	мр,мн,вн	23	_	_	_	ПОЕЗД	cmsgn	N
-25	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
-
-1	Когда	когда	CONJ	C	вопр	8	_	_	_	КОГДА		C
-2	Джонсона	джонсон	S	Npfsny	мр,имя,ед,вн	3	_	_	_	ДЖОНСОН	pfsny	N
-3	выпустили	выпустить	V	Vmis-p-a-p	дст,прш,мн	1	_	_	_	ВЫПУ	mis-p-a-p	V
-4	из	из	PR	Sp-g	жр,имя,мн,вн	3	_	_	_	ИЗ	p-g	S
-5	тюрьмы	тюрьма	S	Ncfsgn	жр,мн,вн	4	_	_	_	ТЮР	cfsgn	N
-6	,	,	PUNCT	,	_	0	_	_	_	_		,
-7	его	оно	S-PRO	P-----a	0,од,но	8	_	_	_	ЕГО	-----a	P
-8	депортировали	<unknown>	V	Vmis-p-a-e	дст,прш,мн	0	_	_	_	ДЕПОРТИР	mis-p-a-e	V
-9	в	в	PR	Sp-a	_	8	_	_	_	В	p-a	S
-10	Тобаго	<unknown>	S	Afpmsaf	ср,ед,0	9	_	_	_	ТОБАГО	fpmsaf	A
-11	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
-
-1	Там	там	ADV-PRO	P-----r	указат	3	_	_	_	ТАМ	-----r	P
-2	Джонсон	<unknown>	S	Npmsny	мр,имя,ед,им	3	_	_	_	ДЖОНСОН	pmsny	N
-3	построил	построить	V	Vmis-sma-p	дст,прш,мр,ед	0	_	_	_	РО	mis-sma-p	V
-4	вторую	второй	A-NUM	Mofsa	жр,ед,вн,од,но	5	_	_	_	ВТОР	ofsa	M
-5	шхуну	шхуна	S	Ncfsan	жр,ед,вн	3	_	_	_	ШХУН	cfsan	N
-6	,	,	PUNCT	,	_	0	_	_	_	_		,
-7	назвав	назвать	V	Vmgs---a-p	дст,прш	3	_	_	_	НАЗ	mgs---a-p	V
-8	ее	ее	A-PRO	P-3fsan	0,од,но	7	_	_	_	ЕЕ	-3fsan	P
-9	«	«	PUNCT	-	_	0	_	_	_	_		-
-10	Туфелька-2	<unknown>	S	Mc	_	8	_	_	_	_	c	M
-11	»	»	PUNCT	-	_	0	_	_	_	_		-
-12	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
-
-1	Он	он	S-PRO	P-3msnn	3л,мр,ед,им	2	_	_	_	_	-3msnn	P
-2	отправился	отправиться	V	Vmis-smm-p	дст,прш,мр,ед	0	_	_	_	ОТПРАВ	mis-smm-p	V
-3	на	на	PR	Sp-l	_	2	_	_	_	НА	p-l	S
-4	ней	она	S-PRO	P-3fsln	3л,жр,ед,пр	3	_	_	_	_	-3fsln	P
-5	в	в	PR	Sp-l	_	2	_	_	_	В	p-l	S
-6	плаванье	плавание	S	Ncnsln	ср,ед,пр	5	_	_	_	ПЛАВАН	cnsln	N
-7	,	,	PUNCT	,	_	0	_	_	_	_		,
-8	не	не	PART	Q	_	2	_	_	_	НЕ		Q
-9	имея	иметь	V	Vmgp---a-e	дст,нст	8	_	_	_	ИМЕ	mgp---a-e	V
-10	определенной	определенный	A	Afpfsgf	жр,ед,пр,од,но	11	_	_	_	ОПРЕДЕЛЕН	fpfsgf	A
-11	цели	цель	S	Ncfsgn	жр,мн,вн	9	_	_	_	ЦЕЛ	cfsgn	N
-12	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
-
-1	В	в	PR	Sp-l	_	5	_	_	_	В	p-l	S
-2	1922	@card@	NUM	Mc---d	_	3	_	_	_	_	c---d	M
-3	году	год	S	Ncmsnnl	мр,ед,пр,2	1	_	_	_	_	cmsnnl	N
-4	он	он	S-PRO	P-3msnn	3л,мр,ед,им	5	_	_	_	_	-3msnn	P
-5	укрылся	укрыться	V	Vmis-smm-p	дст,прш,мр,ед	0	_	_	_	УКР	mis-smm-p	V
-6	от	от	PR	Sp-g	_	5	_	_	_	ОТ	p-g	S
-7	урагана	ураган	S	Ncmsgn	мр,ед,рд	6	_	_	_	УРАГАН	cmsgn	N
-8	в	в	PR	Sp-l	_	7	_	_	_	В	p-l	S
-9	Порт-о-Пренсе	<unknown>	S	Ncmsln	мр,имя,ед,пр	8	_	_	_	ЕНС	cmsln	N
-10	на	на	PR	Sp-l	_	7	_	_	_	НА	p-l	S
-11	Гаити	гаити	S	Ncmsln	ср,ед,0	10	_	_	_	ГАИТИ	cmsln	N
-12	,	,	PUNCT	,	_	0	_	_	_	_		,
-13	оккупированном	оккупировать	V	Vmps-smpfpl	од,но,прш,стр,ед,ср,пр	11	_	_	_	ОККУПИР	mps-smpfpl	V
-14	тогда	тогда	ADV-PRO	P-----r	указат	13	_	_	_	ТОГДА	-----r	P
-15	американской	американский	A	Afpfsgf	жр,ед,пр,од,но	17	_	_	_	АМЕРИКАНСК	fpfsgf	A
-16	морской	морской	A	Afpfsgf	жр,ед,пр,од,но	17	_	_	_	МОРСК	fpfsgf	A
-17	пехотой	пехота	S	Ncfsin	жр,ед,тв	13	_	_	_	ПЕХОТ	cfsin	N
+1	Это	это	S-PRO	P--nsnn	ср,ед,им	2	_	_	_	эт	--nsnn	P
+2	означает	означать	V	Vmip3s-a-e	дст,нст,3л,ед	0	_	_	_	означа	mip3s-a-e	V
+3	,	,	PUNCT	,	_	0	_	_	_	_		,
+4	что	что	CONJ	C	ср,ед,им	2	_	_	_	ч		C
+5	совпадают	совпадать	V	Vmip3p-a-e	дст,нст,3л,мн	4	_	_	_	совпада	mip3p-a-e	V
+6	количество	количество	S	Ncnsnn	ср,ед,им	11	_	_	_	количеств	cnsnn	N
+7	атрибутов	атрибут	S	Ncmpgn	мр,мн,рд	6	_	_	_	атрибут	cmpgn	N
+8	,	,	PUNCT	,	_	0	_	_	_	_		,
+9	названия	название	S	Ncnpnn	ср,ед,рд	11	_	_	_	назван	cnpnn	N
+10	атрибутов	атрибут	S	Ncmpgn	мр,мн,рд	9	_	_	_	атрибут	cmpgn	N
+11	и	и	CONJ	C	_	5	_	_	_	и		C
+12	тип	тип	S	Ncmsnn	мр,ед,им	11	_	_	_	тип	cmsnn	N
+13	(	(	PUNCT	-	_	0	_	_	_	_		-
+14	домен	домен	S	Ncmsan	жр,мн,рд	12	_	_	_	дом	cmsan	N
+15	)	)	PUNCT	-	_	0	_	_	_	_		-
+16	одноимённых	<unknown>	A	Afpmpgf	мн,пр,од,но	17	_	_	_	одноимённ	fpmpgf	A
+17	атрибутов	атрибут	S	Ncmpgn	мр,мн,рд	12	_	_	_	атрибут	cmpgn	N
 18	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
 
-1	Там	там	ADV-PRO	P-----r	указат	2	_	_	_	ТАМ	-----r	P
-2	познакомился	познакомиться	V	Vmis-smm-p	дст,прш,мр,ед	0	_	_	_	ПОЗНАКОМ	mis-smm-p	V
-3	с	с	PR	Sp-i	_	2	_	_	_	С	p-i	S
-4	капралом	<unknown>	S	Ncmsin	мр,ед,тв	3	_	_	_	КАПРАЛ	cmsin	N
-5	Эрлом	<unknown>	S	Ncmsin	мр,ед,тв	4	_	_	_	ЭРЛ	cmsin	N
-6	Маккэйбом	<unknown>	S	Npmsiy	мр,ед,пр,од,но	5	_	_	_	МАККЭЙБ	pmsiy	N
+1	Некоторые	некоторый	A-PRO	Afpmpnf	мн,им,од,но	2	_	_	_	некотор	fpmpnf	A
+2	отношения	отношение	S	Ncnpnn	ср,ед,рд	5	_	_	_	отношен	cnpnn	N
+3	формально	формально	ADV	R	ср,ед,од,но	5	_	_	_	формал		R
+4	не	не	PART	Q	_	5	_	_	_	не		Q
+5	являются	являться	V	Vmip3p-m-e	дст,нст,3л,мн	0	_	_	_	явля	mip3p-m-e	V
+6	совместимыми	<unknown>	V	Afpmpif	мн,тв,од,но	5	_	_	_	совместим	fpmpif	A
+7	из-за	из-за	PR	Sp-g	_	5	_	_	_	из-за	p-g	S
+8	различия	различие	S	Ncnsgn	ср,ед,рд	7	_	_	_	различ	cnsgn	N
+9	в	в	PR	Sp-l	_	8	_	_	_	в	p-l	S
+10	названиях	название	S	Ncnpln	ср,мн,пр	9	_	_	_	назван	cnpln	N
+11	атрибутов	атрибут	S	Ncmpgn	мр,мн,рд	10	_	_	_	атрибут	cmpgn	N
+12	,	,	PUNCT	,	_	0	_	_	_	_		,
+13	но	но	CONJ	C	_	5	_	_	_	но		C
+14	становятся	становиться	V	Vmip3p-m-e	дст,нст,3л,мн	13	_	_	_	станов	mip3p-m-e	V
+15	таковыми	таковой	A-PRO	P---pia	мн,тв,од,но	14	_	_	_	таков	---pia	P
+16	после	после	PR	Sp-g	мр,ед,пр	14	_	_	_	пос	p-g	S
+17	применения	применение	S	Ncnsgn	ср,ед,рд	16	_	_	_	применен	cnsgn	N
+18	операции	операция	S	Ncfsgn	жр,ед,рд	17	_	_	_	операци	cfsgn	N
+19	переименования	переименование	S	Ncnsgn	ср,ед,рд	18	_	_	_	переименован	cnsgn	N
+20	атрибутов	атрибут	S	Ncmpgn	мр,мн,рд	19	_	_	_	атрибут	cmpgn	N
+21	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
+
+1	Далее	далее	ADV	R	_	2	_	_	_	далее		R
+2	перечислены	перечислять	V	Vmps-p-psp	од,но,прш,стр,мн	0	_	_	_	перечисл	mps-p-psp	V
+3	некоторые	некоторый	A-PRO	Afpmpnf	мн,им,од,но	4	_	_	_	некотор	fpmpnf	A
+4	операции	операция	S	Ncfpnn	жр,ед,рд	2	_	_	_	операци	cfpnn	N
+5	реляционной	<unknown>	A	Afpfsgf	жр,ед,рд,од,но	6	_	_	_	реляционн	fpfsgf	A
+6	алгебры	алгебра	S	Ncfsgn	жр,ед,рд	4	_	_	_	алгебр	cfsgn	N
 7	,	,	PUNCT	,	_	0	_	_	_	_		,
-8	который	который	A-PRO	P--msna	мр,ед,вн,но	4	_	_	_	КОТОР	--msna	P
-9	дезертировал	дезертировать	V	Vmis-sma-e	дст,прш,мр,ед	13	_	_	_	ДЕЗЕРТИР	mis-sma-e	V
-10	из	из	PR	Sp-g	жр,имя,мн,вн	9	_	_	_	ИЗ	p-g	S
-11	морской	морской	A	Afpfsgf	жр,ед,пр,од,но	12	_	_	_	МОРСК	fpfsgf	A
-12	пехоты	пехота	S	Ncfsgn	жр,мн,вн	10	_	_	_	ПЕХОТ	cfsgn	N
-13	и	и	CONJ	C	_	8	_	_	_	И		C
-14	попросил	попросить	V	Vmis-sma-p	дст,прш,мр,ед	13	_	_	_	ПОПРО	mis-sma-p	V
-15	Джонсона	джонсон	S	Npmsay	мр,имя,ед,вн	14	_	_	_	ДЖОНСОН	pmsay	N
-16	переправить	переправить	V	Vmn----a-p	мр,имя,мн,вн	14	_	_	_	ВИТ	mn----a-p	V
-17	его	оно	S-PRO	P-----a	0,од,но	16	_	_	_	ЕГО	-----a	P
-18	в	в	PR	Sp-l	_	16	_	_	_	В	p-l	S
-19	Майами	майами	S	Ncmsln	мр,ед,0	18	_	_	_	МАЙАМИ	cmsln	N
-20	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
+8	которые	который	A-PRO	P---pna	мн,им,од,но	4	_	_	_	котор	---pna	P
+9	представляют	представлять	V	Vmip3p-a-e	дст,нст,3л,мн	8	_	_	_	представля	mip3p-a-e	V
+10	либо	либо	CONJ	C	_	15	_	_	_	либо		C
+11	исторический	исторический	A	Afpmsaf	мр,ед,им,од,но	10	_	_	_	историческ	fpmsaf	A
+12	,	,	PUNCT	,	_	0	_	_	_	_		,
+13	либо	либо	CONJ	C	_	15	_	_	_	либо		C
+14	практический	практический	A	Afpmsnf	мр,ед,им,од,но	13	_	_	_	практическ	fpmsnf	A
+15	интерес	интерес	S	Ncmsnn	мр,ед,им	9	_	_	_	интерес	cmsnn	N
+16	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
 
-1	Но	но	CONJ	C	_	3	_	_	_	НО		C
-2	судно	судно	S	Ncnsnn	ср,ед,од,но	3	_	_	_	СУД	cnsnn	N
-3	налетело	<unknown>	V	Vmis-sna-p	дст,прш,ср,ед	9	_	_	_	НАЛЕ	mis-sna-p	V
-4	на	на	PR	Sp-a	_	3	_	_	_	НА	p-a	S
-5	скалы	скала	S	Ncfpan	жр,мн,вн	4	_	_	_	СКАЛ	cfpan	N
-6	возле	возле	PR	Sp-g	_	5	_	_	_	ВОЗЛЕ	p-g	S
-7	острова	остров	S	Ncmsgn	мр,мн,вн	6	_	_	_	ОСТРОВ	cmsgn	N
-8	Сан-Лоренцо	Сан-Лоренцо	S	Ncmsnn	мр,ед,вн	7	_	_	_	САН+ЛОРЕНЦ	cmsnn	N
-9	и	и	CONJ	C	_	0	_	_	_	И		C
-10	затонуло	<unknown>	V	Vmis-sna-p	дст,прш,ср,ед	9	_	_	_	ТОН	mis-sna-p	V
-11	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
+1	Все	весь	A-PRO	P---pnn	ср,ед,им,од,но	2	_	_	_	в	---pnn	P
+2	операции	операция	S	Ncfsgn	жр,ед,рд	4	_	_	_	операци	cfsgn	N
+3	перечислить	перечислить	V	Vmn----a-p	дст	4	_	_	_	перечисл	mn----a-p	V
+4	невозможно	невозможно	ADV	R	ср,ед,од,но	0	_	_	_	невозмож		R
+5	,	,	PUNCT	,	_	0	_	_	_	_		,
+6	поскольку	поскольку	CONJ	C	_	4	_	_	_	поскольку		C
+7	любая	любой	A-PRO	P--fsna	жр,ед,им	8	_	_	_	люб	--fsna	P
+8	операция	операция	S	Ncfsnn	жр,ед,им	14	_	_	_	операци	cfsnn	N
+9	,	,	PUNCT	,	_	0	_	_	_	_		,
+10	удовлетворяющая	<unknown>	V	Vmgp---a-e	од,но,нст,дст,ед,жр,им	8	_	_	_	удовлетворя	mgp---a-e	V
+11	определению	определение	S	Ncnsdn	ср,ед,дт	10	_	_	_	определен	cnsdn	N
+12	реляционной	<unknown>	A	Afpfsif	жр,ед,рд,од,но	11	_	_	_	реляционн	fpfsif	A
+13	,	,	PUNCT	,	_	0	_	_	_	_		,
+14	является	являться	V	Vmip3s-m-e	дст,нст,3л,ед	6	_	_	_	явля	mip3s-m-e	V
+15	частью	часть	S	Ncfsin	жр,ед,тв	14	_	_	_	част	cfsin	N
+16	реляционной	<unknown>	A	Afpfsgf	жр,ед,рд,од,но	17	_	_	_	реляционн	fpfsgf	A
+17	алгебры	алгебра	S	Ncfsgn	жр,ед,рд	15	_	_	_	алгебр	cfsgn	N
+18	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
 
-1	Джонсон	<unknown>	S	Npmsny	мр,имя,ед,им	2	_	_	_	ДЖОНСОН	pmsny	N
-2	и	и	CONJ	C	_	4	_	_	_	И		C
-3	Маккэйб	<unknown>	S	Npmsny	жр,мн,рд	2	_	_	_	МАККЭЙБ	pmsny	N
-4	сумели	суметь	V	Vmis-p-a-p	дст,прш,мн	8	_	_	_	СУМЕ	mis-p-a-p	V
-5	доплыть	доплывать	V	Vmn----a-p	дст	4	_	_	_	ПЛЫ	mn----a-p	V
-6	до	до	PR	Sp-g	_	5	_	_	_	ДО	p-g	S
-7	берега	берег	S	Ncmsgn	мр,мн,вн	6	_	_	_	БЕРЕГ	cmsgn	N
-8	и	и	CONJ	C	_	0	_	_	_	И		C
-9	остались	остаться	V	Vmis-p-m-p	дст,прш,мн	8	_	_	_	ОСТА	mis-p-m-p	V
-10	на	на	PR	Sp-l	_	9	_	_	_	НА	p-l	S
-11	острове	остров	S	Ncmsln	мр,ед,пр	10	_	_	_	ОСТРОВ	cmsln	N
-12	Сан-Лоренцо	Сан-Лоренцо	S	Ncmsnn	мр,ед,вн	11	_	_	_	САН+ЛОРЕНЦ	cmsnn	N
-13	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
-
-1	На	на	PR	Sp-l	_	11	_	_	_	НА	p-l	S
-2	островном	<unknown>	A	Afpmslf	ср,ед,пр,од,но	3	_	_	_	ОСТРОВН	fpmslf	A
-3	диалекте	диалект	S	Ncmsln	мр,ед,пр	1	_	_	_	ДИАЛЕКТ	cmsln	N
-4	английского	английский	A	Afpmsgf	ср,ед,рд,од,но	5	_	_	_	АНГЛИЙСК	fpmsgf	A
-5	языка	язык	S	Ncmsgn	мр,ед,рд	3	_	_	_	ЯЗЫК	cmsgn	N
-6	его	его	A-PRO	P-----a	0,од,но	7	_	_	_	ЕГО	-----a	P
-7	имя	имя	S	Ncnsan	ср,ед,вн	11	_	_	_	ИМ	cnsan	N
-8	—	<unknown>	S	-	_	0	_	_	_	_		-
-9	Джонсон	<unknown>	S	Npmsny	мр,имя,ед,им	7	_	_	_	ДЖОНСОН	pmsny	N
-10	—	<unknown>	S	-	_	0	_	_	_	_		-
-11	произносили	произносить	V	Vmis-p-a-e	дст,прш,мн	0	_	_	_	ПРОИЗНО	mis-p-a-e	V
-12	как	как	ADV-PRO	C	вопр	11	_	_	_	КАК		C
-13	Боконон	<unknown>	S	Ncmsnn	жр,мн,рд	12	_	_	_	НОН	cmsnn	N
+1	В	в	PR	Sp-l	_	6	_	_	_	в	p-l	S
+2	результате	результат	S	Ncmsln	мр,ед,пр	1	_	_	_	результат	cmsln	N
+3	применения	применение	S	Ncnsgn	ср,ед,рд	2	_	_	_	применен	cnsgn	N
+4	операции	операция	S	Ncfsgn	жр,ед,рд	3	_	_	_	операци	cfsgn	N
+5	переименования	переименование	S	Ncnsgn	ср,ед,рд	4	_	_	_	переименован	cnsgn	N
+6	получаем	получать	V	Vmip1p-a-e	дст,нст,1л,мн	0	_	_	_	получа	mip1p-a-e	V
+7	новое	новый	A	Afpnsaf	ср,ед,им	8	_	_	_	нов	fpnsaf	A
+8	отношение	отношение	S	Ncnsan	ср,ед,им	6	_	_	_	отношен	cnsan	N
+9	,	,	PUNCT	,	_	0	_	_	_	_		,
+10	с	с	PR	Sp-i	_	8	_	_	_	с	p-i	S
+11	измененными	<unknown>	A	Vmps-p-pfpi	од,но,прш,стр,мн,тв	12	_	_	_	измен	mps-p-pfpi	V
+12	именами	имя	S	Ncnpin	ср,мн,тв	10	_	_	_	им	cnpin	N
+13	атрибутов	атрибут	S	Ncmpgn	мр,мн,рд	12	_	_	_	атрибут	cmpgn	N
 14	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
 
-1	Канка́н	<unknown>	S	Npmsny	мр,ед,вн	0	_	_	_	КАНКА́Н	pmsny	N
+1	Отношение	отношение	S	Ncnsnn	ср,ед,им	0	_	_	_	отношен	cnsnn	N
+2	с	с	PR	Sp-i	_	1	_	_	_	с	p-i	S
+3	тем	то	S-PRO	P--nsin	мр,ед,тв,од,но	5	_	_	_	т	--nsin	P
+4	же	же	PART	Q	_	3	_	_	_	же		Q
+5	заголовком	заголовок	S	Ncmsin	мр,ед,тв	18	_	_	_	заголов	cmsin	N
+6	,	,	PUNCT	,	_	0	_	_	_	_		,
+7	что	что	CONJ	C	ср,ед,им	5	_	_	_	ч		C
+8	и	и	CONJ	C	_	7	_	_	_	и		C
+9	у	у	PR	Sp-g	_	7	_	_	_	у	p-g	S
+10	совместимых	совместимый	A	Afpmpgf	мн,рд,од,но	13	_	_	_	совместим	fpmpgf	A
+11	по	по	PR	Sp-d	_	10	_	_	_	по	p-d	S
+12	типу	тип	S	Ncmsdn	мр,ед,дт	11	_	_	_	тип	cmsdn	N
+13	отношений	отношение	S	Ncnpgn	ср,мн,рд	9	_	_	_	отношен	cnpgn	N
+14	A	A	S	-	_	15	_	_	_	_		-
+15	и	и	CONJ	C	_	13	_	_	_	и		C
+16	B	B	S	-	_	15	_	_	_	_		-
+17	,	,	PUNCT	,	_	0	_	_	_	_		,
+18	и	и	CONJ	C	_	2	_	_	_	и		C
+19	телом	тело	S	Ncnsin	ср,ед,тв	18	_	_	_	тел	cnsin	N
+20	,	,	PUNCT	,	_	0	_	_	_	_		,
+21	состоящим	состоять	V	Vmpp-p-afed	од,но,нст,дст,ед,мр,тв	19	_	_	_	состо	mpp-p-afed	V
+22	из	из	PR	Sp-g	_	21	_	_	_	из	p-g	S
+23	кортежей	<unknown>	S	Ncmpgn	мр,мн,рд	22	_	_	_	кортеж	cmpgn	N
+24	,	,	PUNCT	,	_	0	_	_	_	_		,
+25	принадлежащих	принадлежать	V	Vmpp-p-afeg	од,но,нст,дст,мн,рд	23	_	_	_	принадлеж	mpp-p-afeg	V
+26	или	или	CONJ	C	_	25	_	_	_	или		C
+27	A	A	S	-	_	26	_	_	_	_		-
+28	,	,	PUNCT	,	_	0	_	_	_	_		,
+29	или	или	CONJ	C	_	25	_	_	_	или		C
+30	B	B	S	-	_	29	_	_	_	_		-
+31	,	,	PUNCT	,	_	0	_	_	_	_		,
+32	или	или	CONJ	C	_	25	_	_	_	или		C
+33	обоим	оба	NUM	Mcm-d	мр,дт	34	_	_	_	об	cm-d	M
+34	отношениям	отношение	S	Ncnpdn	ср,мн,дт	32	_	_	_	отношен	cnpdn	N
+35	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
+
+1	Отношение	отношение	S	Ncnsnn	ср,ед,им	0	_	_	_	отношен	cnsnn	N
+2	с	с	PR	Sp-i	_	1	_	_	_	с	p-i	S
+3	тем	то	S-PRO	P--nsin	мр,ед,тв,од,но	5	_	_	_	т	--nsin	P
+4	же	же	PART	Q	_	3	_	_	_	же		Q
+5	заголовком	заголовок	S	Ncmsin	мр,ед,тв	15	_	_	_	заголов	cmsin	N
+6	,	,	PUNCT	,	_	0	_	_	_	_		,
+7	что	что	CONJ	C	ср,ед,им	5	_	_	_	ч		C
+8	и	и	CONJ	C	_	7	_	_	_	и		C
+9	у	у	PR	Sp-g	_	8	_	_	_	у	p-g	S
+10	отношений	отношение	S	Ncnpgn	ср,мн,рд	9	_	_	_	отношен	cnpgn	N
+11	A	A	S	-	_	12	_	_	_	_		-
+12	и	и	CONJ	C	_	10	_	_	_	и		C
+13	B	B	S	-	_	12	_	_	_	_		-
+14	,	,	PUNCT	,	_	0	_	_	_	_		,
+15	и	и	CONJ	C	_	2	_	_	_	и		C
+16	телом	тело	S	Ncnsin	ср,ед,тв	15	_	_	_	тел	cnsin	N
+17	,	,	PUNCT	,	_	0	_	_	_	_		,
+18	состоящим	состоять	V	Vmpp-p-afed	од,но,нст,дст,ед,мр,тв	16	_	_	_	состо	mpp-p-afed	V
+19	из	из	PR	Sp-g	_	18	_	_	_	из	p-g	S
+20	кортежей	<unknown>	S	Ncmpgn	мр,мн,рд	19	_	_	_	кортеж	cmpgn	N
+21	,	,	PUNCT	,	_	0	_	_	_	_		,
+22	принадлежащих	принадлежать	V	Vmpp-p-afeg	од,но,нст,дст,мн,рд	20	_	_	_	принадлеж	mpp-p-afeg	V
+23	одновременно	одновременно	ADV	R	ср,ед,од,но	22	_	_	_	одновремен		R
+24	обоим	оба	NUM	Mcm-d	мр,дт	25	_	_	_	об	cm-d	M
+25	отношениям	отношение	S	Ncnpdn	ср,мн,дт	22	_	_	_	отношен	cnpdn	N
+26	A	A	S	-	_	27	_	_	_	_		-
+27	и	и	CONJ	C	_	25	_	_	_	и		C
+28	B	B	S	-	_	27	_	_	_	_		-
+29	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
+
+1	Отношение	отношение	S	Ncnsnn	ср,ед,им	0	_	_	_	отношен	cnsnn	N
+2	с	с	PR	Sp-i	_	1	_	_	_	с	p-i	S
+3	тем	то	S-PRO	P--nsin	мр,ед,тв,од,но	5	_	_	_	т	--nsin	P
+4	же	же	PART	Q	_	3	_	_	_	же		Q
+5	заголовком	заголовок	S	Ncmsin	мр,ед,тв	18	_	_	_	заголов	cmsin	N
+6	,	,	PUNCT	,	_	0	_	_	_	_		,
+7	что	что	CONJ	C	ср,ед,им	5	_	_	_	ч		C
+8	и	и	CONJ	C	_	7	_	_	_	и		C
+9	у	у	PR	Sp-g	_	8	_	_	_	у	p-g	S
+10	совместимых	совместимый	A	Afpmpgf	мн,рд,од,но	13	_	_	_	совместим	fpmpgf	A
+11	по	по	PR	Sp-d	_	10	_	_	_	по	p-d	S
+12	типу	тип	S	Ncmsdn	мр,ед,дт	11	_	_	_	тип	cmsdn	N
+13	отношений	отношение	S	Ncnpgn	ср,мн,рд	9	_	_	_	отношен	cnpgn	N
+14	A	A	S	-	_	15	_	_	_	_		-
+15	и	и	CONJ	C	_	13	_	_	_	и		C
+16	B	B	S	-	_	15	_	_	_	_		-
+17	,	,	PUNCT	,	_	0	_	_	_	_		,
+18	и	и	CONJ	C	_	2	_	_	_	и		C
+19	телом	тело	S	Ncnsin	ср,ед,тв	18	_	_	_	тел	cnsin	N
+20	,	,	PUNCT	,	_	0	_	_	_	_		,
+21	состоящим	состоять	V	Vmpp-p-afed	од,но,нст,дст,ед,мр,тв	19	_	_	_	состо	mpp-p-afed	V
+22	из	из	PR	Sp-g	_	21	_	_	_	из	p-g	S
+23	кортежей	<unknown>	S	Ncmpgn	мр,мн,рд	22	_	_	_	кортеж	cmpgn	N
+24	,	,	PUNCT	,	_	0	_	_	_	_		,
+25	принадлежащих	принадлежать	V	Vmpp-p-afeg	од,но,нст,дст,мн,рд	28	_	_	_	принадлеж	mpp-p-afeg	V
+26	отношению	отношение	S	Ncnsdn	ср,ед,дт	25	_	_	_	отношен	cnsdn	N
+27	A	A	S	-	_	26	_	_	_	_		-
+28	и	и	CONJ	C	_	23	_	_	_	и		C
+29	не	не	PART	Q	_	30	_	_	_	не		Q
+30	принадлежащих	принадлежать	V	Vmpp-p-afeg	од,но,нст,дст,мн,рд	28	_	_	_	принадлеж	mpp-p-afeg	V
+31	отношению	отношение	S	Ncnsdn	ср,ед,дт	30	_	_	_	отношен	cnsdn	N
+32	B	B	S	-	_	31	_	_	_	_		-
+33	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
+
+1	Отношение	отношение	S	Ncnsnn	ср,ед,им	0	_	_	_	отношен	cnsnn	N
 2	(	(	PUNCT	-	_	0	_	_	_	_		-
-3	)	)	PUNCT	-	_	0	_	_	_	_		-
-4	—	<unknown>	S	-	_	0	_	_	_	_		-
-5	энергичный	энергичный	A	Afpmsnf	мр,ед,вн,но	7	_	_	_	ЭНЕРГИЧ	fpmsnf	A
-6	французский	французский	A	Afpmsnf	мр,ед,вн,но	7	_	_	_	ФРАНЦУЗСК	fpmsnf	A
-7	танец	танец	S	Ncmsnn	мр,ед,вн	1	_	_	_	ТАН	cmsnn	N
-8	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
-
-1	Долгое	долгий	A	Afpnsaf	ср,ед,вн,од,но	2	_	_	_	ДОЛ	fpnsaf	A
-2	время	время	S	Ncnsan	ср,ед,вн	3	_	_	_	ВРЕМ	cnsan	N
-3	считался	считаться	V	Vmis-smm-e	дст,прш,мр,ед	0	_	_	_	СЧИТА	mis-smm-e	V
-4	непристойным	непристойный	A	Afpmsif	мн,дт,од,но	3	_	_	_	ПРИСТО	fpmsif	A
-5	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
-
-1	Появился	появиться	V	Vmis-smm-p	дст,прш,мр,ед	0	_	_	_	ПОЯВ	mis-smm-p	V
-2	в	в	PR	Sp-l	_	1	_	_	_	В	p-l	S
-3	Париже	париж	S	Ncmsln	мр,ед,пр	2	_	_	_	ПАРИЖ	cmsln	N
-4	в	в	PR	Sp-l	_	1	_	_	_	В	p-l	S
-5	1820-30-е	<unknown>	S	Mc	ср,ед,0	6	_	_	_	Е	c	M
-6	годы	год	S	Ncmpan	мр,мн,вн	4	_	_	_	_	cmpan	N
-7	на	на	PR	Sp-l	_	1	_	_	_	НА	p-l	S
-8	публичных	публичный	A	Afpmplf	мн,пр,од,но	9	_	_	_	ПУБЛИЧ	fpmplf	A
-9	балах	бал	S	Ncmpln	мр,мн,пр	7	_	_	_	БАЛ	cmpln	N
-10	в	в	PR	Sp-l	_	9	_	_	_	В	p-l	S
-11	рабочих	рабочий	A	Afpmplf	мн,пр,од,но	12	_	_	_	РАБОЧ	fpmplf	A
-12	кварталах	квартал	S	Ncmpln	мр,мн,пр	10	_	_	_	КВАРТАЛ	cmpln	N
-13	,	,	PUNCT	,	_	0	_	_	_	_		,
-14	как	как	CONJ	C	вопр	1	_	_	_	КАК		C
-15	потомок	потомок	S	Ncmsny	мр,ед,им	14	_	_	_	ПОТОМ	cmsny	N
-16	кадрили	<unknown>	V	Vmis-p-a-p	жр,мн,вн	25	_	_	_	КАДРИЛ	mis-p-a-p	V
-17	(	(	PUNCT	-	_	0	_	_	_	_		-
-18	зажигательные	зажигательный	A	Afpmpaf	мн,вн,но	19	_	_	_	ЗАЖИГАТЕЛ	fpmpaf	A
-19	движения	движение	S	Ncnpan	ср,мн,вн	16	_	_	_	ДВИЖЕН	cnpan	N
-20	последней	последний	A	Afpfsgf	мр,мн,рд	21	_	_	_	Д	fpfsgf	A
-21	фигуры	фигура	S	Ncfsgn	жр,мн,вн	19	_	_	_	ФИГУР	cfsgn	N
-22	этого	этот	A-PRO	P--nsgn	ср,ед,рд,од,но	23	_	_	_	ЭТ	--nsgn	P
-23	танца	танец	S	Ncmsgn	мр,ед,рд	21	_	_	_	ТАН	cmsgn	N
-24	)	)	PUNCT	-	_	0	_	_	_	_		-
-25	и	и	CONJ	C	_	15	_	_	_	И		C
-26	галопа	<unknown>	S	Ncmsgn	мр,ед,рд	25	_	_	_	ГАЛОП	cmsgn	N
+3	A1	<unknown>	S	Mc	_	1	_	_	_	_	c	M
+4	,	,	PUNCT	,	_	0	_	_	_	_		,
+5	A2	<unknown>	S	Mc	_	1	_	_	_	_	c	M
+6	,	,	PUNCT	,	_	0	_	_	_	_		,
+7	…	<unknown>	S	R	_	1	_	_	_	_		R
+8	,	,	PUNCT	,	_	0	_	_	_	_		,
+9	Am	am	S	-	_	1	_	_	_	_		-
+10	,	,	PUNCT	,	_	0	_	_	_	_		,
+11	B1	<unknown>	S	Mc	_	1	_	_	_	_	c	M
+12	,	,	PUNCT	,	_	0	_	_	_	_		,
+13	B2	<unknown>	S	Mc	_	1	_	_	_	_	c	M
+14	,	,	PUNCT	,	_	0	_	_	_	_		,
+15	…	<unknown>	S	R	_	1	_	_	_	_		R
+16	,	,	PUNCT	,	_	0	_	_	_	_		,
+17	Bm	<unknown>	S	Mc	_	1	_	_	_	_	c	M
+18	)	)	PUNCT	-	_	0	_	_	_	_		-
+19	,	,	PUNCT	,	_	0	_	_	_	_		,
+20	заголовок	заголовок	S	Ncmsnn	мр,ед,им	22	_	_	_	заголов	cmsnn	N
+21	которого	который	A-PRO	P--msga	мр,ед,рд,од,но	1	_	_	_	котор	--msga	P
+22	является	являться	V	Vmip3s-m-e	дст,нст,3л,ед	48	_	_	_	явля	mip3s-m-e	V
+23	сцеплением	<unknown>	S	Ncnsin	ср,ед,тв	22	_	_	_	сцеплен	cnsin	N
+24	заголовков	заголовок	S	Ncmpgn	мр,мн,рд	23	_	_	_	заголов	cmpgn	N
+25	отношений	отношение	S	Ncnpgn	ср,мн,рд	24	_	_	_	отношен	cnpgn	N
+26	A	A	S	-	_	36	_	_	_	_		-
 27	(	(	PUNCT	-	_	0	_	_	_	_		-
-28	2-дольный	<unknown>	A	Afpmsnf	мр,ед,вн,но	29	_	_	_	ДОЛЬН	fpmsnf	A
-29	метр	метр	S	Ncmsnn	мр,ед,вн	30	_	_	_	МЕТР	cmsnn	N
-30	и	и	CONJ	C	_	26	_	_	_	И		C
-31	быстрый	быстрый	A	Afpmsnf	мр,ед,вн,но	32	_	_	_	БЫСТР	fpmsnf	A
-32	темп	темп	S	Ncmsnn	мр,ед,вн	30	_	_	_	ТЕМП	cmsnn	N
-33	)	)	PUNCT	-	_	0	_	_	_	_		-
-34	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
+28	A1	<unknown>	S	Ncnsnn	_	26	_	_	_	_	cnsnn	N
+29	,	,	PUNCT	,	_	0	_	_	_	_		,
+30	A2	<unknown>	S	Mc	_	26	_	_	_	_	c	M
+31	,	,	PUNCT	,	_	0	_	_	_	_		,
+32	…	<unknown>	S	R	_	26	_	_	_	_		R
+33	,	,	PUNCT	,	_	0	_	_	_	_		,
+34	Am	am	S	-	_	26	_	_	_	_		-
+35	)	)	PUNCT	-	_	0	_	_	_	_		-
+36	и	и	CONJ	C	_	25	_	_	_	и		C
+37	B	B	S	-	_	36	_	_	_	_		-
+38	(	(	PUNCT	-	_	0	_	_	_	_		-
+39	B1	<unknown>	S	Mc	_	37	_	_	_	_	c	M
+40	,	,	PUNCT	,	_	0	_	_	_	_		,
+41	B2	<unknown>	S	Mc	_	39	_	_	_	_	c	M
+42	,	,	PUNCT	,	_	0	_	_	_	_		,
+43	…	<unknown>	S	R	_	37	_	_	_	_		R
+44	,	,	PUNCT	,	_	0	_	_	_	_		,
+45	Bm	<unknown>	S	Mc	_	37	_	_	_	_	c	M
+46	)	)	PUNCT	-	_	0	_	_	_	_		-
+47	,	,	PUNCT	,	_	0	_	_	_	_		,
+48	а	а	CONJ	C	_	21	_	_	_	а		C
+49	тело	тело	S	Ncnsnn	ср,ед,им	50	_	_	_	тел	cnsnn	N
+50	состоит	состоять	V	Vmip3s-a-e	дст,нст,3л,ед	48	_	_	_	состо	mip3s-a-e	V
+51	из	из	PR	Sp-g	_	50	_	_	_	из	p-g	S
+52	кортежей	<unknown>	S	Ncmpgn	мр,мн,рд	51	_	_	_	кортеж	cmpgn	N
+53	,	,	PUNCT	,	_	0	_	_	_	_		,
+54	являющихся	являться	V	Vmpp-p-mfeg	од,но,нст,дст,мн,рд	52	_	_	_	явля	mpp-p-mfeg	V
+55	сцеплением	<unknown>	S	Ncnsin	ср,ед,тв	54	_	_	_	сцеплен	cnsin	N
+56	кортежей	<unknown>	S	Ncmpgn	мр,мн,рд	55	_	_	_	кортеж	cmpgn	N
+57	отношений	отношение	S	Ncnpgn	ср,мн,рд	56	_	_	_	отношен	cnpgn	N
+58	A	A	S	-	_	59	_	_	_	_		-
+59	и	и	CONJ	C	_	57	_	_	_	и		C
+60	B	B	S	-	_	59	_	_	_	_		-
+61	:	:	PUNCT	-	_	0	_	_	_	_		-
+62	(	(	PUNCT	-	_	0	_	_	_	_		-
+63	a1	<unknown>	S	Mc	_	57	_	_	_	_	c	M
+64	,	,	PUNCT	,	_	0	_	_	_	_		,
+65	a2	<unknown>	S	Mc	_	57	_	_	_	_	c	M
+66	,	,	PUNCT	,	_	0	_	_	_	_		,
+67	…	<unknown>	S	R	_	0	_	_	_	_		R
+68	,	,	PUNCT	,	_	0	_	_	_	_		,
+69	am	am	S	-	_	57	_	_	_	_		-
+70	,	,	PUNCT	,	_	0	_	_	_	_		,
+71	b1	<unknown>	S	-	_	57	_	_	_	_		-
+72	,	,	PUNCT	,	_	0	_	_	_	_		,
+73	b2	<unknown>	S	Mc	_	57	_	_	_	_	c	M
+74	,	,	PUNCT	,	_	0	_	_	_	_		,
+75	…	<unknown>	S	R	_	57	_	_	_	_		R
+76	,	,	PUNCT	,	_	0	_	_	_	_		,
+77	bm	<unknown>	S	Mc	_	57	_	_	_	_	c	M
+78	)	)	PUNCT	-	_	0	_	_	_	_		-
+79	таких	такой	A-PRO	P---pga	мн,рд,од,но	57	_	_	_	так	---pga	P
+80	,	,	PUNCT	,	_	0	_	_	_	_		,
+81	что	что	CONJ	C	ср,ед,им	79	_	_	_	ч		C
+82	Отношение	отношение	S	Ncnsnn	ср,ед,им	81	_	_	_	отношен	cnsnn	N
+83	с	с	PR	Sp-i	_	82	_	_	_	с	p-i	S
+84	тем	то	S-PRO	P--nsin	мр,ед,тв,од,но	86	_	_	_	т	--nsin	P
+85	же	же	PART	Q	_	84	_	_	_	же		Q
+86	заголовком	заголовок	S	Ncmsin	мр,ед,тв	94	_	_	_	заголов	cmsin	N
+87	,	,	PUNCT	,	_	0	_	_	_	_		,
+88	что	что	CONJ	C	ср,ед,им	86	_	_	_	ч		C
+89	и	и	CONJ	C	_	88	_	_	_	и		C
+90	у	у	PR	Sp-g	_	88	_	_	_	у	p-g	S
+91	отношения	отношение	S	Ncnsgn	ср,ед,рд	90	_	_	_	отношен	cnsgn	N
+92	A	A	S	-	_	91	_	_	_	_		-
+93	,	,	PUNCT	,	_	0	_	_	_	_		,
+94	и	и	CONJ	C	_	83	_	_	_	и		C
+95	телом	тело	S	Ncnsin	ср,ед,тв	94	_	_	_	тел	cnsin	N
+96	,	,	PUNCT	,	_	0	_	_	_	_		,
+97	состоящим	состоять	V	Vmpp-p-afed	од,но,нст,дст,ед,мр,тв	95	_	_	_	состо	mpp-p-afed	V
+98	из	из	PR	Sp-g	_	97	_	_	_	из	p-g	S
+99	кортежей	<unknown>	S	Ncmpgn	мр,мн,рд	98	_	_	_	кортеж	cmpgn	N
+100	,	,	PUNCT	,	_	0	_	_	_	_		,
+101	значения	значение	S	Ncnpnn	ср,ед,рд	103	_	_	_	значен	cnpnn	N
+102	атрибутов	атрибут	S	Ncmpgn	мр,мн,рд	101	_	_	_	атрибут	cmpgn	N
+103	которых	который	A-PRO	P---pga	мн,рд,од,но	99	_	_	_	котор	---pga	P
+104	при	при	PR	Sp-l	дст,пвл,2л,ед	109	_	_	_	п	p-l	S
+105	подстановке	<unknown>	S	Ncfsln	жр,ед,дт	104	_	_	_	подстанов	cfsln	N
+106	в	в	PR	Sp-a	_	105	_	_	_	в	p-a	S
+107	условие	условие	S	Ncnsan	ср,ед,им	106	_	_	_	услов	cnsan	N
+108	c	с	PR	-	_	107	_	_	_	_		-
+109	дают	давать	V	Vmip3p-a-e	дст,нст,3л,мн	103	_	_	_	да	mip3p-a-e	V
+110	значение	значение	S	Ncnsan	ср,ед,им	109	_	_	_	значен	cnsan	N
+111	ИСТИНА	<unknown>	S	Ncfsnn	жр,ед,им	110	_	_	_	истин	cfsnn	N
+112	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
 
-1	Эффектный	<unknown>	A	Afpmsnf	мр,ед,вн,но	2	_	_	_	ЭФФЕКТ	fpmsnf	A
-2	шпагат	шпагат	S	Ncmsnn	мр,ед,вн	3	_	_	_	ШПАГАТ	cmsnn	N
-3	и	и	CONJ	C	_	7	_	_	_	И		C
-4	энергичные	энергичный	A	Afpmpnf	мн,вн,но	5	_	_	_	ЭНЕРГИЧ	fpmpnf	A
-5	махи	<unknown>	S	Ncmpnn	мр,мн,вн	3	_	_	_	МАХ	cmpnn	N
-6	ногами	нога	S	Ncfpin	жр,мн,тв	5	_	_	_	НОГ	cfpin	N
-7	появились	появиться	V	Vmis-p-m-p	дст,прш,мн	0	_	_	_	ПОЯВ	mis-p-m-p	V
-8	из	из	PR	Sp-g	жр,имя,мн,вн	7	_	_	_	ИЗ	p-g	S
-9	репертуара	репертуар	S	Ncmsgn	мр,ед,рд	8	_	_	_	РЕПЕРТУАР	cmsgn	N
-10	знаменитого	знаменитый	A	Afpmsgf	ср,ед,рд,од,но	12	_	_	_	ЗНАМЕНИТ	fpmsgf	A
-11	парижского	парижский	A	Afpmsgf	ср,ед,рд,од,но	12	_	_	_	ПАРИЖСК	fpmsgf	A
-12	акробата	акробат	S	Ncmsgy	мр,ед,вн	13	_	_	_	АКРОБАТ	cmsgy	N
-13	и	и	CONJ	C	_	9	_	_	_	И		C
-14	танцора	танцор	S	Ncmsgy	мр,ед,вн	13	_	_	_	ТАНЦОР	cmsgy	N
-15	Шарля	Шарля	S	Npmsgy	мр,имя,ед,вн	14	_	_	_	ШАРЛ	pmsgy	N
-16	Мазурьё	<unknown>	S	Ncmsnn	_	14	_	_	_	_	cmsnn	N
+1	c	с	PR	-	_	2	_	_	_	_		-
+2	представляет	представлять	V	Vmip3s-a-e	дст,нст,3л,ед	0	_	_	_	представля	mip3s-a-e	V
+3	собой	себя	S-PRO	P----in	тв	2	_	_	_	с	----in	P
+4	логическое	логический	A	Afpnsnf	ср,ед,им,од,но	5	_	_	_	логическ	fpnsnf	A
+5	выражение	выражение	S	Ncnsnn	ср,ед,им	2	_	_	_	выражен	cnsnn	N
+6	,	,	PUNCT	,	_	0	_	_	_	_		,
+7	в	в	PR	Sp-a	_	5	_	_	_	в	p-a	S
+8	которое	который	A-PRO	P--nsaa	ср,ед,им,од,но	7	_	_	_	котор	--nsaa	P
+9	могут	мочь	V	Vmip3p-a-e	дст,нст,3л,мн	8	_	_	_	мо	mip3p-a-e	V
+10	входить	входить	V	Vmn----a-e	дст	9	_	_	_	вхо	mn----a-e	V
+11	атрибуты	атрибут	S	Ncmpnn	мр,мн,им	14	_	_	_	атрибут	cmpnn	N
+12	отношения	отношение	S	Ncnsgn	ср,ед,рд	11	_	_	_	отношен	cnsgn	N
+13	A	A	S	-	_	12	_	_	_	_		-
+14	и/или	<unknown>	V	Vmis-p-a-p	дст,прш,мн	10	_	_	_	и/и	mis-p-a-p	V
+15	скалярные	<unknown>	A	Afpmpnf	мн,им,од,но	16	_	_	_	скаляр	fpmpnf	A
+16	выражения	выражение	S	Ncnpnn	ср,ед,рд	14	_	_	_	выражен	cnpnn	N
 17	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
 
-1	Музыкальный	музыкальный	A	Afpmsnf	мр,ед,вн,но	2	_	_	_	МУЗЫКАЛ	fpmsnf	A
-2	размер	размер	S	Ncmsnn	мр,ед,вн	0	_	_	_	РАЗМЕР	cmsnn	N
-3	2/4	@card@	NUM	Mc---d	_	2	_	_	_	_	c---d	M
-4	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
-
-1	Темп	темп	S	Ncmsnn	мр,ед,вн	0	_	_	_	ТЕМП	cmsnn	N
-2	энергичный	энергичный	A	Afpmsnf	мр,ед,вн,но	1	_	_	_	ЭНЕРГИЧ	fpmsnf	A
-3	,	,	PUNCT	,	_	0	_	_	_	_		,
-4	подвижный	подвижный	A	Afpmsnf	мр,ед,вн,но	1	_	_	_	ПОДВИЖ	fpmsnf	A
-5	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
-
-1	Характерные	<unknown>	A	Afp-pn	мн,вн,но	2	_	_	_	ХАРАКТЕР	fp-pn	A
-2	па	па	S	Ncnpan	ср,0	0	_	_	_	ПА	cnpan	N
-3	:	:	PUNCT	-	_	0	_	_	_	_		-
-4	выбрасывание	<unknown>	S	Ncnsnn	ср,ед,вн	5	_	_	_	ВЫБРАСЫВАН	cnsnn	N
-5	руки	рука	S	Ncfpan	жр,мн,вн	2	_	_	_	РУК	cfpan	N
+1	Отношение	отношение	S	Ncnsnn	ср,ед,им	0	_	_	_	отношен	cnsnn	N
+2	с	с	PR	Sp-i	_	1	_	_	_	с	p-i	S
+3	заголовком	заголовок	S	Ncmsin	мр,ед,тв	13	_	_	_	заголов	cmsin	N
+4	(	(	PUNCT	-	_	0	_	_	_	_		-
+5	X	<unknown>	S	-	_	3	_	_	_	_		-
 6	,	,	PUNCT	,	_	0	_	_	_	_		,
-7	ноги	нога	S	Ncfpnn	жр,мн,вн	2	_	_	_	НОГ	cfpnn	N
+7	Y	<unknown>	S	-	_	3	_	_	_	_		-
 8	,	,	PUNCT	,	_	0	_	_	_	_		,
-9	головы	голова	S	Ncfsgn	жр,мн,вн	2	_	_	_	ГОЛОВ	cfsgn	N
+9	…	<unknown>	S	R	_	3	_	_	_	_		R
 10	,	,	PUNCT	,	_	0	_	_	_	_		,
-11	прыжки	прыжок	S	Ncmpnn	мр,мн,вн	2	_	_	_	ПРЫЖ	cmpnn	N
-12	вниз	вниз	ADV	R	_	11	_	_	_	ВНИЗ		R
-13	головой	голова	S	Ncfsin	жр,ед,тв	12	_	_	_	ГОЛОВ	cfsin	N
-14	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
+11	Z	<unknown>	S	-	_	3	_	_	_	_		-
+12	)	)	PUNCT	-	_	0	_	_	_	_		-
+13	и	и	CONJ	C	_	2	_	_	_	и		C
+14	телом	тело	S	Ncnsin	ср,ед,тв	13	_	_	_	тел	cnsin	N
+15	,	,	PUNCT	,	_	0	_	_	_	_		,
+16	содержащим	содержать	V	Vmpp-smafei	од,но,нст,дст,ед,мр,тв	14	_	_	_	содерж	mpp-smafei	V
+17	множество	множество	S	Ncnsnn	ср,ед,им	18	_	_	_	множеств	cnsnn	N
+18	кортежей	<unknown>	S	Ncmpgn	мр,мн,рд	16	_	_	_	кортеж	cmpgn	N
+19	вида	вид	S	Ncmsgn	мр,ед,рд	18	_	_	_	вид	cmsgn	N
+20	(	(	PUNCT	-	_	0	_	_	_	_		-
+21	x	<unknown>	S	-	_	19	_	_	_	_		-
+22	,	,	PUNCT	,	_	0	_	_	_	_		,
+23	y	<unknown>	S	-	_	19	_	_	_	_		-
+24	,	,	PUNCT	,	_	0	_	_	_	_		,
+25	…	<unknown>	S	R	_	19	_	_	_	_		R
+26	,	,	PUNCT	,	_	0	_	_	_	_		,
+27	z	<unknown>	S	-	_	19	_	_	_	_		-
+28	)	)	PUNCT	-	_	0	_	_	_	_		-
+29	,	,	PUNCT	,	_	0	_	_	_	_		,
+30	таких	такой	A-PRO	P---pga	мн,рд,од,но	18	_	_	_	так	---pga	P
+31	,	,	PUNCT	,	_	0	_	_	_	_		,
+32	для	для	PR	Sp-g	дст,нст	30	_	_	_	дл	p-g	S
+33	которых	который	A-PRO	P---pga	мн,рд,од,но	32	_	_	_	котор	---pga	P
+34	в	в	PR	Sp-l	_	37	_	_	_	в	p-l	S
+35	отношении	отношение	S	Ncnsln	ср,ед,пр	37	_	_	_	отношен	cnsln	N
+36	A	A	S	-	_	35	_	_	_	_		-
+37	найдутся	найтись	V	Vmif3p-m-p	дст,буд,3л,мн	33	_	_	_	на	mif3p-m-p	V
+38	кортежи	<unknown>	S	Ncmpnn	мр,мн,им	37	_	_	_	кортеж	cmpnn	N
+39	со	со	PR	Sp-i	_	38	_	_	_	со	p-i	S
+40	значением	значение	S	Ncnsin	ср,ед,тв	39	_	_	_	значен	cnsin	N
+41	атрибута	атрибут	S	Ncmsgn	мр,ед,рд	40	_	_	_	атрибут	cmsgn	N
+42	X	<unknown>	S	-	_	41	_	_	_	_		-
+43	равным	равный	A	Afpnsif	мр,ед,тв,од,но	42	_	_	_	рав	fpnsif	A
+44	x	<unknown>	S	-	_	43	_	_	_	_		-
+45	,	,	PUNCT	,	_	0	_	_	_	_		,
+46	значением	значение	S	Ncnsin	ср,ед,тв	39	_	_	_	значен	cnsin	N
+47	атрибута	атрибут	S	Ncmsgn	мр,ед,рд	46	_	_	_	атрибут	cmsgn	N
+48	Y	<unknown>	S	-	_	47	_	_	_	_		-
+49	равным	равный	A	Afpnsif	мр,ед,тв,од,но	48	_	_	_	рав	fpnsif	A
+50	y	<unknown>	S	Ncnsnn	_	49	_	_	_	_	cnsnn	N
+51	,	,	PUNCT	,	_	0	_	_	_	_		,
+52	…	<unknown>	S	R	_	0	_	_	_	_		R
+53	,	,	PUNCT	,	_	0	_	_	_	_		,
+54	значением	значение	S	Ncnsin	ср,ед,тв	39	_	_	_	значен	cnsin	N
+55	атрибута	атрибут	S	Ncmsgn	мр,ед,рд	54	_	_	_	атрибут	cmsgn	N
+56	Z	<unknown>	S	-	_	55	_	_	_	_		-
+57	равным	равный	A	Afpnsif	мр,ед,тв,од,но	56	_	_	_	рав	fpnsif	A
+58	z	<unknown>	S	-	_	57	_	_	_	_		-
+59	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
 
-1	Постепенно	постепенно	ADV	R	_	6	_	_	_	ПОСТЕПЕННО		R
-2	темп	темп	S	Ncmsnn	мр,ед,вн	3	_	_	_	ТЕМП	cmsnn	N
-3	и	и	CONJ	C	_	6	_	_	_	И		C
-4	движение	движение	S	Ncnsnn	ср,ед,вн	3	_	_	_	ДВИЖЕН	cnsnn	N
-5	канкана	<unknown>	S	Ncmsgn	мр,ед,рд	4	_	_	_	КАНКАН	cmsgn	N
-6	усложнялись	<unknown>	V	Vmis-p-m-e	дст,прш,мн	0	_	_	_	УСЛОЖНЯ	mis-p-m-e	V
-7	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
+1	При	при	PR	Sp-l	дст,пвл,2л,ед	4	_	_	_	п	p-l	S
+2	выполнении	выполнение	S	Ncnsln	ср,ед,пр	1	_	_	_	выполнен	cnsln	N
+3	проекции	проекция	S	Ncfsgn	жр,ед,рд	2	_	_	_	проекци	cfsgn	N
+4	выделяется	выделяться	V	Vmip3s-m-e	дст,нст,3л,ед	0	_	_	_	выделя	mip3s-m-e	V
+5	«	«	PUNCT	-	_	0	_	_	_	_		-
+6	вертикальная	вертикальный	A	Afpfsnf	жр,ед,им,од,но	8	_	_	_	вертикал	fpfsnf	A
+7	»	»	PUNCT	-	_	0	_	_	_	_		-
+8	вырезка	вырезка	S	Ncfsnn	жр,ед,им	4	_	_	_	вырез	cfsnn	N
+9	отношения-операнда	<unknown>	S	Ncmsgn	мр,ед,рд	8	_	_	_	операнд	cmsgn	N
+10	с	с	PR	Sp-i	_	8	_	_	_	с	p-i	S
+11	естественным	естественный	A	Afpmsif	мр,ед,тв,од,но	12	_	_	_	естествен	fpmsif	A
+12	уничтожением	уничтожение	S	Ncmsin	ср,ед,тв	10	_	_	_	уничтожен	cmsin	N
+13	потенциально	потенциально	ADV	R	ср,ед,од,но	14	_	_	_	потенциал		R
+14	возникающих	возникать	V	Vmpp-p-afeg	од,но,нст,дст,мн,рд	15	_	_	_	возника	mpp-p-afeg	V
+15	кортежей-дубликатов	<unknown>	S	Ncmpgn	мр,мн,рд	12	_	_	_	дубликат	cmpgn	N
+16	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
 
-1	Трюки	<unknown>	S	Ncmpnn	мр,мн,вн	4	_	_	_	ТРЮК	cmpnn	N
-2	с	с	PR	Sp-i	_	1	_	_	_	С	p-i	S
-3	юбками	юбка	S	Ncfpin	жр,мн,тв	2	_	_	_	ЮБ	cfpin	N
-4	вошли	войти	V	Vmis-p-a-p	дст,прш,мн	0	_	_	_	ВО	mis-p-a-p	V
-5	в	в	PR	Sp-a	_	4	_	_	_	В	p-a	S
-6	танец	танец	S	Ncmsan	мр,ед,вн	5	_	_	_	ТАН	cmsan	N
-7	к	к	PR	Sp-d	_	4	_	_	_	К	p-d	S
-8	концу	конец	S	Ncmsdn	мр,ед,дт	7	_	_	_	КОН	cmsdn	N
-9	XIX	XIX	A-NUM	Mo---d	_	10	_	_	_	_	o---d	M
-10	века	веко	S	Ncmsgn	ср,ед,рд	8	_	_	_	ВЕК	cmsgn	N
-11	,	,	PUNCT	,	_	0	_	_	_	_		,
-12	когда	когда	ADV-PRO	C	вопр	4	_	_	_	КОГДА		C
-13	появились	появиться	V	Vmis-p-m-p	дст,прш,мн	14	_	_	_	ПОЯВ	mis-p-m-p	V
-14	и	и	CONJ	C	_	12	_	_	_	И		C
-15	вошли	войти	V	Vmis-p-a-p	дст,прш,мн	14	_	_	_	ВО	mis-p-a-p	V
-16	в	в	PR	Sp-a	_	15	_	_	_	В	p-a	S
-17	моду	мода	S	Ncfsan	жр,ед,вн	16	_	_	_	МОД	cfsan	N
-18	требуемые	требуемый	A	Vmpp-p-pfea	но,нст,стр,мн,вн	19	_	_	_	ТРЕБ	mpp-p-pfea	V
-19	чулки	чулок	S	Ncmpan	мр,мн,вн	20	_	_	_	ЧУЛ	cmpan	N
-20	и	и	CONJ	C	_	17	_	_	_	И		C
-21	бельё	белье	S	Ncfsan	_	20	_	_	_	_	cfsan	N
-22	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
-
-1	Знаменитыми	<unknown>	A	Afpmpif	мн,тв,од,но	2	_	_	_	ЗНАМЕНИТ	fpmpif	A
-2	канканистсками	<unknown>	S	Ncmpin	мр,мн,тв	13	_	_	_	КАНКАНИСТСК	cmpin	N
-3	,	,	PUNCT	,	_	0	_	_	_	_		,
-4	чей	чей	A-PRO	P--msna	мр,ед,вн,но	2	_	_	_	Ч	--msna	P
-5	образ	образ	S	Ncmsan	мр,ед,вн	6	_	_	_	ОБРАЗ	cmsan	N
-6	сохранился	сохраниться	V	Vmis-smm-p	дст,прш,мр,ед	4	_	_	_	СОХРАН	mis-smm-p	V
-7	благодаря	благодаря	PR	Sp-d	_	6	_	_	_	БЛАГОДАРЯ	p-d	S
-8	завсегдатаю	<unknown>	V	Ncmsdn	мр,ед,дт	11	_	_	_	ЗАВСЕГДАТА	cmsdn	N
-9	заведений	заведение	S	Ncnpgn	ср,мн,рд	8	_	_	_	ВЕДЕНИ	cnpgn	N
-10	импрессионисту	<unknown>	S	Ncmsdn	мр,ед,дт	11	_	_	_	ИМПРЕССИОНИСТ	cmsdn	N
-11	Тулуз-Лотреку	<unknown>	S	Ncfsan	жр,ед,вн	7	_	_	_	РЕК	cfsan	N
-12	,	,	PUNCT	,	_	0	_	_	_	_		,
-13	были	быть	V	Vmis-p-a-e	жр,мн,вн	0	_	_	_	БЫЛ	mis-p-a-e	V
-14	Ла	Ла	S	Q	_	16	_	_	_	ЛА		Q
-15	Гулю	Гуля	S	Npmsdy	жр,ед,вн	14	_	_	_	ГУЛ	pmsdy	N
-16	и	и	CONJ	C	_	13	_	_	_	И		C
-17	Жанна	жанна	S	Npfsny	жр,имя,ед,им	16	_	_	_	ЖАНН	pfsny	N
-18	Авриль	<unknown>	S	Ncmsnn	жр,0	17	_	_	_	РИЛ	cmsnn	N
-19	,	,	PUNCT	,	_	0	_	_	_	_		,
-20	блиставшие	блистать	V	Vmps-p-a-ea	но,прш,дст,мн,вн	16	_	_	_	БЛ	mps-p-a-ea	V
-21	в	в	PR	Sp-a	_	20	_	_	_	В	p-a	S
-22	«	«	PUNCT	-	_	0	_	_	_	_		-
-23	Мулен	Мулен	S	Ncmsnn	жр,имя,мн,вн	21	_	_	_	ЛЕН	cmsnn	N
-24	Руж	<unknown>	S	Ncmsnn	мр,ед,вн	23	_	_	_	РУЖ	cmsnn	N
-25	»	»	PUNCT	-	_	0	_	_	_	_		-
-26	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
-
-1	Мужчины	мужчина	S	Ncmpny	мр,мн,им	2	_	_	_	МУЖЧИН	cmpny	N
-2	танцевали	танцевать	V	Vmis-p-a-e	дст,прш,мн	0	_	_	_	ТАНЦ	mis-p-a-e	V
-3	вместе	вместе	ADV	R	_	2	_	_	_	ВМЕСТЕ		R
-4	с	с	PR	Sp-i	_	3	_	_	_	С	p-i	S
-5	женщинами	женщина	S	Ncfpiy	жр,мн,тв	4	_	_	_	ЖЕНЩИН	cfpiy	N
-6	,	,	PUNCT	,	_	0	_	_	_	_		,
-7	потом	потом	ADV-PRO	P-----r	_	10	_	_	_	ПОТОМ	-----r	P
-8	эта	этот	A-PRO	P--fsna	жр,ед,им,од,но	9	_	_	_	ЭТ	--fsna	P
-9	традиция	традиция	S	Ncfsnn	жр,ед,им	10	_	_	_	ТРАДИЦИ	cfsnn	N
-10	была	быть	V	Vmis-sfa-e	дст,прш,жр,ед	0	_	_	_	_	mis-sfa-e	V
-11	утрачена	утрачивать	V	Vmps-sfpsp	од,но,прш,стр,ед,жр	10	_	_	_	УТРА	mps-sfpsp	V
+1	Операция	операция	S	Ncfsnn	жр,ед,им	3	_	_	_	операци	cfsnn	N
+2	соединения	соединение	S	Ncnsgn	ср,ед,рд	1	_	_	_	соединен	cnsgn	N
+3	есть	есть	V	Vmip3s-a-e	дст,нст,3л,ед	0	_	_	_	_	mip3s-a-e	V
+4	результат	результат	S	Ncmsnn	мр,ед,им	3	_	_	_	результат	cmsnn	N
+5	последовательного	последовательный	A	Afpnsgf	мр,ед,рд,од,но	6	_	_	_	последовател	fpnsgf	A
+6	применения	применение	S	Ncnsgn	ср,ед,рд	4	_	_	_	применен	cnsgn	N
+7	операций	операция	S	Ncfpgn	жр,мн,рд	6	_	_	_	операци	cfpgn	N
+8	декартового	<unknown>	A	Afpnsgf	мр,ед,рд,од,но	9	_	_	_	декартов	fpnsgf	A
+9	произведения	произведение	S	Ncnsgn	ср,ед,рд	10	_	_	_	произведен	cnsgn	N
+10	и	и	CONJ	C	_	7	_	_	_	и		C
+11	выборки	выборка	S	Ncfsgn	жр,ед,рд	10	_	_	_	выбор	cfsgn	N
 12	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
 
-1	Изначально	изначальный	A	R	_	5	_	_	_	ИЗНАЧАЛЬНО		R
-2	во	во	PR	Sp-l	_	5	_	_	_	ВО	p-l	S
-3	Франции	франция	S	Ncfsln	жр,ед,пр	2	_	_	_	ФРАНЦИ	cfsln	N
-4	канкан	канкан	S	Ncmsny	мр,ед,вн	5	_	_	_	КАНКАН	cmsny	N
-5	танцевали	танцевать	V	Vmis-p-a-e	дст,прш,мн	8	_	_	_	ТАНЦ	mis-p-a-e	V
-6	одиночные	одиночный	A	Afpmpnf	мн,вн,но	7	_	_	_	ОДИНОЧ	fpmpnf	A
-7	танцовщицы	танцовщица	S	Ncfpny	жр,мн,им	5	_	_	_	ТАНЦОВЩИЦ	cfpny	N
+1	Если	если	CONJ	C	_	4	_	_	_	если		C
+2	в	в	PR	Sp-l	_	4	_	_	_	в	p-l	S
+3	отношениях	отношение	S	Ncnpln	ср,мн,пр	2	_	_	_	отношен	cnpln	N
+4	имеются	иметься	V	Vmip3p-m-e	дст,нст,3л,мн	0	_	_	_	име	mip3p-m-e	V
+5	атрибуты	атрибут	S	Ncmpnn	мр,мн,им	4	_	_	_	атрибут	cmpnn	N
+6	с	с	PR	Sp-i	_	5	_	_	_	с	p-i	S
+7	одинаковыми	одинаковый	A	Afpmpif	мн,тв,од,но	8	_	_	_	одинаков	fpmpif	A
+8	наименованиями	наименование	S	Ncnpin	ср,мн,тв	6	_	_	_	наименован	cnpin	N
+9	,	,	PUNCT	,	_	0	_	_	_	_		,
+10	то	то	CONJ	C	ср,ед,им,од,но	4	_	_	_	т		C
+11	перед	перед	PR	Sp-i	мр,ед,им	16	_	_	_	пер	p-i	S
+12	выполнением	выполнение	S	Ncnsin	ср,ед,тв	11	_	_	_	выполнен	cnsin	N
+13	соединения	соединение	S	Ncnsgn	ср,ед,рд	12	_	_	_	соединен	cnsgn	N
+14	такие	такой	A-PRO	P---pna	мн,им,од,но	15	_	_	_	так	---pna	P
+15	атрибуты	атрибут	S	Ncmpnn	мр,мн,им	17	_	_	_	атрибут	cmpnn	N
+16	необходимо	необходимо	PRAEDIC	R	ср,ед,од,но	10	_	_	_	необходим		R
+17	переименовать	переименовывать	V	Vmn----a-p	дст	16	_	_	_	переимен	mn----a-p	V
+18	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
+
+1	Отношение	отношение	S	Ncnsnn	ср,ед,им	0	_	_	_	отношен	cnsnn	N
+2	с	с	PR	Sp-i	_	1	_	_	_	с	p-i	S
+3	заголовком	заголовок	S	Ncmsin	мр,ед,тв	13	_	_	_	заголов	cmsin	N
+4	(	(	PUNCT	-	_	0	_	_	_	_		-
+5	X1	<unknown>	S	Mc	_	3	_	_	_	_	c	M
+6	,	,	PUNCT	,	_	0	_	_	_	_		,
+7	X2	<unknown>	S	Mc	_	3	_	_	_	_	c	M
 8	,	,	PUNCT	,	_	0	_	_	_	_		,
-9	а	а	CONJ	C	_	0	_	_	_	А		C
-10	вот	вот	PART	Q	0	9	_	_	_	ВОТ		Q
-11	в	в	PR	Sp-l	_	16	_	_	_	В	p-l	S
-12	Англии	англия	S	Ncfsln	жр,ед,пр	13	_	_	_	АНГЛИ	cfsln	N
-13	и	и	CONJ	C	_	11	_	_	_	И		C
-14	США	Сша	S	Ncmpln	мн,0	13	_	_	_	США	cmpln	N
-15	его	оно	S-PRO	P-----a	0,од,но	16	_	_	_	ЕГО	-----a	P
-16	танцевал	танцевать	V	Vmis-sma-e	дст,прш,мр,ед	9	_	_	_	ТАНЦ	mis-sma-e	V
-17	ансамбль	ансамбль	S	Ncmsnn	мр,ед,вн	16	_	_	_	АНСАМБЛ	cmsnn	N
-18	,	,	PUNCT	,	_	0	_	_	_	_		,
-19	выстроенный	выстраивать	V	Vmps-smpfpn	но,прш,стр,ед,мр,вн	17	_	_	_	ВЫСТРО	mps-smpfpn	V
-20	в	в	PR	Sp-a	_	19	_	_	_	В	p-a	S
-21	линию	линия	S	Ncfsan	жр,ед,вн	20	_	_	_	ЛИНИ	cfsan	N
-22	—	<unknown>	S	-	_	0	_	_	_	_		-
-23	кордебалет	кордебалет	S	Ncmsnn	мр,ед,вн	17	_	_	_	КОРДЕБАЛЕТ	cmsnn	N
-24	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
-
-1	В	в	PR	Sp-a	_	10	_	_	_	В	p-a	S
-2	1920-е	<unknown>	S	Mo-pad	ср,ед,0	3	_	_	_	Е	o-pad	M
-3	годы	год	S	Ncmpan	мр,мн,вн	1	_	_	_	_	cmpan	N
-4	в	в	PR	Sp-l	_	10	_	_	_	В	p-l	S
-5	Париже	париж	S	Ncmsln	мр,ед,пр	4	_	_	_	ПАРИЖ	cmsln	N
-6	французский	французский	A	Afpmsnf	мр,ед,вн,но	7	_	_	_	ФРАНЦУЗСК	fpmsnf	A
-7	хореограф	хореограф	S	Ncmsny	мр,ед,им	10	_	_	_	ХОРЕОГРАФ	cmsny	N
-8	Пьер	пьер	S	Npmsny	мр,имя,ед,им	7	_	_	_	ПЬЕР	pmsny	N
-9	Сандрини	<unknown>	S	Npmsny	жр,ед,рд	8	_	_	_	ИН	pmsny	N
-10	объединил	объединять	V	Vmis-sma-p	дст,прш,мр,ед	36	_	_	_	ОБЪЕДИН	mis-sma-p	V
-11	в	в	PR	Sp-a	_	10	_	_	_	В	p-a	S
-12	«	«	PUNCT	-	_	0	_	_	_	_		-
-13	Мулен	Мулен	S	Ncmsnn	жр,имя,мн,вн	11	_	_	_	ЛЕН	cmsnn	N
-14	Руже	<unknown>	S	Afpmsnf	_	11	_	_	_	УЖЕ	fpmsnf	A
-15	»	»	PUNCT	-	_	0	_	_	_	_		-
-16	парижский	парижский	A	Afpmsnf	мр,ед,вн,но	18	_	_	_	ПАРИЖСК	fpmsnf	A
-17	сольный	сольный	A	Afpmsnf	мр,ед,вн,но	18	_	_	_	СОЛ	fpmsnf	A
-18	канкан	канкан	S	Ncmsny	мр,ед,вн	19	_	_	_	КАНКАН	cmsny	N
-19	с	с	PR	Sp-i	_	10	_	_	_	С	p-i	S
-20	британским	британский	A	Afpnsif	мн,дт,од,но	21	_	_	_	БРИТАНСК	fpnsif	A
-21	ансамблевым	<unknown>	S	Afpmpdf	мн,дт,од,но	19	_	_	_	АНСАМБЛЕВ	fpmpdf	A
-22	,	,	PUNCT	,	_	0	_	_	_	_		,
-23	добавил	добавить	V	Vmis-sma-p	дст,прш,мр,ед	36	_	_	_	ДОБАВ	mis-sma-p	V
-24	женский	женский	A	Afpmsnf	мр,ед,вн,но	25	_	_	_	ЖЕНСК	fpmsnf	A
-25	визг	визг	S	Ncmsnn	мр,ед,вн	26	_	_	_	ВИЗГ	cmsnn	N
-26	и	и	CONJ	C	_	23	_	_	_	И		C
-27	смех	смех	S	Ncmsnn	мр,ед,вн	26	_	_	_	СМЕХ	cmsnn	N
-28	,	,	PUNCT	,	_	0	_	_	_	_		,
-29	создав	создать	V	Vmgs---a-p	дст,прш	23	_	_	_	СОЗДА	mgs---a-p	V
-30	эталонный	<unknown>	A	Afpmsnf	мр,ед,вн,но	33	_	_	_	ЭТАЛОН	fpmsnf	A
-31	«	«	PUNCT	-	_	0	_	_	_	_		-
-32	френч	френч	S	Ncmsnn	мр,ед,вн	29	_	_	_	ФРЕНЧ	cmsnn	N
-33	канкан	канкан	S	Ncmsny	мр,ед,вн	29	_	_	_	КАНКАН	cmsny	N
-34	»	»	PUNCT	-	_	0	_	_	_	_		-
-35	,	,	PUNCT	,	_	0	_	_	_	_		,
-36	и	и	CONJ	C	_	0	_	_	_	И		C
-37	отдельно	отдельно	ADV	R	_	38	_	_	_	ОТДЕЛЬНО		R
-38	представил	представить	V	Vmis-sma-p	дст,прш,мр,ед	36	_	_	_	СТАВ	mis-sma-p	V
-39	в	в	PR	Sp-l	_	38	_	_	_	В	p-l	S
-40	таком	такой	A-PRO	P--msla	ср,ед,пр,од,но	41	_	_	_	ТАК	--msla	P
-41	виде	вид	S	Ncmsln	мр,ед,пр	39	_	_	_	ВИД	cmsln	N
-42	на	на	PR	Sp-l	_	38	_	_	_	НА	p-l	S
-43	сцене	сцена	S	Ncfsln	жр,ед,пр	42	_	_	_	СЦЕН	cfsln	N
-44	своего	свой	A-PRO	P--msga	ср,ед,рд,од,но	43	_	_	_	СВО	--msga	P
-45	ночного	ночной	A	Afpmsgf	ср,ед,рд,од,но	46	_	_	_	НОЧН	fpmsgf	A
-46	клуба	клуб	S	Ncmsgn	мр,ед,рд	44	_	_	_	КЛУБ	cmsgn	N
-47	Bal	<unknown>	S	Mc	_	46	_	_	_	_	c	M
-48	Tabarin	<unknown>	S	Ncmsnn	_	47	_	_	_	_	cmsnn	N
-49	в	в	PR	Sp-l	_	38	_	_	_	В	p-l	S
-50	1928	@card@	NUM	Mc---d	_	51	_	_	_	_	c---d	M
-51	году	год	S	Ncmsnnl	мр,ед,пр,2	49	_	_	_	_	cmsnnl	N
-52	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
-
-1	Наиболее	наиболее	ADV	R	_	2	_	_	_	НАИБОЛЕЕ		R
-2	известная	известный	A	Afpfsnf	жр,ед,им,од,но	3	_	_	_	ИЗВЕСТ	fpfsnf	A
-3	мелодия	мелодия	S	Ncfsnn	жр,ед,им	0	_	_	_	МЕЛОДИ	cfsnn	N
-4	—	<unknown>	S	-	_	0	_	_	_	_		-
-5	канкан	канкан	S	Ncmsny	мр,ед,вн	3	_	_	_	КАНКАН	cmsny	N
-6	(	(	PUNCT	-	_	0	_	_	_	_		-
-7	galop	<unknown>	S	Mc	_	5	_	_	_	_	c	M
-8	infernal	<unknown>	S	Mc	_	5	_	_	_	_	c	M
-9	)	)	PUNCT	-	_	0	_	_	_	_		-
-10	композитора	композитор	S	Ncmsgy	мр,ед,вн	5	_	_	_	КОМПОЗИТОР	cmsgy	N
-11	Оффенбаха	<unknown>	S	Npmsgy	мр,ед,вн	10	_	_	_	БАХ	pmsgy	N
-12	из	из	PR	Sp-g	жр,имя,мн,вн	5	_	_	_	ИЗ	p-g	S
-13	оперетты	оперетта	S	Ncfsgn	жр,мн,вн	12	_	_	_	ОПЕРЕТТ	cfsgn	N
-14	«	«	PUNCT	-	_	0	_	_	_	_		-
-15	Орфей	<unknown>	S	Npmsny	мр,имя,ед,им	13	_	_	_	ОРФЕ	pmsny	N
-16	в	в	PR	Sp-n	_	15	_	_	_	В	p-n	S
-17	аду	ада	S	Ncmsnnl	мр,имя,0	16	_	_	_	АДУ	cmsnnl	N
-18	»	»	PUNCT	-	_	0	_	_	_	_		-
+9	…	<unknown>	S	R	_	3	_	_	_	_		R
+10	,	,	PUNCT	,	_	0	_	_	_	_		,
+11	Xn	<unknown>	S	Mc	_	3	_	_	_	_	c	M
+12	)	)	PUNCT	-	_	0	_	_	_	_		-
+13	и	и	CONJ	C	_	2	_	_	_	и		C
+14	телом	тело	S	Ncnsin	ср,ед,тв	13	_	_	_	тел	cnsin	N
+15	,	,	PUNCT	,	_	0	_	_	_	_		,
+16	содержащим	содержать	V	Vmpp-smafei	од,но,нст,дст,ед,мр,тв	14	_	_	_	содерж	mpp-smafei	V
+17	множество	множество	S	Ncnsnn	ср,ед,им	16	_	_	_	множеств	cnsnn	N
+18	кортежей	<unknown>	S	Ncmpgn	мр,мн,рд	17	_	_	_	кортеж	cmpgn	N
 19	(	(	PUNCT	-	_	0	_	_	_	_		-
-20	1858	@card@	NUM	Mc---d	_	13	_	_	_	_	c---d	M
-21	)	)	PUNCT	-	_	0	_	_	_	_		-
-22	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
-
-1	(	(	PUNCT	-	_	0	_	_	_	_		-
-2	Пародией	<unknown>	S	Ncfsin	жр,ед,тв	5	_	_	_	ПАРОДИ	cfsin	N
-3	на	на	PR	Sp-l	_	2	_	_	_	НА	p-l	S
-4	неё	она	S-PRO	Ncmsln	_	3	_	_	_	_	cmsln	N
-5	является	являться	V	Vmip3s-m-e	дст,нст,3л,ед	0	_	_	_	ЯВЛЯ	mip3s-m-e	V
-6	в	в	PR	Sp-l	_	9	_	_	_	В	p-l	S
-7	4	@card@	NUM	Mc---d	_	8	_	_	_	_	c---d	M
-8	раза	раз	S	Ncmsgn	мр,ед,рд	6	_	_	_	РАЗ	cmsgn	N
-9	замедленные	замедлять	V	Vmps-p-pfpa	мн,вн,но	11	_	_	_	МЕДЛЕН	mps-p-pfpa	V
-10	«	«	PUNCT	-	_	0	_	_	_	_		-
-11	Черепахи	<unknown>	S	Ncfpny	жр,мн,вн	5	_	_	_	ЧЕРЕПАХ	cfpny	N
-12	»	»	PUNCT	-	_	0	_	_	_	_		-
-13	из	из	PR	Sp-g	жр,имя,мн,вн	11	_	_	_	ИЗ	p-g	S
-14	«	«	PUNCT	-	_	0	_	_	_	_		-
-15	Карнавала	<unknown>	V	Ncmsgn	мр,ед,рд	13	_	_	_	КАРНАВАЛ	cmsgn	N
-16	животных	животное	S	Ncnpgy	ср,мн,пр	15	_	_	_	ЖИВОТН	cnpgy	N
-17	»	»	PUNCT	-	_	0	_	_	_	_		-
-18	Сен-Санса	<unknown>	S	Npmsay	мр,ед,вн	15	_	_	_	СЕН+АНС	pmsay	N
-19	)	)	PUNCT	-	_	0	_	_	_	_		-
-20	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
-
-1	Также	также	PART	Q	_	2	_	_	_	ТАКЖЕ		Q
-2	используется	использовать	V	Vmip3s-m-e	дст,нст,3л,ед	0	_	_	_	ИСПОЛЬЗ	mip3s-m-e	V
-3	«	«	PUNCT	-	_	0	_	_	_	_		-
-4	Весёлая	веселый	A	Afpfsnf	мр,ед,рд	5	_	_	_	ЛА	fpfsnf	A
-5	вдова	вдова	S	Ncfsny	жр,ед,од,но	2	_	_	_	ВДОВ	cfsny	N
-6	»	»	PUNCT	-	_	0	_	_	_	_		-
-7	(	(	PUNCT	-	_	0	_	_	_	_		-
-8	1905	@card@	NUM	Mc---d	_	9	_	_	_	_	c---d	M
-9	год	год	S	Ncmsnn	мр,ед,вн	5	_	_	_	_	cmsnn	N
-10	)	)	PUNCT	-	_	0	_	_	_	_		-
-11	Франца	франц	S	Npmsgy	мр,имя,ед,вн	5	_	_	_	ФРАНЦ	pmsgy	N
-12	Легара	Легар	S	Npmsgy	мр,0	5	_	_	_	АРА	pmsgy	N
-13	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
-
-1	Входит	входить	V	Vmip3s-a-e	дст,нст,3л,ед	0	_	_	_	ВХО	mip3s-a-e	V
-2	в	в	PR	Sp-a	_	1	_	_	_	В	p-a	S
-3	репертуар	репертуар	S	Ncmsan	мр,ед,вн	2	_	_	_	РЕПЕРТУАР	cmsan	N
-4	кабаре	кабаре	S	Ncnsgn	ср,0	5	_	_	_	КАБАРЕ	cnsgn	N
-5	и	и	CONJ	C	_	3	_	_	_	И		C
-6	оперетты	оперетта	S	Ncfsgn	жр,мн,вн	5	_	_	_	ОПЕРЕТТ	cfsgn	N
-7	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
-
-1	На	на	PR	Sp-a	_	5	_	_	_	НА	p-a	S
-2	большую	больший	A	Afpfsaf	жр,ед,вн,од,но	3	_	_	_	БОЛЬШ	fpfsaf	A
-3	сцену	сцена	S	Ncfsan	жр,ед,вн	1	_	_	_	СЦЕН	cfsan	N
-4	танец	танец	S	Ncmsan	мр,ед,вн	5	_	_	_	ТАН	cmsan	N
-5	попал	попасть	V	Vmis-sma-p	дст,прш,мр,ед	0	_	_	_	ПОПА	mis-sma-p	V
-6	в	в	PR	Sp-l	_	5	_	_	_	В	p-l	S
-7	1858	@card@	NUM	Mc---d	_	8	_	_	_	_	c---d	M
-8	году	год	S	Ncmsnnl	мр,ед,пр,2	6	_	_	_	_	cmsnnl	N
-9	при	при	PR	Sp-l	_	5	_	_	_	ПРИ	p-l	S
-10	постановке	постановка	S	Ncfsln	жр,ед,пр	9	_	_	_	ПОСТАНОВ	cfsln	N
-11	Оффенбаха	<unknown>	S	Npmsgy	мр,ед,вн	10	_	_	_	БАХ	pmsgy	N
-12	«	«	PUNCT	-	_	0	_	_	_	_		-
-13	Орфей	<unknown>	S	Npmsny	мр,имя,ед,им	10	_	_	_	ОРФЕ	pmsny	N
-14	в	в	PR	Sp-n	_	13	_	_	_	В	p-n	S
-15	аду	ада	S	Ncmsnnl	мр,имя,0	14	_	_	_	АДУ	cmsnnl	N
-16	»	»	PUNCT	-	_	0	_	_	_	_		-
-17	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
-
-1	В	в	PR	Sp-l	_	6	_	_	_	В	p-l	S
-2	1919	@card@	NUM	Mc---d	_	3	_	_	_	_	c---d	M
-3	году	год	S	Ncmsnnl	мр,ед,пр,2	1	_	_	_	_	cmsnnl	N
-4	Леонид	леонид	S	Npmsny	жр,имя,мн,вн	6	_	_	_	ЛЕОНИД	pmsny	N
-5	Мясин	<unknown>	S	Npmsny	мр,ед,им	4	_	_	_	МЯСИН	pmsny	N
-6	включил	включить	V	Vmis-sma-p	дст,прш,мр,ед	0	_	_	_	ВКЛЮЧ	mis-sma-p	V
-7	танец	танец	S	Ncmsan	мр,ед,вн	6	_	_	_	ТАН	cmsan	N
-8	в	в	PR	Sp-a	_	6	_	_	_	В	p-a	S
-9	балет	балет	S	Ncmsan	мр,ед,вн	8	_	_	_	БАЛЕТ	cmsan	N
-10	на	на	PR	Sp-a	_	9	_	_	_	НА	p-a	S
-11	музыку	музыка	S	Ncfsan	жр,ед,вн	10	_	_	_	МУЗЫК	cfsan	N
-12	Россини	Россини	S	Npmsny	жр,ед,рд	11	_	_	_	ИН	pmsny	N
-13	«	«	PUNCT	-	_	0	_	_	_	_		-
-14	Волшебная	волшебный	A	Afpfsnf	жр,ед,им,од,но	15	_	_	_	ВОЛШЕБ	fpfsnf	A
-15	лавка	лавка	S	Ncfsnn	жр,ед,им	11	_	_	_	ЛАВ	cfsnn	N
-16	»	»	PUNCT	-	_	0	_	_	_	_		-
-17	,	,	PUNCT	,	_	0	_	_	_	_		,
-18	а	а	CONJ	C	_	6	_	_	_	А		C
-19	через	через	PR	Sp-l	_	26	_	_	_	ЧЕРЕЗ	p-l	S
-20	20	@card@	NUM	Mc---d	_	21	_	_	_	_	c---d	M
-21	лет	лета	S	Ncmpgn	мр,ед,вн	19	_	_	_	Л	cmpgn	N
-22	—	<unknown>	S	-	_	0	_	_	_	_		-
-23	и	и	CONJ	C	_	18	_	_	_	И		C
-24	«	«	PUNCT	-	_	0	_	_	_	_		-
-25	Парижское	<unknown>	A	Afpnsnf	ср,ед,вн,од,но	26	_	_	_	ПАРИЖСК	fpnsnf	A
-26	веселье	веселье	S	Ncnsnn	ср,ед,пр	18	_	_	_	ВЕСЕЛ	cnsnn	N
-27	»	»	PUNCT	-	_	0	_	_	_	_		-
-28	на	на	PR	Sp-a	_	26	_	_	_	НА	p-a	S
-29	музыку	музыка	S	Ncfsan	жр,ед,вн	28	_	_	_	МУЗЫК	cfsan	N
-30	Оффенбаха	<unknown>	S	Npmsgy	мр,ед,вн	29	_	_	_	БАХ	pmsgy	N
-31	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
+20	x1	<unknown>	S	Afpmsnf	_	18	_	_	_	_	fpmsnf	A
+21	,	,	PUNCT	,	_	0	_	_	_	_		,
+22	x2	<unknown>	S	Afpmsnf	_	18	_	_	_	_	fpmsnf	A
+23	,	,	PUNCT	,	_	0	_	_	_	_		,
+24	…	<unknown>	S	R	_	18	_	_	_	_		R
+25	,	,	PUNCT	,	_	0	_	_	_	_		,
+26	xn	<unknown>	S	-	_	18	_	_	_	_		-
+27	)	)	PUNCT	-	_	0	_	_	_	_		-
+28	,	,	PUNCT	,	_	0	_	_	_	_		,
+29	таких	такой	A-PRO	P---pga	мн,рд,од,но	18	_	_	_	так	---pga	P
+30	,	,	PUNCT	,	_	0	_	_	_	_		,
+31	что	что	CONJ	C	ср,ед,им	29	_	_	_	ч		C
+32	для	для	PR	Sp-g	дст,нст	66	_	_	_	дл	p-g	S
+33	всех	весь	A-PRO	P---pga	мн,рд,од,но	34	_	_	_	в	---pga	P
+34	кортежей	<unknown>	S	Ncmpgn	мр,мн,рд	32	_	_	_	кортеж	cmpgn	N
+35	(	(	PUNCT	-	_	0	_	_	_	_		-
+36	y1	<unknown>	S	Mc	_	34	_	_	_	_	c	M
+37	,	,	PUNCT	,	_	0	_	_	_	_		,
+38	y2	<unknown>	S	Mc	_	34	_	_	_	_	c	M
+39	,	,	PUNCT	,	_	0	_	_	_	_		,
+40	…	<unknown>	S	R	_	34	_	_	_	_		R
+41	,	,	PUNCT	,	_	0	_	_	_	_		,
+42	ym	<unknown>	S	Mc	_	34	_	_	_	_	c	M
+43	)	)	PUNCT	-	_	0	_	_	_	_		-
+44	∈	<unknown>	A	Vmis-sma-p	_	34	_	_	_	_	mis-sma-p	V
+45	B	B	S	-	_	34	_	_	_	_		-
+46	в	в	PR	Sp-l	_	34	_	_	_	в	p-l	S
+47	отношении	отношение	S	Ncnsln	ср,ед,пр	46	_	_	_	отношен	cnsln	N
+48	A	A	S	-	_	47	_	_	_	_		-
+49	(	(	PUNCT	-	_	0	_	_	_	_		-
+50	X1	<unknown>	S	Mc	_	48	_	_	_	_	c	M
+51	,	,	PUNCT	,	_	0	_	_	_	_		,
+52	X2	<unknown>	S	Mc	_	48	_	_	_	_	c	M
+53	,	,	PUNCT	,	_	0	_	_	_	_		,
+54	…	<unknown>	S	R	_	48	_	_	_	_		R
+55	,	,	PUNCT	,	_	0	_	_	_	_		,
+56	Xn	<unknown>	S	Mc	_	48	_	_	_	_	c	M
+57	,	,	PUNCT	,	_	0	_	_	_	_		,
+58	Y1	<unknown>	S	Mc	_	48	_	_	_	_	c	M
+59	,	,	PUNCT	,	_	0	_	_	_	_		,
+60	Y2	<unknown>	S	Mc	_	48	_	_	_	_	c	M
+61	,	,	PUNCT	,	_	0	_	_	_	_		,
+62	…	<unknown>	S	R	_	48	_	_	_	_		R
+63	,	,	PUNCT	,	_	0	_	_	_	_		,
+64	Ym	<unknown>	S	Mc	_	48	_	_	_	_	c	M
+65	)	)	PUNCT	-	_	0	_	_	_	_		-
+66	найдется	находиться	V	Vmif3s-m-p	дст,буд,3л,ед	31	_	_	_	на	mif3s-m-p	V
+67	кортеж	кортеж	S	Ncmsnn	мр,ед,им	66	_	_	_	кортеж	cmsnn	N
+68	(	(	PUNCT	-	_	0	_	_	_	_		-
+69	x1	<unknown>	S	Afpmsnf	_	67	_	_	_	_	fpmsnf	A
+70	,	,	PUNCT	,	_	0	_	_	_	_		,
+71	x2	<unknown>	S	Afpmsnf	_	67	_	_	_	_	fpmsnf	A
+72	,	,	PUNCT	,	_	0	_	_	_	_		,
+73	…	<unknown>	S	R	_	67	_	_	_	_		R
+74	,	,	PUNCT	,	_	0	_	_	_	_		,
+75	xn	<unknown>	S	-	_	67	_	_	_	_		-
+76	,	,	PUNCT	,	_	0	_	_	_	_		,
+77	y1	<unknown>	S	Mc	_	67	_	_	_	_	c	M
+78	,	,	PUNCT	,	_	0	_	_	_	_		,
+79	y2	<unknown>	S	Mc	_	67	_	_	_	_	c	M
+80	,	,	PUNCT	,	_	0	_	_	_	_		,
+81	…	<unknown>	S	R	_	67	_	_	_	_		R
+82	,	,	PUNCT	,	_	0	_	_	_	_		,
+83	ym	<unknown>	S	Mc	_	67	_	_	_	_	c	M
+84	)	)	PUNCT	-	_	0	_	_	_	_		-
+85	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
 

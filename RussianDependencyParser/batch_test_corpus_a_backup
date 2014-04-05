@@ -1,0 +1,865 @@
+Test on Corpus A:
+
+ MORPH: None	LEMMA: None	DPOS: True	CPOS: None	NO_UNK: False	MODEL_TYPE: basic
+  Labeled   attachment score: 370 / 793 * 100 = 46.66 %
+  Unlabeled attachment score: 370 / 793 * 100 = 46.66 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: None	LEMMA: pymorphy	DPOS: True	CPOS: None	NO_UNK: False	MODEL_TYPE: basic
+  Labeled   attachment score: 371 / 793 * 100 = 46.78 %
+  Unlabeled attachment score: 371 / 793 * 100 = 46.78 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: None	LEMMA: treetagger	DPOS: True	CPOS: None	NO_UNK: True	MODEL_TYPE: basic
+  Labeled   attachment score: 373 / 793 * 100 = 47.04 %
+  Unlabeled attachment score: 373 / 793 * 100 = 47.04 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: None	LEMMA: treetagger	DPOS: True	CPOS: None	NO_UNK: False	MODEL_TYPE: basic
+  Labeled   attachment score: 369 / 793 * 100 = 46.53 %
+  Unlabeled attachment score: 369 / 793 * 100 = 46.53 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: pymorphy	LEMMA: None	DPOS: True	CPOS: None	NO_UNK: False	MODEL_TYPE: basic
+  Labeled   attachment score: 370 / 793 * 100 = 46.66 %
+  Unlabeled attachment score: 370 / 793 * 100 = 46.66 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: pymorphy	LEMMA: pymorphy	DPOS: True	CPOS: None	NO_UNK: False	MODEL_TYPE: basic
+  Labeled   attachment score: 374 / 793 * 100 = 47.16 %
+  Unlabeled attachment score: 374 / 793 * 100 = 47.16 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: pymorphy	LEMMA: treetagger	DPOS: True	CPOS: None	NO_UNK: True	MODEL_TYPE: basic
+  Labeled   attachment score: 366 / 793 * 100 = 46.15 %
+  Unlabeled attachment score: 366 / 793 * 100 = 46.15 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: pymorphy	LEMMA: treetagger	DPOS: True	CPOS: None	NO_UNK: False	MODEL_TYPE: basic
+  Labeled   attachment score: 369 / 793 * 100 = 46.53 %
+  Unlabeled attachment score: 369 / 793 * 100 = 46.53 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: treetagger	LEMMA: None	DPOS: True	CPOS: None	NO_UNK: False	MODEL_TYPE: basic
+  Labeled   attachment score: 329 / 793 * 100 = 41.49 %
+  Unlabeled attachment score: 329 / 793 * 100 = 41.49 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: treetagger	LEMMA: pymorphy	DPOS: True	CPOS: None	NO_UNK: False	MODEL_TYPE: basic
+  Labeled   attachment score: 330 / 793 * 100 = 41.61 %
+  Unlabeled attachment score: 330 / 793 * 100 = 41.61 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: treetagger	LEMMA: treetagger	DPOS: True	CPOS: None	NO_UNK: True	MODEL_TYPE: basic
+  Labeled   attachment score: 331 / 793 * 100 = 41.74 %
+  Unlabeled attachment score: 331 / 793 * 100 = 41.74 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: treetagger	LEMMA: treetagger	DPOS: True	CPOS: None	NO_UNK: False	MODEL_TYPE: basic
+  Labeled   attachment score: 334 / 793 * 100 = 42.12 %
+  Unlabeled attachment score: 334 / 793 * 100 = 42.12 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: None	LEMMA: None	DPOS: True	CPOS: spliced	NO_UNK: False	MODEL_TYPE: basic
+  Labeled   attachment score: 379 / 793 * 100 = 47.79 %
+  Unlabeled attachment score: 379 / 793 * 100 = 47.79 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: None	LEMMA: pymorphy	DPOS: True	CPOS: spliced	NO_UNK: False	MODEL_TYPE: basic
+  Labeled   attachment score: 380 / 793 * 100 = 47.92 %
+  Unlabeled attachment score: 380 / 793 * 100 = 47.92 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: None	LEMMA: treetagger	DPOS: True	CPOS: spliced	NO_UNK: True	MODEL_TYPE: basic
+  Labeled   attachment score: 378 / 793 * 100 = 47.67 %
+  Unlabeled attachment score: 378 / 793 * 100 = 47.67 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: None	LEMMA: treetagger	DPOS: True	CPOS: spliced	NO_UNK: False	MODEL_TYPE: basic
+  Labeled   attachment score: 381 / 793 * 100 = 48.05 %
+  Unlabeled attachment score: 381 / 793 * 100 = 48.05 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: pymorphy	LEMMA: None	DPOS: True	CPOS: spliced	NO_UNK: False	MODEL_TYPE: basic
+  Labeled   attachment score: 371 / 793 * 100 = 46.78 %
+  Unlabeled attachment score: 371 / 793 * 100 = 46.78 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: pymorphy	LEMMA: pymorphy	DPOS: True	CPOS: spliced	NO_UNK: False	MODEL_TYPE: basic
+  Labeled   attachment score: 379 / 793 * 100 = 47.79 %
+  Unlabeled attachment score: 379 / 793 * 100 = 47.79 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: pymorphy	LEMMA: treetagger	DPOS: True	CPOS: spliced	NO_UNK: True	MODEL_TYPE: basic
+  Labeled   attachment score: 377 / 793 * 100 = 47.54 %
+  Unlabeled attachment score: 377 / 793 * 100 = 47.54 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: pymorphy	LEMMA: treetagger	DPOS: True	CPOS: spliced	NO_UNK: False	MODEL_TYPE: basic
+  Labeled   attachment score: 379 / 793 * 100 = 47.79 %
+  Unlabeled attachment score: 379 / 793 * 100 = 47.79 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: treetagger	LEMMA: None	DPOS: True	CPOS: spliced	NO_UNK: False	MODEL_TYPE: basic
+  Labeled   attachment score: 348 / 793 * 100 = 43.88 %
+  Unlabeled attachment score: 348 / 793 * 100 = 43.88 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: treetagger	LEMMA: pymorphy	DPOS: True	CPOS: spliced	NO_UNK: False	MODEL_TYPE: basic
+  Labeled   attachment score: 351 / 793 * 100 = 44.26 %
+  Unlabeled attachment score: 351 / 793 * 100 = 44.26 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: treetagger	LEMMA: treetagger	DPOS: True	CPOS: spliced	NO_UNK: True	MODEL_TYPE: basic
+  Labeled   attachment score: 347 / 793 * 100 = 43.76 %
+  Unlabeled attachment score: 347 / 793 * 100 = 43.76 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: treetagger	LEMMA: treetagger	DPOS: True	CPOS: spliced	NO_UNK: False	MODEL_TYPE: basic
+  Labeled   attachment score: 347 / 793 * 100 = 43.76 %
+  Unlabeled attachment score: 347 / 793 * 100 = 43.76 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: None	LEMMA: None	DPOS: True	CPOS: tagset	NO_UNK: False	MODEL_TYPE: basic
+  Labeled   attachment score: 395 / 793 * 100 = 49.81 %
+  Unlabeled attachment score: 395 / 793 * 100 = 49.81 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: None	LEMMA: pymorphy	DPOS: True	CPOS: tagset	NO_UNK: False	MODEL_TYPE: basic
+  Labeled   attachment score: 397 / 793 * 100 = 50.06 %
+  Unlabeled attachment score: 397 / 793 * 100 = 50.06 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: None	LEMMA: treetagger	DPOS: True	CPOS: tagset	NO_UNK: True	MODEL_TYPE: basic
+  Labeled   attachment score: 398 / 793 * 100 = 50.19 %
+  Unlabeled attachment score: 398 / 793 * 100 = 50.19 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: None	LEMMA: treetagger	DPOS: True	CPOS: tagset	NO_UNK: False	MODEL_TYPE: basic
+  Labeled   attachment score: 394 / 793 * 100 = 49.68 %
+  Unlabeled attachment score: 394 / 793 * 100 = 49.68 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: pymorphy	LEMMA: None	DPOS: True	CPOS: tagset	NO_UNK: False	MODEL_TYPE: basic
+  Labeled   attachment score: 397 / 793 * 100 = 50.06 %
+  Unlabeled attachment score: 397 / 793 * 100 = 50.06 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: pymorphy	LEMMA: pymorphy	DPOS: True	CPOS: tagset	NO_UNK: False	MODEL_TYPE: basic
+  Labeled   attachment score: 395 / 793 * 100 = 49.81 %
+  Unlabeled attachment score: 395 / 793 * 100 = 49.81 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: pymorphy	LEMMA: treetagger	DPOS: True	CPOS: tagset	NO_UNK: True	MODEL_TYPE: basic
+  Labeled   attachment score: 400 / 793 * 100 = 50.44 %
+  Unlabeled attachment score: 400 / 793 * 100 = 50.44 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: pymorphy	LEMMA: treetagger	DPOS: True	CPOS: tagset	NO_UNK: False	MODEL_TYPE: basic
+  Labeled   attachment score: 398 / 793 * 100 = 50.19 %
+  Unlabeled attachment score: 398 / 793 * 100 = 50.19 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: treetagger	LEMMA: None	DPOS: True	CPOS: tagset	NO_UNK: False	MODEL_TYPE: basic
+  Labeled   attachment score: 349 / 793 * 100 = 44.01 %
+  Unlabeled attachment score: 349 / 793 * 100 = 44.01 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: treetagger	LEMMA: pymorphy	DPOS: True	CPOS: tagset	NO_UNK: False	MODEL_TYPE: basic
+  Labeled   attachment score: 346 / 793 * 100 = 43.63 %
+  Unlabeled attachment score: 346 / 793 * 100 = 43.63 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: treetagger	LEMMA: treetagger	DPOS: True	CPOS: tagset	NO_UNK: True	MODEL_TYPE: basic
+  Labeled   attachment score: 349 / 793 * 100 = 44.01 %
+  Unlabeled attachment score: 349 / 793 * 100 = 44.01 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: treetagger	LEMMA: treetagger	DPOS: True	CPOS: tagset	NO_UNK: False	MODEL_TYPE: basic
+  Labeled   attachment score: 349 / 793 * 100 = 44.01 %
+  Unlabeled attachment score: 349 / 793 * 100 = 44.01 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: None	LEMMA: None	DPOS: False	CPOS: None	NO_UNK: False	MODEL_TYPE: basic
+  Labeled   attachment score: 339 / 793 * 100 = 42.75 %
+  Unlabeled attachment score: 339 / 793 * 100 = 42.75 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: None	LEMMA: pymorphy	DPOS: False	CPOS: None	NO_UNK: False	MODEL_TYPE: basic
+  Labeled   attachment score: 374 / 793 * 100 = 47.16 %
+  Unlabeled attachment score: 374 / 793 * 100 = 47.16 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: None	LEMMA: treetagger	DPOS: False	CPOS: None	NO_UNK: True	MODEL_TYPE: basic
+  Labeled   attachment score: 361 / 793 * 100 = 45.52 %
+  Unlabeled attachment score: 361 / 793 * 100 = 45.52 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: None	LEMMA: treetagger	DPOS: False	CPOS: None	NO_UNK: False	MODEL_TYPE: basic
+  Labeled   attachment score: 381 / 793 * 100 = 48.05 %
+  Unlabeled attachment score: 381 / 793 * 100 = 48.05 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: pymorphy	LEMMA: None	DPOS: False	CPOS: None	NO_UNK: False	MODEL_TYPE: basic
+  Labeled   attachment score: 458 / 793 * 100 = 57.76 %
+  Unlabeled attachment score: 458 / 793 * 100 = 57.76 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: pymorphy	LEMMA: pymorphy	DPOS: False	CPOS: None	NO_UNK: False	MODEL_TYPE: basic
+  Labeled   attachment score: 466 / 793 * 100 = 58.76 %
+  Unlabeled attachment score: 466 / 793 * 100 = 58.76 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: pymorphy	LEMMA: treetagger	DPOS: False	CPOS: None	NO_UNK: True	MODEL_TYPE: basic
+  Labeled   attachment score: 468 / 793 * 100 = 59.02 %
+  Unlabeled attachment score: 468 / 793 * 100 = 59.02 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: pymorphy	LEMMA: treetagger	DPOS: False	CPOS: None	NO_UNK: False	MODEL_TYPE: basic
+  Labeled   attachment score: 477 / 793 * 100 = 60.15 %
+  Unlabeled attachment score: 477 / 793 * 100 = 60.15 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: treetagger	LEMMA: None	DPOS: False	CPOS: None	NO_UNK: False	MODEL_TYPE: basic
+  Labeled   attachment score: 404 / 793 * 100 = 50.95 %
+  Unlabeled attachment score: 404 / 793 * 100 = 50.95 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: treetagger	LEMMA: pymorphy	DPOS: False	CPOS: None	NO_UNK: False	MODEL_TYPE: basic
+  Labeled   attachment score: 410 / 793 * 100 = 51.70 %
+  Unlabeled attachment score: 410 / 793 * 100 = 51.70 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: treetagger	LEMMA: treetagger	DPOS: False	CPOS: None	NO_UNK: True	MODEL_TYPE: basic
+  Labeled   attachment score: 416 / 793 * 100 = 52.46 %
+  Unlabeled attachment score: 416 / 793 * 100 = 52.46 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: treetagger	LEMMA: treetagger	DPOS: False	CPOS: None	NO_UNK: False	MODEL_TYPE: basic
+  Labeled   attachment score: 412 / 793 * 100 = 51.95 %
+  Unlabeled attachment score: 412 / 793 * 100 = 51.95 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: None	LEMMA: None	DPOS: False	CPOS: spliced	NO_UNK: False	MODEL_TYPE: basic
+  Labeled   attachment score: 497 / 793 * 100 = 62.67 %
+  Unlabeled attachment score: 497 / 793 * 100 = 62.67 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: None	LEMMA: pymorphy	DPOS: False	CPOS: spliced	NO_UNK: False	MODEL_TYPE: basic
+  Labeled   attachment score: 501 / 793 * 100 = 63.18 %
+  Unlabeled attachment score: 501 / 793 * 100 = 63.18 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: None	LEMMA: treetagger	DPOS: False	CPOS: spliced	NO_UNK: True	MODEL_TYPE: basic
+  Labeled   attachment score: 503 / 793 * 100 = 63.43 %
+  Unlabeled attachment score: 503 / 793 * 100 = 63.43 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: None	LEMMA: treetagger	DPOS: False	CPOS: spliced	NO_UNK: False	MODEL_TYPE: basic
+  Labeled   attachment score: 496 / 793 * 100 = 62.55 %
+  Unlabeled attachment score: 496 / 793 * 100 = 62.55 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: pymorphy	LEMMA: None	DPOS: False	CPOS: spliced	NO_UNK: False	MODEL_TYPE: basic
+  Labeled   attachment score: 512 / 793 * 100 = 64.56 %
+  Unlabeled attachment score: 512 / 793 * 100 = 64.56 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: pymorphy	LEMMA: pymorphy	DPOS: False	CPOS: spliced	NO_UNK: False	MODEL_TYPE: basic
+  Labeled   attachment score: 508 / 793 * 100 = 64.06 %
+  Unlabeled attachment score: 508 / 793 * 100 = 64.06 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: pymorphy	LEMMA: treetagger	DPOS: False	CPOS: spliced	NO_UNK: True	MODEL_TYPE: basic
+  Labeled   attachment score: 507 / 793 * 100 = 63.93 %
+  Unlabeled attachment score: 507 / 793 * 100 = 63.93 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: pymorphy	LEMMA: treetagger	DPOS: False	CPOS: spliced	NO_UNK: False	MODEL_TYPE: basic
+  Labeled   attachment score: 512 / 793 * 100 = 64.56 %
+  Unlabeled attachment score: 512 / 793 * 100 = 64.56 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: treetagger	LEMMA: None	DPOS: False	CPOS: spliced	NO_UNK: False	MODEL_TYPE: basic
+  Labeled   attachment score: 456 / 793 * 100 = 57.50 %
+  Unlabeled attachment score: 456 / 793 * 100 = 57.50 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: treetagger	LEMMA: pymorphy	DPOS: False	CPOS: spliced	NO_UNK: False	MODEL_TYPE: basic
+  Labeled   attachment score: 456 / 793 * 100 = 57.50 %
+  Unlabeled attachment score: 456 / 793 * 100 = 57.50 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: treetagger	LEMMA: treetagger	DPOS: False	CPOS: spliced	NO_UNK: True	MODEL_TYPE: basic
+  Labeled   attachment score: 455 / 793 * 100 = 57.38 %
+  Unlabeled attachment score: 455 / 793 * 100 = 57.38 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: treetagger	LEMMA: treetagger	DPOS: False	CPOS: spliced	NO_UNK: False	MODEL_TYPE: basic
+  Labeled   attachment score: 451 / 793 * 100 = 56.87 %
+  Unlabeled attachment score: 451 / 793 * 100 = 56.87 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: None	LEMMA: None	DPOS: False	CPOS: tagset	NO_UNK: False	MODEL_TYPE: basic
+  Labeled   attachment score: 511 / 793 * 100 = 64.44 %
+  Unlabeled attachment score: 511 / 793 * 100 = 64.44 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: None	LEMMA: pymorphy	DPOS: False	CPOS: tagset	NO_UNK: False	MODEL_TYPE: basic
+  Labeled   attachment score: 519 / 793 * 100 = 65.45 %
+  Unlabeled attachment score: 519 / 793 * 100 = 65.45 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: None	LEMMA: treetagger	DPOS: False	CPOS: tagset	NO_UNK: True	MODEL_TYPE: basic
+  Labeled   attachment score: 513 / 793 * 100 = 64.69 %
+  Unlabeled attachment score: 513 / 793 * 100 = 64.69 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: None	LEMMA: treetagger	DPOS: False	CPOS: tagset	NO_UNK: False	MODEL_TYPE: basic
+  Labeled   attachment score: 510 / 793 * 100 = 64.31 %
+  Unlabeled attachment score: 510 / 793 * 100 = 64.31 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: pymorphy	LEMMA: None	DPOS: False	CPOS: tagset	NO_UNK: False	MODEL_TYPE: basic
+  Labeled   attachment score: 511 / 793 * 100 = 64.44 %
+  Unlabeled attachment score: 511 / 793 * 100 = 64.44 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: pymorphy	LEMMA: pymorphy	DPOS: False	CPOS: tagset	NO_UNK: False	MODEL_TYPE: basic
+  Labeled   attachment score: 511 / 793 * 100 = 64.44 %
+  Unlabeled attachment score: 511 / 793 * 100 = 64.44 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: pymorphy	LEMMA: treetagger	DPOS: False	CPOS: tagset	NO_UNK: True	MODEL_TYPE: basic
+  Labeled   attachment score: 511 / 793 * 100 = 64.44 %
+  Unlabeled attachment score: 511 / 793 * 100 = 64.44 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: pymorphy	LEMMA: treetagger	DPOS: False	CPOS: tagset	NO_UNK: False	MODEL_TYPE: basic
+  Labeled   attachment score: 509 / 793 * 100 = 64.19 %
+  Unlabeled attachment score: 509 / 793 * 100 = 64.19 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: treetagger	LEMMA: None	DPOS: False	CPOS: tagset	NO_UNK: False	MODEL_TYPE: basic
+  Labeled   attachment score: 440 / 793 * 100 = 55.49 %
+  Unlabeled attachment score: 440 / 793 * 100 = 55.49 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: treetagger	LEMMA: pymorphy	DPOS: False	CPOS: tagset	NO_UNK: False	MODEL_TYPE: basic
+  Labeled   attachment score: 443 / 793 * 100 = 55.86 %
+  Unlabeled attachment score: 443 / 793 * 100 = 55.86 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: treetagger	LEMMA: treetagger	DPOS: False	CPOS: tagset	NO_UNK: True	MODEL_TYPE: basic
+  Labeled   attachment score: 448 / 793 * 100 = 56.49 %
+  Unlabeled attachment score: 448 / 793 * 100 = 56.49 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: treetagger	LEMMA: treetagger	DPOS: False	CPOS: tagset	NO_UNK: False	MODEL_TYPE: basic
+  Labeled   attachment score: 444 / 793 * 100 = 55.99 %
+  Unlabeled attachment score: 444 / 793 * 100 = 55.99 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: None	LEMMA: None	DPOS: True	CPOS: None	NO_UNK: False	MODEL_TYPE: standard
+  Labeled   attachment score: 368 / 793 * 100 = 46.41 %
+  Unlabeled attachment score: 368 / 793 * 100 = 46.41 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: None	LEMMA: pymorphy	DPOS: True	CPOS: None	NO_UNK: False	MODEL_TYPE: standard
+  Labeled   attachment score: 367 / 793 * 100 = 46.28 %
+  Unlabeled attachment score: 367 / 793 * 100 = 46.28 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: None	LEMMA: treetagger	DPOS: True	CPOS: None	NO_UNK: True	MODEL_TYPE: standard
+  Labeled   attachment score: 372 / 793 * 100 = 46.91 %
+  Unlabeled attachment score: 372 / 793 * 100 = 46.91 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: None	LEMMA: treetagger	DPOS: True	CPOS: None	NO_UNK: False	MODEL_TYPE: standard
+  Labeled   attachment score: 366 / 793 * 100 = 46.15 %
+  Unlabeled attachment score: 366 / 793 * 100 = 46.15 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: pymorphy	LEMMA: None	DPOS: True	CPOS: None	NO_UNK: False	MODEL_TYPE: standard
+  Labeled   attachment score: 374 / 793 * 100 = 47.16 %
+  Unlabeled attachment score: 374 / 793 * 100 = 47.16 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: pymorphy	LEMMA: pymorphy	DPOS: True	CPOS: None	NO_UNK: False	MODEL_TYPE: standard
+  Labeled   attachment score: 371 / 793 * 100 = 46.78 %
+  Unlabeled attachment score: 371 / 793 * 100 = 46.78 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: pymorphy	LEMMA: treetagger	DPOS: True	CPOS: None	NO_UNK: True	MODEL_TYPE: standard
+  Labeled   attachment score: 370 / 793 * 100 = 46.66 %
+  Unlabeled attachment score: 370 / 793 * 100 = 46.66 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: pymorphy	LEMMA: treetagger	DPOS: True	CPOS: None	NO_UNK: False	MODEL_TYPE: standard
+  Labeled   attachment score: 372 / 793 * 100 = 46.91 %
+  Unlabeled attachment score: 372 / 793 * 100 = 46.91 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: treetagger	LEMMA: None	DPOS: True	CPOS: None	NO_UNK: False	MODEL_TYPE: standard
+  Labeled   attachment score: 330 / 793 * 100 = 41.61 %
+  Unlabeled attachment score: 330 / 793 * 100 = 41.61 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: treetagger	LEMMA: pymorphy	DPOS: True	CPOS: None	NO_UNK: False	MODEL_TYPE: standard
+  Labeled   attachment score: 329 / 793 * 100 = 41.49 %
+  Unlabeled attachment score: 329 / 793 * 100 = 41.49 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: treetagger	LEMMA: treetagger	DPOS: True	CPOS: None	NO_UNK: True	MODEL_TYPE: standard
+  Labeled   attachment score: 331 / 793 * 100 = 41.74 %
+  Unlabeled attachment score: 331 / 793 * 100 = 41.74 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: treetagger	LEMMA: treetagger	DPOS: True	CPOS: None	NO_UNK: False	MODEL_TYPE: standard
+  Labeled   attachment score: 328 / 793 * 100 = 41.36 %
+  Unlabeled attachment score: 328 / 793 * 100 = 41.36 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: None	LEMMA: None	DPOS: True	CPOS: spliced	NO_UNK: False	MODEL_TYPE: standard
+  Labeled   attachment score: 374 / 793 * 100 = 47.16 %
+  Unlabeled attachment score: 374 / 793 * 100 = 47.16 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: None	LEMMA: pymorphy	DPOS: True	CPOS: spliced	NO_UNK: False	MODEL_TYPE: standard
+  Labeled   attachment score: 375 / 793 * 100 = 47.29 %
+  Unlabeled attachment score: 375 / 793 * 100 = 47.29 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: None	LEMMA: treetagger	DPOS: True	CPOS: spliced	NO_UNK: True	MODEL_TYPE: standard
+  Labeled   attachment score: 377 / 793 * 100 = 47.54 %
+  Unlabeled attachment score: 377 / 793 * 100 = 47.54 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: None	LEMMA: treetagger	DPOS: True	CPOS: spliced	NO_UNK: False	MODEL_TYPE: standard
+  Labeled   attachment score: 374 / 793 * 100 = 47.16 %
+  Unlabeled attachment score: 374 / 793 * 100 = 47.16 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: pymorphy	LEMMA: None	DPOS: True	CPOS: spliced	NO_UNK: False	MODEL_TYPE: standard
+  Labeled   attachment score: 377 / 793 * 100 = 47.54 %
+  Unlabeled attachment score: 377 / 793 * 100 = 47.54 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: pymorphy	LEMMA: pymorphy	DPOS: True	CPOS: spliced	NO_UNK: False	MODEL_TYPE: standard
+  Labeled   attachment score: 379 / 793 * 100 = 47.79 %
+  Unlabeled attachment score: 379 / 793 * 100 = 47.79 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: pymorphy	LEMMA: treetagger	DPOS: True	CPOS: spliced	NO_UNK: True	MODEL_TYPE: standard
+  Labeled   attachment score: 373 / 793 * 100 = 47.04 %
+  Unlabeled attachment score: 373 / 793 * 100 = 47.04 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: pymorphy	LEMMA: treetagger	DPOS: True	CPOS: spliced	NO_UNK: False	MODEL_TYPE: standard
+  Labeled   attachment score: 375 / 793 * 100 = 47.29 %
+  Unlabeled attachment score: 375 / 793 * 100 = 47.29 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: treetagger	LEMMA: None	DPOS: True	CPOS: spliced	NO_UNK: False	MODEL_TYPE: standard
+  Labeled   attachment score: 346 / 793 * 100 = 43.63 %
+  Unlabeled attachment score: 346 / 793 * 100 = 43.63 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: treetagger	LEMMA: pymorphy	DPOS: True	CPOS: spliced	NO_UNK: False	MODEL_TYPE: standard
+  Labeled   attachment score: 347 / 793 * 100 = 43.76 %
+  Unlabeled attachment score: 347 / 793 * 100 = 43.76 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: treetagger	LEMMA: treetagger	DPOS: True	CPOS: spliced	NO_UNK: True	MODEL_TYPE: standard
+  Labeled   attachment score: 347 / 793 * 100 = 43.76 %
+  Unlabeled attachment score: 347 / 793 * 100 = 43.76 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: treetagger	LEMMA: treetagger	DPOS: True	CPOS: spliced	NO_UNK: False	MODEL_TYPE: standard
+  Labeled   attachment score: 346 / 793 * 100 = 43.63 %
+  Unlabeled attachment score: 346 / 793 * 100 = 43.63 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: None	LEMMA: None	DPOS: True	CPOS: tagset	NO_UNK: False	MODEL_TYPE: standard
+  Labeled   attachment score: 385 / 793 * 100 = 48.55 %
+  Unlabeled attachment score: 385 / 793 * 100 = 48.55 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: None	LEMMA: pymorphy	DPOS: True	CPOS: tagset	NO_UNK: False	MODEL_TYPE: standard
+  Labeled   attachment score: 385 / 793 * 100 = 48.55 %
+  Unlabeled attachment score: 385 / 793 * 100 = 48.55 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: None	LEMMA: treetagger	DPOS: True	CPOS: tagset	NO_UNK: True	MODEL_TYPE: standard
+  Labeled   attachment score: 381 / 793 * 100 = 48.05 %
+  Unlabeled attachment score: 381 / 793 * 100 = 48.05 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: None	LEMMA: treetagger	DPOS: True	CPOS: tagset	NO_UNK: False	MODEL_TYPE: standard
+  Labeled   attachment score: 384 / 793 * 100 = 48.42 %
+  Unlabeled attachment score: 384 / 793 * 100 = 48.42 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: pymorphy	LEMMA: None	DPOS: True	CPOS: tagset	NO_UNK: False	MODEL_TYPE: standard
+  Labeled   attachment score: 390 / 793 * 100 = 49.18 %
+  Unlabeled attachment score: 390 / 793 * 100 = 49.18 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: pymorphy	LEMMA: pymorphy	DPOS: True	CPOS: tagset	NO_UNK: False	MODEL_TYPE: standard
+  Labeled   attachment score: 389 / 793 * 100 = 49.05 %
+  Unlabeled attachment score: 389 / 793 * 100 = 49.05 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: pymorphy	LEMMA: treetagger	DPOS: True	CPOS: tagset	NO_UNK: True	MODEL_TYPE: standard
+  Labeled   attachment score: 391 / 793 * 100 = 49.31 %
+  Unlabeled attachment score: 391 / 793 * 100 = 49.31 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: pymorphy	LEMMA: treetagger	DPOS: True	CPOS: tagset	NO_UNK: False	MODEL_TYPE: standard
+  Labeled   attachment score: 388 / 793 * 100 = 48.93 %
+  Unlabeled attachment score: 388 / 793 * 100 = 48.93 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: treetagger	LEMMA: None	DPOS: True	CPOS: tagset	NO_UNK: False	MODEL_TYPE: standard
+  Labeled   attachment score: 345 / 793 * 100 = 43.51 %
+  Unlabeled attachment score: 345 / 793 * 100 = 43.51 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: treetagger	LEMMA: pymorphy	DPOS: True	CPOS: tagset	NO_UNK: False	MODEL_TYPE: standard
+  Labeled   attachment score: 345 / 793 * 100 = 43.51 %
+  Unlabeled attachment score: 345 / 793 * 100 = 43.51 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: treetagger	LEMMA: treetagger	DPOS: True	CPOS: tagset	NO_UNK: True	MODEL_TYPE: standard
+  Labeled   attachment score: 347 / 793 * 100 = 43.76 %
+  Unlabeled attachment score: 347 / 793 * 100 = 43.76 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: treetagger	LEMMA: treetagger	DPOS: True	CPOS: tagset	NO_UNK: False	MODEL_TYPE: standard
+  Labeled   attachment score: 346 / 793 * 100 = 43.63 %
+  Unlabeled attachment score: 346 / 793 * 100 = 43.63 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: None	LEMMA: None	DPOS: False	CPOS: None	NO_UNK: False	MODEL_TYPE: standard
+  Labeled   attachment score: 350 / 793 * 100 = 44.14 %
+  Unlabeled attachment score: 350 / 793 * 100 = 44.14 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: None	LEMMA: pymorphy	DPOS: False	CPOS: None	NO_UNK: False	MODEL_TYPE: standard
+  Labeled   attachment score: 358 / 793 * 100 = 45.15 %
+  Unlabeled attachment score: 358 / 793 * 100 = 45.15 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: None	LEMMA: treetagger	DPOS: False	CPOS: None	NO_UNK: True	MODEL_TYPE: standard
+  Labeled   attachment score: 355 / 793 * 100 = 44.77 %
+  Unlabeled attachment score: 355 / 793 * 100 = 44.77 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: None	LEMMA: treetagger	DPOS: False	CPOS: None	NO_UNK: False	MODEL_TYPE: standard
+  Labeled   attachment score: 377 / 793 * 100 = 47.54 %
+  Unlabeled attachment score: 377 / 793 * 100 = 47.54 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: pymorphy	LEMMA: None	DPOS: False	CPOS: None	NO_UNK: False	MODEL_TYPE: standard
+  Labeled   attachment score: 453 / 793 * 100 = 57.12 %
+  Unlabeled attachment score: 453 / 793 * 100 = 57.12 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: pymorphy	LEMMA: pymorphy	DPOS: False	CPOS: None	NO_UNK: False	MODEL_TYPE: standard
+  Labeled   attachment score: 453 / 793 * 100 = 57.12 %
+  Unlabeled attachment score: 453 / 793 * 100 = 57.12 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: pymorphy	LEMMA: treetagger	DPOS: False	CPOS: None	NO_UNK: True	MODEL_TYPE: standard
+  Labeled   attachment score: 468 / 793 * 100 = 59.02 %
+  Unlabeled attachment score: 468 / 793 * 100 = 59.02 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: pymorphy	LEMMA: treetagger	DPOS: False	CPOS: None	NO_UNK: False	MODEL_TYPE: standard
+  Labeled   attachment score: 453 / 793 * 100 = 57.12 %
+  Unlabeled attachment score: 453 / 793 * 100 = 57.12 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: treetagger	LEMMA: None	DPOS: False	CPOS: None	NO_UNK: False	MODEL_TYPE: standard
+  Labeled   attachment score: 404 / 793 * 100 = 50.95 %
+  Unlabeled attachment score: 404 / 793 * 100 = 50.95 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: treetagger	LEMMA: pymorphy	DPOS: False	CPOS: None	NO_UNK: False	MODEL_TYPE: standard
+  Labeled   attachment score: 405 / 793 * 100 = 51.07 %
+  Unlabeled attachment score: 405 / 793 * 100 = 51.07 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: treetagger	LEMMA: treetagger	DPOS: False	CPOS: None	NO_UNK: True	MODEL_TYPE: standard
+  Labeled   attachment score: 406 / 793 * 100 = 51.20 %
+  Unlabeled attachment score: 406 / 793 * 100 = 51.20 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: treetagger	LEMMA: treetagger	DPOS: False	CPOS: None	NO_UNK: False	MODEL_TYPE: standard
+  Labeled   attachment score: 406 / 793 * 100 = 51.20 %
+  Unlabeled attachment score: 406 / 793 * 100 = 51.20 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: None	LEMMA: None	DPOS: False	CPOS: spliced	NO_UNK: False	MODEL_TYPE: standard
+  Labeled   attachment score: 496 / 793 * 100 = 62.55 %
+  Unlabeled attachment score: 496 / 793 * 100 = 62.55 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: None	LEMMA: pymorphy	DPOS: False	CPOS: spliced	NO_UNK: False	MODEL_TYPE: standard
+  Labeled   attachment score: 496 / 793 * 100 = 62.55 %
+  Unlabeled attachment score: 496 / 793 * 100 = 62.55 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: None	LEMMA: treetagger	DPOS: False	CPOS: spliced	NO_UNK: True	MODEL_TYPE: standard
+  Labeled   attachment score: 492 / 793 * 100 = 62.04 %
+  Unlabeled attachment score: 492 / 793 * 100 = 62.04 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: None	LEMMA: treetagger	DPOS: False	CPOS: spliced	NO_UNK: False	MODEL_TYPE: standard
+  Labeled   attachment score: 495 / 793 * 100 = 62.42 %
+  Unlabeled attachment score: 495 / 793 * 100 = 62.42 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: pymorphy	LEMMA: None	DPOS: False	CPOS: spliced	NO_UNK: False	MODEL_TYPE: standard
+  Labeled   attachment score: 502 / 793 * 100 = 63.30 %
+  Unlabeled attachment score: 502 / 793 * 100 = 63.30 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: pymorphy	LEMMA: pymorphy	DPOS: False	CPOS: spliced	NO_UNK: False	MODEL_TYPE: standard
+  Labeled   attachment score: 499 / 793 * 100 = 62.93 %
+  Unlabeled attachment score: 499 / 793 * 100 = 62.93 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: pymorphy	LEMMA: treetagger	DPOS: False	CPOS: spliced	NO_UNK: True	MODEL_TYPE: standard
+  Labeled   attachment score: 503 / 793 * 100 = 63.43 %
+  Unlabeled attachment score: 503 / 793 * 100 = 63.43 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: pymorphy	LEMMA: treetagger	DPOS: False	CPOS: spliced	NO_UNK: False	MODEL_TYPE: standard
+  Labeled   attachment score: 501 / 793 * 100 = 63.18 %
+  Unlabeled attachment score: 501 / 793 * 100 = 63.18 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: treetagger	LEMMA: None	DPOS: False	CPOS: spliced	NO_UNK: False	MODEL_TYPE: standard
+  Labeled   attachment score: 455 / 793 * 100 = 57.38 %
+  Unlabeled attachment score: 455 / 793 * 100 = 57.38 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: treetagger	LEMMA: pymorphy	DPOS: False	CPOS: spliced	NO_UNK: False	MODEL_TYPE: standard
+  Labeled   attachment score: 453 / 793 * 100 = 57.12 %
+  Unlabeled attachment score: 453 / 793 * 100 = 57.12 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: treetagger	LEMMA: treetagger	DPOS: False	CPOS: spliced	NO_UNK: True	MODEL_TYPE: standard
+  Labeled   attachment score: 456 / 793 * 100 = 57.50 %
+  Unlabeled attachment score: 456 / 793 * 100 = 57.50 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: treetagger	LEMMA: treetagger	DPOS: False	CPOS: spliced	NO_UNK: False	MODEL_TYPE: standard
+  Labeled   attachment score: 457 / 793 * 100 = 57.63 %
+  Unlabeled attachment score: 457 / 793 * 100 = 57.63 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: None	LEMMA: None	DPOS: False	CPOS: tagset	NO_UNK: False	MODEL_TYPE: standard
+  Labeled   attachment score: 505 / 793 * 100 = 63.68 %
+  Unlabeled attachment score: 505 / 793 * 100 = 63.68 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: None	LEMMA: pymorphy	DPOS: False	CPOS: tagset	NO_UNK: False	MODEL_TYPE: standard
+  Labeled   attachment score: 504 / 793 * 100 = 63.56 %
+  Unlabeled attachment score: 504 / 793 * 100 = 63.56 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: None	LEMMA: treetagger	DPOS: False	CPOS: tagset	NO_UNK: True	MODEL_TYPE: standard
+  Labeled   attachment score: 506 / 793 * 100 = 63.81 %
+  Unlabeled attachment score: 506 / 793 * 100 = 63.81 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: None	LEMMA: treetagger	DPOS: False	CPOS: tagset	NO_UNK: False	MODEL_TYPE: standard
+  Labeled   attachment score: 506 / 793 * 100 = 63.81 %
+  Unlabeled attachment score: 506 / 793 * 100 = 63.81 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: pymorphy	LEMMA: None	DPOS: False	CPOS: tagset	NO_UNK: False	MODEL_TYPE: standard
+  Labeled   attachment score: 507 / 793 * 100 = 63.93 %
+  Unlabeled attachment score: 507 / 793 * 100 = 63.93 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: pymorphy	LEMMA: pymorphy	DPOS: False	CPOS: tagset	NO_UNK: False	MODEL_TYPE: standard
+  Labeled   attachment score: 512 / 793 * 100 = 64.56 %
+  Unlabeled attachment score: 512 / 793 * 100 = 64.56 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: pymorphy	LEMMA: treetagger	DPOS: False	CPOS: tagset	NO_UNK: True	MODEL_TYPE: standard
+  Labeled   attachment score: 510 / 793 * 100 = 64.31 %
+  Unlabeled attachment score: 510 / 793 * 100 = 64.31 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: pymorphy	LEMMA: treetagger	DPOS: False	CPOS: tagset	NO_UNK: False	MODEL_TYPE: standard
+  Labeled   attachment score: 513 / 793 * 100 = 64.69 %
+  Unlabeled attachment score: 513 / 793 * 100 = 64.69 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: treetagger	LEMMA: None	DPOS: False	CPOS: tagset	NO_UNK: False	MODEL_TYPE: standard
+  Labeled   attachment score: 440 / 793 * 100 = 55.49 %
+  Unlabeled attachment score: 440 / 793 * 100 = 55.49 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: treetagger	LEMMA: pymorphy	DPOS: False	CPOS: tagset	NO_UNK: False	MODEL_TYPE: standard
+  Labeled   attachment score: 442 / 793 * 100 = 55.74 %
+  Unlabeled attachment score: 442 / 793 * 100 = 55.74 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: treetagger	LEMMA: treetagger	DPOS: False	CPOS: tagset	NO_UNK: True	MODEL_TYPE: standard
+  Labeled   attachment score: 438 / 793 * 100 = 55.23 %
+  Unlabeled attachment score: 438 / 793 * 100 = 55.23 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------
+
+ MORPH: treetagger	LEMMA: treetagger	DPOS: False	CPOS: tagset	NO_UNK: False	MODEL_TYPE: standard
+  Labeled   attachment score: 441 / 793 * 100 = 55.61 %
+  Unlabeled attachment score: 441 / 793 * 100 = 55.61 %
+  Label accuracy score:       793 / 793 * 100 = 100.00 %
+----------------------------------------------------------------

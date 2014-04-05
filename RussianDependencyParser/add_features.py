@@ -62,16 +62,14 @@ for sent in sentences:
             coarse_postag_2 = postag
             morph_2 = postag
         
-	#takes the last one for now (if there is a choice)
-        for item in morph_info:
-            #info_string=item['class'].encode('utf-8')+'|'
-            morph_1=item['info'].encode('utf-8')+'|'
-            lemma2=item['lemma'].encode('utf-8')
+	   #takes the first one for now (if there is a choice)
+        if morph_info:
+            item = morph_info[0]
+            morph_1=item['info'].decode('utf-8')
+            lemma2=item['lemma'].decode('utf-8').lower()
 
-	#strip final "|"
-        morph_1 = morph_1[:-1]
 
-	#if for some reason lemma of class/info is empty, 
+	    #if for some reason lemma of class/info is empty, 
         #replace with a string of the appropriate conll format
         morph_1 = replace_param_with_default(morph_1)
         lemma1 = replace_param_with_default(lemma1)
