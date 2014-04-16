@@ -1,3 +1,0 @@
-ExternalExeFileCheck
-ExternalCommandLine SynColloc.exe German  %s
-ExternalOutFile c:/RML/Bin/gersyncolloc.colloc

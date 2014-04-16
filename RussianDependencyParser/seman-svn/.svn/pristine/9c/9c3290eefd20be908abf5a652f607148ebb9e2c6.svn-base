@@ -1,1 +1,0 @@
-ConvertTrigramBinary default.config 
