@@ -8505,6 +8505,15 @@
 7	270	@card@	NUM	Mc---d	_	8	_	_	_	_	c---d	M
 8	тыс.	<unknown>	S	SENT	_	6	_	_	_	_	SENT	SENT
 
+1	946	@card@	NUM	Mc---d	_	2	_	_	_	_	c---d	M
+2	рублей	рубль	S	Ncmpgn	мр,мн,рд	4	_	_	_	руб	cmpgn	N
+3	,	,	PUNCT	,	_	0	_	_	_	_		,
+4	а	а	CONJ	C	_	0	_	_	_	а		C
+5	израсходовано	израсходовать	V	Vmps-snpsp	од,но,прш,стр,ед,ср	4	_	_	_	израсход	mps-snpsp	V
+6	было	быть	V	Vmis-sna-e	дст,прш,ср,ед	5	_	_	_	_	mis-sna-e	V
+7	270	@card@	NUM	Mc---d	_	8	_	_	_	_	c---d	M
+8	тыс.	<unknown>	S	SENT	_	6	_	_	_	_	SENT	SENT
+
 1	938	@card@	NUM	Mc---d	_	2	_	_	_	_	c---d	M
 2	рублей	рубль	S	Ncmpgn	мр,мн,рд	0	_	_	_	руб	cmpgn	N
 3	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
@@ -9865,6 +9874,20 @@
 14	Мечама	<unknown>	S	Ncmsgn	жр,ед,им	13	_	_	_	ам	cmsgn	N
 15	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
 
+1	Как	как	ADV-PRO	C	_	8	_	_	_	как		C
+2	только	только	PART	Q	_	5	_	_	_	только		Q
+3	новые	новый	A	Afpmpnf	ср,мн,им	4	_	_	_	нов	fpmpnf	A
+4	разработчики	разработчик	S	Ncmpny	мр,мн,им	5	_	_	_	разработчик	cmpny	N
+5	получили	получить	V	Vmis-p-a-p	дст,прш,мн	1	_	_	_	получ	mis-p-a-p	V
+6	код	код	S	Ncmsan	мр,ед,им	5	_	_	_	код	cmsan	N
+7	,	,	PUNCT	,	_	0	_	_	_	_		,
+8	были	быть	V	Vmis-p-a-e	дст,прш,мн	0	_	_	_	_	mis-p-a-e	V
+9	произведены	произвести	V	Vmps-p-psp	од,но,прш,стр,мн	8	_	_	_	произв	mps-p-psp	V
+10	большие	больший	A	Afpmpnf	мн,им,од,но	11	_	_	_	_	fpmpnf	A
+11	изменения	изменение	S	Ncnpnn	ср,ед,рд	9	_	_	_	изменен	cnpnn	N
+12	версии	версия	S	Ncfsdn	жр,ед,рд	11	_	_	_	верси	cfsdn	N
+13	3.1.x.	<unknown>	S	SENT	_	12	_	_	_	_	SENT	SENT
+
 1	В	в	PR	Sp-a	_	7	_	_	_	в	p-a	S
 2	течение	течение	S	Ncnsan	ср,ед,им	1	_	_	_	течен	cnsan	N
 3	долгого	долгий	A	Afpnsgf	мр,ед,рд,од,но	4	_	_	_	дол	fpnsgf	A
@@ -10157,6 +10180,33 @@
 4	оригинале	оригинал	S	Ncmsln	мр,ед,пр	3	_	_	_	оригинал	cmsln	N
 5	myIkonboard	<unknown>	S	Mc	_	4	_	_	_	_	c	M
 6	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
+
+1	До	до	PR	Sp-l	_	9	_	_	_	до	p-l	S
+2	11	@card@	NUM	Mc---d	_	3	_	_	_	_	c---d	M
+3	сентября	сентябрь	S	Ncmsgn	мр,ед,рд	1	_	_	_	сентябр	cmsgn	N
+4	2006-го	<unknown>	A	Afpmsg	_	3	_	_	_	го	fpmsg	A
+5	никакая	никакой	A-PRO	P--fsna	жр,ед,им,од,но	7	_	_	_	никак	--fsna	P
+6	дальнейшая	дальнейший	A	Afpfsnf	жр,ед,им,од,но	7	_	_	_	дальнейш	fpfsnf	A
+7	работа	работа	S	Ncfsnn	жр,ед,им	9	_	_	_	работ	cfsnn	N
+8	не	не	PART	Q	_	9	_	_	_	не		Q
+9	возобновлялась	возобновляться	V	Vmis-sfm-p	дст,прш,жр,ед	15	_	_	_	возобновля	mis-sfm-p	V
+10	для	для	PR	Sp-g	дст,нст	9	_	_	_	дл	p-g	S
+11	развития	развитие	S	Ncnsgn	ср,ед,рд	10	_	_	_	развит	cnsgn	N
+12	версии	версия	S	Ncfsdn	жр,ед,рд	11	_	_	_	верси	cfsdn	N
+13	PHP	<unknown>	S	-	_	12	_	_	_	_		-
+14	,	,	PUNCT	,	_	0	_	_	_	_		,
+15	однако	однако	CONJ	C	_	0	_	_	_	однако		C
+16	было	быть	V	Vmis-sna-e	дст,прш,ср,ед	15	_	_	_	_	mis-sna-e	V
+17	объявлено	объявить	V	Vmps-snpsp	од,но,прш,стр,ед,ср	16	_	_	_	объяв	mps-snpsp	V
+18	,	,	PUNCT	,	_	0	_	_	_	_		,
+19	что	что	CONJ	C	ср,ед,им	17	_	_	_	ч		C
+20	работа	работа	S	Ncfsnn	жр,ед,им	24	_	_	_	работ	cfsnn	N
+21	над	над	PR	Sp-i	_	20	_	_	_	над	p-i	S
+22	версией	версия	S	Ncfsin	жр,ед,тв	21	_	_	_	верси	cfsin	N
+23	PHP	<unknown>	S	-	_	22	_	_	_	_		-
+24	должна	должный	A	Afpfsns	жр,ед,од,но	19	_	_	_	долж	fpfsns	A
+25	возобновиться	возобновиться	V	Vmn----m-p	дст	24	_	_	_	возобнов	mn----m-p	V
+26	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
 
 1	Доменико	<unknown>	S	R	0,од,но	6	_	_	_	доменико		R
 2	ди	ди	S	Q	жр,ед,0	1	_	_	_	ди		Q

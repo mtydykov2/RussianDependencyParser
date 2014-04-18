@@ -1,0 +1,32 @@
+Training
+
+To train the parser, you can use the RussianDependencyParser/train.py
+script provided as follows:
+
+python train.py -t MODEL_TYPE
+optional arguments: -m MORPH -l LEMMA N-u -d -c COARSE_POS
+
+-MODEL_TYPE can be any one of the TurboParser model types - basic, standard, full
+-MORPH can be one of {"pymorphy", "treetagger"}
+-LEMMA can be one of {"pymorphy", "treetagger"}
+-COARSE_POS can be one of {"split", "tagset"}
+
+The script takes all files with a _annotated extension from the 
+RussianDependencyParser/allData/training/ directory and combines it into one file, 
+RussianDependencyParser/all_train.conll. It then proceeds to 
+add the features indicated into the final training file which 
+is then used as input to the TurboParser.
+
+Parsing
+
+To parse, you can use the RussianDependencyParser/parse.py
+script provided as follows:
+
+python parse.py -f FILE_TO_PARSE
+
+optional arguments: -m MORPH -l LEMMA N-u -d -c COARSE_POS
+
+-MODEL_TYPE can be any one of the TurboParser model types - basic, standard, full
+-MORPH can be one of {"pymorphy", "treetagger"}
+-LEMMA can be one of {"pymorphy", "treetagger"}
+-COARSE_POS can be one of {"split", "tagset"}

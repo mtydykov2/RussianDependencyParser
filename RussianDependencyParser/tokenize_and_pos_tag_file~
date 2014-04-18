@@ -1,28 +1,22 @@
 #!/bin/bash
 
-#usage: sh tokenize_and_pos_tag_file /home/mtydykov/brat-v1.3_Crunchy_Frog/data/test_corpora/WikipediaTestA.txt /home/mtydykov/workspace/RussianDependencyParser/Lingua-RU-OpenCorpora-Tokenizer-0.03/
+#usage: bash tokenize_and_pos_tag_file path_to_training_file_directory 
 
-FILES="$1*"
+FILES="$1"*
 for f in $FILES
 do
 
     if ! [[ $f == *tokenized* || $f == *postagged* || $f == *post_processed* || $f == *conll* || $f == *annotated* || $f == *~* ]]
     then
+        originalfile=$f
         echo $f
-        filepath=$f
-        tokenizepath="/home/mtydykov/NLPLab/repository/RussianDependencyParser/Lingua-RU-OpenCorpora-Tokenizer-0.03/"
-        HOMEDIR="/home/mtydykov/NLPLab/repository/RussianDependencyParser"
-        filepath_tokenized=$filepath"_tokenized"
-        #cd $2
-        perl "$tokenizepath"tokenize "$filepath"
-        #echo $filepath_tokenized
-        #echo $2
-        python "$HOMEDIR/post_process_tokenization.py" "$filepath_tokenized"
-        filepath_tokenized_postprocessed=$filepath_tokenized"_post_processed"
-        filepath_postagged=$filepath"_postagged"
-
-        /home/mtydykov/NLPLab/repository/RussianDependencyParser/tree-tagger/bin/tree-tagger /home/mtydykov/NLPLab/repository/RussianDependencyParser/tree-tagger/russian.par "$filepath_tokenized_postprocessed" "$filepath_postagged" "-token"
-        python "$HOMEDIR/convert_to_conll.py" "$filepath_postagged"
+        perl Lingua-RU-OpenCorpora-Tokenizer-0.03/tokenize "$f" "$f"_tokenized
+        echo $f
+        python "post_process_tokenization.py" "$f"_tokenized
+        echo $originalfile
+        tree-tagger/bin/tree-tagger tree-tagger/russian.par "$f"_tokenized_post_processed "$f"_postagged "-token"
+        echo $f
+        python "convert_to_conll.py" "$f"_postagged
     fi
 done
 

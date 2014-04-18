@@ -658,6 +658,29 @@
 41	Японию	япония	S	Ncfsan	жр,ед,вн	40	_	_	_	япони	cfsan	N
 42	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
 
+1	Но	но	CONJ	C	_	3	_	_	_	но		C
+2	яхта	яхта	S	Ncfsnn	жр,ед,им	3	_	_	_	яхт	cfsnn	N
+3	налетела	налететь	V	Vmis-sfa-p	дст,прш,жр,ед	12	_	_	_	нале	mis-sfa-p	V
+4	на	на	PR	Sp-a	_	3	_	_	_	на	p-a	S
+5	рифы	риф	S	Ncmpan	мр,мн,им	4	_	_	_	риф	cmpan	N
+6	у	у	PR	Sp-g	_	5	_	_	_	у	p-g	S
+7	входа	вход	S	Ncmsgn	мр,ед,рд	6	_	_	_	вход	cmsgn	N
+8	в	в	PR	Sp-a	_	7	_	_	_	в	p-a	S
+9	бомбейскую	<unknown>	A	Afpfsaf	жр,ед,вн,од,но	10	_	_	_	бомбейск	fpfsaf	A
+10	гавань	гавань	S	Ncfsan	жр,ед,им	8	_	_	_	гаван	cfsan	N
+11	,	,	PUNCT	,	_	0	_	_	_	_		,
+12	и	и	CONJ	C	_	0	_	_	_	и		C
+13	Джонсон	<unknown>	S	Npmsny	мр,имя,ед,им	14	_	_	_	джонсон	pmsny	N
+14	оказался	оказаться	V	Vmis-smm-p	дст,прш,мр,ед	12	_	_	_	ока	mis-smm-p	V
+15	единственным	единственный	A	Afpmsif	мр,ед,тв,од,но	14	_	_	_	единствен	fpmsif	A
+16	из	из	PR	Sp-g	_	15	_	_	_	из	p-g	S
+17	всего	весь	A-PRO	P--nsgn	мр,ед,рд,од,но	18	_	_	_	в	--nsgn	P
+18	экипажа	экипаж	S	Ncmsgn	мр,ед,рд	16	_	_	_	экипаж	cmsgn	N
+19	,	,	PUNCT	,	_	0	_	_	_	_		,
+20	кто	кто	S-PRO	P--msnn	мр,ед,им	15	_	_	_	к	--msnn	P
+21	спасся	спасаться	V	Vmis-smm-p	дст,прш,мр,ед	20	_	_	_	спас	mis-smm-p	V
+22	.	.	SENT	SENT	_	0	_	_	_	_	SENT	SENT
+
 1	Он	он	S-PRO	P-3msnn	3л,мр,ед,им	2	_	_	_	_	-3msnn	P
 2	прожил	прожить	V	Vmis-sma	дст,прш,мр,ед	7	_	_	_	прожи	mis-sma	V
 3	в	в	PR	Sp-l	_	2	_	_	_	в	p-l	S

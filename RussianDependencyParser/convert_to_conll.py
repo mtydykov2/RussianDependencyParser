@@ -1,6 +1,6 @@
 import sys
 f = open(sys.argv[1])
-filename = sys.argv[1]+"_post_processed"
+filename = sys.argv[1]
 f2 = open(filename+".conll", 'w+')
 tokenNum = 1
 for line in f:

@@ -10,6 +10,7 @@ def replace_param_with_default(param_to_check):
 morph = get_morph('pymorphy_dict')
 f = open(sys.argv[1])
 f2 = open(sys.argv[1]+".coarse", 'w+')
+evaluation_mode=sys.argv[2]
 annotation_errors = open(sys.argv[1]+'.annotation_errors','w+')
 tokenNum = 1
 lines = []
@@ -18,7 +19,7 @@ add = True
 for line in f:
     # if the token is attached to itself, there's an annotation error;
     # skip the sentence
-    if line != "\n" and line.split('\t')[6] == line.split('\t')[0]:
+    if line != "\n" and line.split('\t')[6] == line.split('\t')[0] and evaluation_mode == "True":
         add = False
     lines.append(line)
     if line == "\n":

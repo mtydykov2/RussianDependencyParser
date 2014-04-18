@@ -59,26 +59,51 @@ def test_all(model_type, f1):
                             train_and_test_parser(f1, model_type, morph_val, lemmas_val, detailed_val, coarse_val, False)
          
 os.environ["LD_LIBRARY_PATH"] ="$LD_LIBRARY_PATH:/home/mtydykov/NLPLab/repository/RussianDependencyParser/TurboParser-2.1.0/deps/local/lib:"
-subprocess.call('cat allData/training/*_annotated > all_train.conll', shell=True)
+
+
+#first, test only first round of development (~7000 annotated training tokens)
+filename = "batch_test_a_dev_1"
+subprocess.call('cat allData/training_first_round_of_development/*_annotated > all_train.conll', shell=True)
 subprocess.call('cat allData/test_A/*_annotated > all_test.conll', shell=True)
 
 #sort out all info that will go to the parse just once, here
-subprocess.call('python add_features.py all_train.conll', shell=True)
-subprocess.call('python add_features.py all_test.conll', shell=True)
+subprocess.call('python add_features.py all_train.conll False', shell=True)
+subprocess.call('python add_features.py all_test.conll False', shell=True)
 
+subprocess.call('echo "Test on Corpus A:" > '+filename, shell=True)
+test_all(model_type='basic', f1=filename)
+test_all(model_type='standard', f1=filename)
 
-subprocess.call('echo "Test on Corpus A:" > batch_test_corpus_a', shell=True)
-test_all(model_type='basic', f1='batch_test_corpus_a')
-test_all(model_type='standard', f1='batch_test_corpus_a')
-
-
-subprocess.call('echo "\n\nTest on Test Corpus B:" > batch_test_corpus_b', shell=True)
+filename = "batch_test_b_dev_1"
+subprocess.call('echo "\n\nTest on Test Corpus B:" > '+filename, shell=True)
 subprocess.call('cat allData/test_B/*_annotated > all_test.conll', shell=True)
 
 #sort out all info that will go to the parse just once, here
 subprocess.call('python add_features.py all_test.conll', shell=True)
 
-test_all(model_type='basic', f1='batch_test_corpus_b')
-test_all(model_type='standard', f1='batch_test_corpus_b')
+test_all(model_type='basic', f1=filename)
+test_all(model_type='standard', f1=filename)
 
-#train_and_test_parser('all_train.conll.coarse','basic', include_coarse_postags="spliced")
+
+#then, test only second round of development (~10,000 annotated training tokens)
+filename = "batch_test_a_dev_2"
+subprocess.call('cat allData/training/*_annotated > all_train.conll', shell=True)
+subprocess.call('cat allData/test_A/*_annotated > all_test.conll', shell=True)
+
+#sort out all info that will go to the parse just once, here
+subprocess.call('python add_features.py all_train.conll False', shell=True)
+subprocess.call('python add_features.py all_test.conll False', shell=True)
+
+subprocess.call('echo "Test on Corpus A:" > '+filename, shell=True)
+test_all(model_type='basic', f1=filename)
+test_all(model_type='standard', f1=filename)
+
+filename = "batch_test_b_dev_2"
+subprocess.call('echo "\n\nTest on Test Corpus B:" > '+filename, shell=True)
+subprocess.call('cat allData/test_B/*_annotated > all_test.conll', shell=True)
+
+#sort out all info that will go to the parse just once, here
+subprocess.call('python add_features.py all_test.conll False', shell=True)
+
+test_all(model_type='basic', f1=filename)
+test_all(model_type='standard', f1=filename)
