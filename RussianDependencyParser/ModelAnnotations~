@@ -91,7 +91,7 @@ MULTIWORD PHRASES ATTACHED TO MAIN VERB:
 dev_16:Этим и определился современный облик курорта : в центральной части Солнечного берега расположены более дешёвые отели , постройки советских времен , а на севере чаще можно встретить новые , современные и более дорогие . 
 -attach "и" to "определился"
 
-TWO MAIN VERBS JOINED BY A CONJUNCTION:
+TWO INDEPENDENT CLAUSES JOINED BY A CONJUNCTION:
 -attach the subject to the clause in which it appears
 dev18:Джонсон и Маккэйб сумели доплыть до берега и остались на острове Сан-Лоренцо .
 -attach the "и" in "Джонсон и Маккэйб" to "сумели"
