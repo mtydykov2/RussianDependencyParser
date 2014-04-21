@@ -42,7 +42,7 @@ for sent in sentences:
             f3.write(line_to_write)
 
     f3.close()
-    os.system('/home/mtydykov/NLPLab/repository/RussianDependencyParser/tree-tagger/bin/tree-tagger /home/mtydykov/NLPLab/repository/RussianDependencyParser/tree-tagger/russian-small.par temp temp_coarse -token -lemma')
+    os.system('tree-tagger/bin/tree-tagger tree-tagger/russian-small.par temp temp_coarse -token -lemma')
 
     f4 = open('temp_coarse')
     for i, line in enumerate(f4):

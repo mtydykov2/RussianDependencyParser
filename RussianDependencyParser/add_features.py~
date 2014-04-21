@@ -10,6 +10,7 @@ def replace_param_with_default(param_to_check):
 morph = get_morph('pymorphy_dict')
 f = open(sys.argv[1])
 f2 = open(sys.argv[1]+".coarse", 'w+')
+evaluation_mode=sys.argv[2]
 annotation_errors = open(sys.argv[1]+'.annotation_errors','w+')
 tokenNum = 1
 lines = []
@@ -18,7 +19,7 @@ add = True
 for line in f:
     # if the token is attached to itself, there's an annotation error;
     # skip the sentence
-    if line != "\n" and line.split('\t')[6] == line.split('\t')[0]:
+    if line != "\n" and line.split('\t')[6] == line.split('\t')[0] and evaluation_mode == "True":
         add = False
     lines.append(line)
     if line == "\n":
@@ -49,25 +50,27 @@ for sent in sentences:
         lemma2=""
         token_tag = line.split('\t')
         coarse_postag_1 = token_tag[1].strip()
-	lemma1 = token_tag[2].strip()
+        lemma1 = token_tag[2].strip()
         token_all_elements = sent[i].split('\t')
         postag = token_all_elements[4]
-	morph_info = morph.get_graminfo(token_all_elements[1].decode('utf-8').upper())
+        morph_info = morph.get_graminfo(token_all_elements[1].decode('utf-8').upper())
         morph_1 = ""
-
-	coarse_postag_2 = postag[0]
-        morph_2 = postag[1:len(postag)]
         
-	#takes the last one for now (if there is a choice)
-        for item in morph_info:
-            #info_string=item['class'].encode('utf-8')+'|'
-            morph_1=item['info'].encode('utf-8')+'|'
-            lemma2=item['lemma'].encode('utf-8')
+        if postag != "SENT":
+            coarse_postag_2 = postag[0]
+            morph_2 = postag[1:len(postag)]
+        else:
+            coarse_postag_2 = postag
+            morph_2 = postag
+        
+	   #takes the first one for now (if there is a choice)
+        if morph_info:
+            item = morph_info[0]
+            morph_1=item['info'].decode('utf-8')
+            lemma2=item['lemma'].decode('utf-8').lower()
 
-	#strip final "|"
-        morph_1 = morph_1[:-1]
 
-	#if for some reason lemma of class/info is empty, 
+	    #if for some reason lemma of class/info is empty, 
         #replace with a string of the appropriate conll format
         morph_1 = replace_param_with_default(morph_1)
         lemma1 = replace_param_with_default(lemma1)
@@ -77,7 +80,7 @@ for sent in sentences:
 
 
 			 #token id
-	new_conll_line = str(token_all_elements[0]) + '\t'
+        new_conll_line = str(token_all_elements[0]) + '\t'
 			 #surface form
         new_conll_line+= token_all_elements[1] + '\t'
                          #lemma from TreeTagger

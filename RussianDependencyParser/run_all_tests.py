@@ -58,7 +58,7 @@ def test_all(model_type, f1):
                     else:
                             train_and_test_parser(f1, model_type, morph_val, lemmas_val, detailed_val, coarse_val, False)
          
-os.environ["LD_LIBRARY_PATH"] ="$LD_LIBRARY_PATH:/home/mtydykov/NLPLab/repository/RussianDependencyParser/TurboParser-2.1.0/deps/local/lib:"
+os.environ["LD_LIBRARY_PATH"] ="$LD_LIBRARY_PATH:TurboParser-2.1.0/deps/local/lib:"
 
 
 #first, test only first round of development (~7000 annotated training tokens)

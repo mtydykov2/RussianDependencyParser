@@ -32,5 +32,5 @@ subprocess.call('bash tokenize_and_pos_tag_file '+options.filename, shell=True)
 subprocess.call('python add_features.py '+options.filename+'_postagged.conll False', shell=True)
 #use the current best combination of features for the parser
 filter_features.main(options.filename+'_postagged.conll.coarse', options.include_morph, options.include_lemma, options.include_detailed_postags, options.include_coarse_postags, options.no_unk)
-os.environ["LD_LIBRARY_PATH"] ="$LD_LIBRARY_PATH:/home/mtydykov/NLPLab/repository/RussianDependencyParser/TurboParser-2.1.0/deps/local/lib:"
+os.environ["LD_LIBRARY_PATH"] ="$LD_LIBRARY_PATH:TurboParser-2.1.0/deps/local/lib:"
 subprocess.call('./TurboParser-2.1.0/TurboParser --test --file_model=russian_dependency_model.model --file_test='+options.filename+'_postagged.conll.coarse.parser_input --file_prediction='+options.filename+'.conll.predicted --logtostderr', shell=True)
