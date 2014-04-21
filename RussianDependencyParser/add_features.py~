@@ -42,7 +42,7 @@ for sent in sentences:
             f3.write(line_to_write)
 
     f3.close()
-    os.system('/home/mtydykov/NLPLab/repository/RussianDependencyParser/tree-tagger/bin/tree-tagger /home/mtydykov/NLPLab/repository/RussianDependencyParser/tree-tagger/russian-small.par temp temp_coarse -token -lemma')
+    os.system('tree-tagger/bin/tree-tagger tree-tagger/russian-small.par temp temp_coarse -token -lemma')
 
     f4 = open('temp_coarse')
     for i, line in enumerate(f4):
@@ -53,7 +53,7 @@ for sent in sentences:
         lemma1 = token_tag[2].strip()
         token_all_elements = sent[i].split('\t')
         postag = token_all_elements[4]
-        morph_info = morph.get_graminfo(token_all_elements[1].decode('utf-8').upper())
+        morph_info = morph.get_graminfo(token_all_elements[1].decode('UTF-8').upper())
         morph_1 = ""
         
         if postag != "SENT":
@@ -66,8 +66,8 @@ for sent in sentences:
 	   #takes the first one for now (if there is a choice)
         if morph_info:
             item = morph_info[0]
-            morph_1=item['info'].decode('utf-8')
-            lemma2=item['lemma'].decode('utf-8').lower()
+            morph_1=item['info'].decode('UTF-8')
+            lemma2=item['lemma'].decode('UTF-8').lower()
 
 
 	    #if for some reason lemma of class/info is empty, 

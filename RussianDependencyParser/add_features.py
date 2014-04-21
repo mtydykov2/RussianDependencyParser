@@ -53,7 +53,7 @@ for sent in sentences:
         lemma1 = token_tag[2].strip()
         token_all_elements = sent[i].split('\t')
         postag = token_all_elements[4]
-        morph_info = morph.get_graminfo(token_all_elements[1].decode('utf-8').upper())
+        morph_info = morph.get_graminfo(token_all_elements[1].decode('UTF-8').upper())
         morph_1 = ""
         
         if postag != "SENT":
@@ -66,8 +66,8 @@ for sent in sentences:
 	   #takes the first one for now (if there is a choice)
         if morph_info:
             item = morph_info[0]
-            morph_1=item['info'].decode('utf-8')
-            lemma2=item['lemma'].decode('utf-8').lower()
+            morph_1=item['info'].encode('UTF-8')
+            lemma2=item['lemma'].encode('UTF-8').lower()
 
 
 	    #if for some reason lemma of class/info is empty, 
