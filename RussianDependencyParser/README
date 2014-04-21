@@ -1,3 +1,23 @@
+Welcome to RussianDependencyParser version 1.0
+
+To get started, you will need to download and install several 
+dependencies:
+
+1. Download/install the Lingua RU Open Corpora Tokenizer:
+     $ cpan
+     $ install Lingua::RU::OpenCorpora::Tokenizer
+2. Download/install TreeTagger:
+     1. Go to http://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/
+     2. Follow the download/installation instructions
+     3. Copy the contents of the TreeTagger root directory to
+     RussianDependencyParser/tree-tagger
+3. Download the parameter files for Russian:
+     1. Go to http://corpus.leeds.ac.uk/mocky/
+     2. Download russian.par.gz
+     3. Download russian-small.par.gz
+     4. Unzip these files in the RussianDependencyParser/tree-tagger directory
+     
+---------------------------------------------
 Training
 
 To train the parser, you can use the RussianDependencyParser/train.py
@@ -16,6 +36,8 @@ RussianDependencyParser/allData/training/ directory and combines it into one fil
 RussianDependencyParser/all_train.conll. It then proceeds to 
 add the features indicated into the final training file which 
 is then used as input to the TurboParser.
+
+---------------------------------------------
 
 Parsing
 
