@@ -1,4 +1,3 @@
-Test on Corpus A:
 
  MORPH: None	LEMMA: None	DPOS: True	CPOS: None	NO_UNK: False	MODEL_TYPE: basic
   Labeled   attachment score: 370 / 793 * 100 = 46.66 %

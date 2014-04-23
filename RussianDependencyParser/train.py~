@@ -27,6 +27,6 @@ parser.add_option("-t", dest = "model_type", default = None,  type = "string")
 subprocess.call('cat allData/training/*_annotated > all_train.conll', shell=True)
 subprocess.call('python add_features.py all_train.conll False', shell=True)
 filter_features.main('all_train.conll.coarse', options.include_morph, options.include_lemma, options.include_detailed_postags, options.include_coarse_postags, options.no_unk)                        
-os.environ["LD_LIBRARY_PATH"] ="$LD_LIBRARY_PATH:/home/mtydykov/NLPLab/repository/RussianDependencyParser/TurboParser-2.1.0/deps/local/lib:"       
+os.environ["LD_LIBRARY_PATH"] ="$LD_LIBRARY_PATH:TurboParser-2.1.0/deps/local/lib:"       
 subprocess.call('./TurboParser-2.1.0/TurboParser --train --file_train=all_train.conll.coarse.parser_input  --file_model=russian_dependency_model.model --logtostderr --model_type='+options.model_type, shell=True)                        
 

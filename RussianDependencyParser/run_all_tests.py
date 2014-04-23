@@ -67,10 +67,10 @@ subprocess.call('cat allData/training_first_round_of_development/*_annotated > a
 subprocess.call('cat allData/test_A/*_annotated > all_test.conll', shell=True)
 
 #sort out all info that will go to the parse just once, here
-subprocess.call('python add_features.py all_train.conll False', shell=True)
-subprocess.call('python add_features.py all_test.conll False', shell=True)
+subprocess.call('python add_features.py all_train.conll True', shell=True)
+subprocess.call('python add_features.py all_test.conll True', shell=True)
 
-subprocess.call('echo "Test on Corpus A:" > '+filename, shell=True)
+#subprocess.call('echo "Test on Corpus A:" > '+filename, shell=True)
 test_all(model_type='basic', f1=filename)
 test_all(model_type='standard', f1=filename)
 
@@ -79,7 +79,7 @@ subprocess.call('echo "\n\nTest on Test Corpus B:" > '+filename, shell=True)
 subprocess.call('cat allData/test_B/*_annotated > all_test.conll', shell=True)
 
 #sort out all info that will go to the parse just once, here
-subprocess.call('python add_features.py all_test.conll', shell=True)
+subprocess.call('python add_features.py all_test.conll True', shell=True)
 
 test_all(model_type='basic', f1=filename)
 test_all(model_type='standard', f1=filename)
@@ -91,8 +91,8 @@ subprocess.call('cat allData/training/*_annotated > all_train.conll', shell=True
 subprocess.call('cat allData/test_A/*_annotated > all_test.conll', shell=True)
 
 #sort out all info that will go to the parse just once, here
-subprocess.call('python add_features.py all_train.conll False', shell=True)
-subprocess.call('python add_features.py all_test.conll False', shell=True)
+subprocess.call('python add_features.py all_train.conll True', shell=True)
+subprocess.call('python add_features.py all_test.conll True', shell=True)
 
 subprocess.call('echo "Test on Corpus A:" > '+filename, shell=True)
 test_all(model_type='basic', f1=filename)
@@ -103,7 +103,7 @@ subprocess.call('echo "\n\nTest on Test Corpus B:" > '+filename, shell=True)
 subprocess.call('cat allData/test_B/*_annotated > all_test.conll', shell=True)
 
 #sort out all info that will go to the parse just once, here
-subprocess.call('python add_features.py all_test.conll False', shell=True)
+subprocess.call('python add_features.py all_test.conll True', shell=True)
 
 test_all(model_type='basic', f1=filename)
 test_all(model_type='standard', f1=filename)
