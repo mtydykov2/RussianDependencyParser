@@ -1,0 +1,28 @@
+---
+abstract: 'tokenizer for OpenCorpora project'
+author:
+  - 'OpenCorpora.org team L<http://opencorpora.org>'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+  Test::Deep: 0
+  Test::Number::Delta: 0
+configure_requires:
+  ExtUtils::MakeMaker: 0
+distribution_type: module
+dynamic_config: 0
+generated_by: 'ExtUtils::MakeMaker version 6.57_05'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Lingua-RU-OpenCorpora-Tokenizer
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  File::ShareDir: 0
+  IO::Uncompress::Gunzip: 0
+  LWP::UserAgent: 0
+  List::MoreUtils: 0
+version: 0.03

@@ -1,0 +1,16 @@
+#!/usr/local/bin/perl 
+
+use Tokenizer;
+$filename = $ARGV[0];
+open(INPUT_FILE, $filename)
+		or die "Couldn't open $filename for reading you GSPs!";
+my $text = "";
+while (<INPUT_FILE>) {
+    my $currentLine = $_;
+    $text = join "", $text, $currentLine;
+}
+print $text;
+close(INPUT_FILE);
+my $tokenizer = $tokenizer->new();
+my $tokens = $tokenizer->tokens($text);
+print $tokens

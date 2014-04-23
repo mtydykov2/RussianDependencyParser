@@ -1,0 +1,23 @@
+#!/usr/local/bin/perl 
+use open qw/:std :utf8/;
+require Tokenizer;
+$filename = $ARGV[0];
+open(INPUT_FILE, "<:encoding(utf8)", $filename)
+		or die "Couldn't open $filename for reading you GSPs!";
+my $text = "";
+while (<INPUT_FILE>) {
+    my $currentLine = $_;
+    $text = join "", $text, $currentLine;
+}
+close(INPUT_FILE);
+my $tokenizer = Tokenizer->new();
+my $tokens = $tokenizer->tokens($text);
+my @tk = @{$tokens};
+my $newfilename = join "", $filename, "_tokenized";
+
+open OUTPUT, ">:utf8", $newfilename  or die;
+foreach (@tk){
+    print OUTPUT $_, "\n";
+}
+
+close (OUTPUT);
