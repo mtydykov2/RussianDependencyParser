@@ -60,4 +60,7 @@ optional arguments: -m MORPH -l LEMMA N-u -d -c COARSE_POS
 The parser should be tested using the same features as were used for training. 
 For example, if you trained the parser with morphological features from TreeTagger and 
 coarse part of speech tags from the tagset, make sure you use these same features for testing.
-The resulting parsed file will be written out in the same directory as "original_filename.conll.predicted".
+The resulting parsed file will be written out in the same directory where
+the original file resided as "original_filename.conll.predicted". 
+
+You can try this out on article_66, located in RussianDependencyParser/test_scripts/.
