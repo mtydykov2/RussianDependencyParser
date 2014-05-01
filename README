@@ -64,3 +64,5 @@ The resulting parsed file will be written out in the same directory where
 the original file resided as "original_filename.conll.predicted". 
 
 You can try this out on article_66, located in RussianDependencyParser/test_scripts/.
+
+NOTE: this tool does not currently split morphological features into attribute-value pairs. It treats all morphological information about a token as a single value.
